@@ -281,12 +281,16 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #F7F7F7;
 }
 
 
 .bg-dark {
 	background: #575757;
+}
+
+.bg-color{
+  background: #84E8E1;
 }
 
 /* --- section color var --- */
@@ -590,7 +594,7 @@ Parallax
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 40px;
-    color: #fff;
+    color: #C7C7C7;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -606,7 +610,7 @@ Parallax
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #84E8E1;
     background: rgba(255,255,255,.1);
 }
 
@@ -690,8 +694,8 @@ Parallax
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  background-color: #84E8E1;
+  border-color: #84E8E1;
 }
 
 
