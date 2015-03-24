@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<body>
+<div>
+	<section class="bg-white" style="padding: 20px; padding-top: 100px;">
+<h3>Archive:</h3>
+
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+</section>
+</div>
+</body>
+</html>

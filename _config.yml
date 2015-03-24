@@ -3,7 +3,7 @@ description: "Config file for jekyll"
 
 url: "http://localhost:4000"
 
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num/"
 
 markdown: rdiscount
