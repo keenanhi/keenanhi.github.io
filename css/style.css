@@ -814,12 +814,12 @@ Parallax
 
 .intro .slogan h2 {
   font-size: 40px;
-  line-height: 40px
+  line-height: 10px
   font-weight: 700;
 }
 
 .intro .slogan h4 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 	.navbar-custom .nav.navbar-nav {
