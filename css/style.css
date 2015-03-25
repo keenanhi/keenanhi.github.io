@@ -311,6 +311,7 @@ hr {
 
 .intro {
 	width:100%;
+  max-width: 100%;
 	position:relative;
 	
 	background: url(../img/bg1.jpg) no-repeat top center;
@@ -776,9 +777,6 @@ Parallax
 
 @media (max-width:480px) {
 
-.section-heading h2 {
-  font-size: 5px;
-}
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
