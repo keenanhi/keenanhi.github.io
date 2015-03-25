@@ -310,8 +310,7 @@ hr {
 ============================ */
 
 .intro {
-	/*width:100%;*/
-  max-width: 100%;
+	width:100%;
 	position:relative;
 	
 	background: url(../img/bg1.jpg) no-repeat top center;
@@ -777,6 +776,16 @@ Parallax
 
 @media (max-width:480px) {
 
+.intro .slogan h2 {
+  font-size: 40px;
+  /*line-height: 60px;*/
+  font-weight: 700;
+}
+
+.intro .slogan h4 {
+  color: #fff;
+  text-shadow: -1px 1px 1px #000;
+}
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
