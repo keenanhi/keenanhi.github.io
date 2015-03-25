@@ -2,7 +2,7 @@
 
 <body>
 <div>
-	<section class="bg-gray" style="padding: 20px; padding-top: 100px;">
+	<section class="bg-gray" style="padding: 30px; padding-top: 100px; padding-bottom: 500px; bottom = 0px;">
 <h3>What is Get Mastered?</h3>
 
 <p>Get Mastered is an instructional blog striving to teach audio engineers
@@ -14,7 +14,7 @@ such as recording, mixing, and songwriting. Indulge me.</p>
 
 <h3>Who Am I?</h3>
 
-<p>My name is Keenan, and I'm a recording hobbyist and <span><a href="http://whoisyohannes.com">musician</a></span>. I have always been unsure why the mastering profession is so shrouded in mystery, so 
+<p>My name is Keenan, and I'm a recording hobbyist and <span><a href="http://whoisyohannes.com">musician</a></span>. I have always been unsure as to why the mastering profession is so shrouded in mystery, so 
 	this website is my way of clearing the fog, and showing you how to get your own tracks to a
 	professional level.
 	<br>
@@ -24,7 +24,7 @@ such as recording, mixing, and songwriting. Indulge me.</p>
 <h3>What's New?</h3>
 
 <ul>
-  {% for post in site.posts limit: 5 %}
+  {% for post in site.posts%}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>

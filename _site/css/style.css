@@ -41,6 +41,7 @@ p.lead {
 
 a {
     color: #28c3ab;
+    font-weight: 600;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -143,10 +144,14 @@ a:focus {
     background-color: rgba(255,255,255,.2);
 }
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
+.navbar-custom .nav li a:focus,{
     outline: 0;
     background-color: rgba(255,255,255,.2);
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,0);
 }
 
 .navbar-toggle {

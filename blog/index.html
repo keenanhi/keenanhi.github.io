@@ -3,6 +3,7 @@ title: Blog
 layout: default
 ---
 
+<section id="blog">
 {% for post in paginator.posts %}
   <div class="row-fluid">
     <div class="col-lg-12">
@@ -24,31 +25,32 @@ layout: default
       <ul>
         {% if paginator.previous_page %}
           {% if paginator.previous_page == 1 %}
-          <a href="/blog/">Prev</a>
+          <a href="/blog/"> Prev </a>
           {% else %}
-          <a href="/blog/page{{ paginator.previous_page }}">Prev</a>
+          <a href="/blog/page{{ paginator.previous_page }}"> Prev </a>
           {% endif %}
         {% else %}
-        <span class="disabled">Prev</span>
+        <span class="disabled"> Prev </span>
         {% endif %}
         {% if paginator.page == 1 %}
-        <span class="active">1</span>
+        <span class="active">-<b>1</b>-</span>
         {% else %}
-        <a href="/blog/">1</a>
+        <a href="/blog/">-1-</a>
         {% endif %}
         {% for count in (2..paginator.total_pages) %}
           {% if count == paginator.page %}
-          <span class="active">{{ count }}</span>
+          <span class="active">-<b>{{ count }}</b>-</span>
           {% else %}
-          <a href="/blog/page{{ count }}">{{ count }}</a>
+          -<a href="/blog/page{{ count }}">{{ count }}</a>-
           {% endif %}
         {% endfor %}
         {% if paginator.next_page %}
-        <a href="/blog/page{{ paginator.next_page }}">Next</a>
+        <a href="/blog/page{{ paginator.next_page }}"> Next </a>
         {% else %}
-        <span class="disabled">Next</span>
+        <span class="disabled"> Next </span>
         {% endif %}
       </ul>
     </div>
   </div>
 </div>
+</section>
