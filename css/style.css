@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0);
 }
 
 
@@ -157,7 +157,8 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    /*color: #fff;*/
+    color: rgba(0,0,0,1);
 }
 
 .navbar-toggle:focus,
