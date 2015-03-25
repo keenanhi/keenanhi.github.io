@@ -313,11 +313,11 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: url(../img/bg1.jpg) no-repeat bottom center;
 }
 
 #intro.intro {
-	padding: 20% 40% 40% 40%;
+	padding: 20% 0 0 0;
 }
 
 .intro .slogan {
