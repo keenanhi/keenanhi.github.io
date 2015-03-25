@@ -59,7 +59,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);	
+    border-bottom: 1px solid rgba(255,255,255,1);	
 }
 
 .navbar-brand {
@@ -151,7 +151,7 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0);
 }
 
 .navbar-toggle {
