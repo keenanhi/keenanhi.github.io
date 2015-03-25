@@ -776,15 +776,30 @@ Parallax
 
 @media (max-width:480px) {
 
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.navbar-brand h1{
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .intro .slogan h2 {
   font-size: 40px;
-  /*line-height: 60px;*/
+  line-height: 40px
   font-weight: 700;
 }
 
 .intro .slogan h4 {
-  color: #fff;
-  text-shadow: -1px 1px 1px #000;
+  font-size: 30px;
 }
 
 	.navbar-custom .nav.navbar-nav {
