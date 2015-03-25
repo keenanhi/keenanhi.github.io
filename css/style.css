@@ -777,7 +777,7 @@ Parallax
 @media (max-width:480px) {
 
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -794,7 +794,7 @@ Parallax
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(0,0,0,.3);
     }
-  
+
 
 .navbar-brand {
     font-weight: 700;
