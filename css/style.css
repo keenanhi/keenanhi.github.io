@@ -594,7 +594,7 @@ Parallax
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -834,6 +834,10 @@ Parallax
 	.tp-banner-container {
 		padding-top:40px;
 	}
+
+.btn-circle {
+    margin-top: 200px;
+}
 
 	.page-scroll a.btn-circle {
 		width: 40px;
