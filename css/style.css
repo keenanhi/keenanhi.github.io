@@ -813,6 +813,13 @@ Parallax
   line-height: 30px;
 }
 
+.intro {
+width:100%;
+position:relative;
+background: url(../img/bg1.jpg) no-repeat top center;
+background-position: -50px;
+}
+
 .intro .slogan h2 {
   font-size: 40px;
   line-height: 0px
