@@ -15,5 +15,5 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: "true"
+      comments: true
     
