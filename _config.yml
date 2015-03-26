@@ -8,3 +8,12 @@ paginate_path: "/blog/page:num/"
 
 markdown: rdiscount
 permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "true"
+    
