@@ -814,12 +814,9 @@ Parallax
 }
 
 .intro {
-width:100%;
-/*position:relative;*/
-background-color: rgba(0,0,0,1);
-/*background: url(../img/bg1.jpg) no-repeat; */
-/*top center;*/
-/*background-position: 0px -160px;*/
+	width:100%;
+	position:relative;
+	background-color: #000000;
 }
 
 .intro .slogan h2 {
