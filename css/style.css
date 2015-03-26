@@ -816,8 +816,9 @@ Parallax
 .intro {
 width:100%;
 position:relative;
-background: url(../img/bg1.jpg) no-repeat top center;
-/*background-position: -5px;*/
+background: url(../img/bg1.jpg) no-repeat; 
+/*top center;*/
+background-position: 0px -20px;
 }
 
 .intro .slogan h2 {
