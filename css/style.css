@@ -816,7 +816,8 @@ Parallax
 .intro {
 width:100%;
 position:relative;
-background: url(../img/bg1.jpg) no-repeat; 
+background-color: #000000;
+/*background: url(../img/bg1.jpg) no-repeat; */
 /*top center;*/
 background-position: 0px -160px;
 }
