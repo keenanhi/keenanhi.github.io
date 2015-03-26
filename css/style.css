@@ -581,6 +581,7 @@ Parallax
 ============================ */
 
 .btn {
+	padding: 100px;
 	border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
@@ -595,7 +596,7 @@ Parallax
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    padding: 70px 16px;
+    padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 40px;
