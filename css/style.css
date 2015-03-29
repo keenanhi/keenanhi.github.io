@@ -808,7 +808,7 @@ Parallax
 }
 
 .navbar-brand h1{
-  color: rgba(0,0,0,0);
+  /*color: rgba(0,0,0,0);*/
   font-size: 10px;
   line-height: 30px;
 }
