@@ -73,9 +73,18 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+	color: #84E8E1;
   font-size: 20px;
   line-height: 40px;
+  display: inline;
+}
+
+.navbar-brand h2{
+  color: #fff;
+  font-size: 12px; 
+  text-transform: lowercase;
+  line-height: 40px;
+  display: inline;
 }
 
 .navbar-brand:focus {
@@ -810,6 +819,11 @@ Parallax
 .navbar-brand h1{
   /*color: rgba(0,0,0,0);*/
   font-size: 14px;
+  line-height: 30px;
+}
+
+.navbar-brand h2{
+  font-size: 10px;
   line-height: 30px;
 }
 
