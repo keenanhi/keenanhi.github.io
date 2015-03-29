@@ -838,7 +838,8 @@ Parallax
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
+    background-color: #000;
 	}
 	
 	.tp-banner-container {
