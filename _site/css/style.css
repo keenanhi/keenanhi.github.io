@@ -317,7 +317,8 @@ hr {
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding: 20% 0 0 0;
+  /*padding-top: -100px;*/
 }
 
 .intro .slogan {
@@ -528,7 +529,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 ;
+	padding: 10px 0 ;
 	
 }
 
@@ -593,7 +594,7 @@ Parallax
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 250px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -761,7 +762,8 @@ Parallax
 
 }
 @media (max-width:768px) {
-	
+
+
 	.team.boxed-grey {
 		margin-bottom: 30px;
 	}
@@ -775,8 +777,64 @@ Parallax
 
 @media (max-width:480px) {
 
+    .navbar {
+        padding: 10px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(0,0,0,.3);
+    }
+
+
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.navbar-brand h1{
+  color: rgba(0,0,0,0);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.intro {
+	width:100%;
+	height:100%;
+	position:relative;
+  background-image: none;
+	background-color: #000000;
+
+}
+
+.intro .slogan h2 {
+  font-size: 40px;
+  line-height: 40px
+  font-weight: 700;
+  text-align: center;
+}
+
+.intro .slogan h4 {
+  font-size: 15px;
+}
+
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0,0,0,1);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
@@ -787,10 +845,15 @@ Parallax
 		padding-top:40px;
 	}
 
+.btn-circle {
+    margin-top: 200px;
+}
+
 	.page-scroll a.btn-circle {
 		width: 40px;
 		height: 40px;
 		margin-top: 10px;
+    margin-bottom: 20px;
 		padding: 7px 0;
 		border: 2px solid #fff;
 		border-radius: 50%;
