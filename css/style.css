@@ -327,7 +327,6 @@ hr {
 
 #intro.intro {
 	padding: 20% 0 0 0;
-  /*padding-top: -100px;*/
 }
 
 .intro .slogan {
@@ -836,15 +835,21 @@ Parallax
 
 }
 
+#intro.intro {
+  padding: 40% 0 0 0;
+}
+
 .intro .slogan h2 {
   font-size: 40px;
   line-height: 40px
   font-weight: 700;
   text-align: center;
+  display: inline;
 }
 
 .intro .slogan h4 {
   font-size: 15px;
+  display: inline;
 }
 
 	.navbar-custom .nav.navbar-nav {
