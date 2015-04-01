@@ -1,17 +1,28 @@
 {% include header-post.html %}
 
-<div class="row-fluid">
-  <div class="col-lg-10" style="padding-top: 100px;">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-3" style="padding: 0px;">
+    {% include sidebar-post.html %}
+  </div>
+  <div class="col-lg-9 bg-white" style="padding: 90px 30px 0px 10px;">
     <h1 style="color:#000">{{ page.title }}</h1>
     <p class="muted"><i>{{ page.date | date_to_long_string }}</i></p>
 
     {{ content }}
-  </div>
-  <div class="col-lg-2">
-    {% include sidebar-post.html %}
+    {% include disqus-comments.html %}
   </div>
 </div>
+</div>
 
-{% include disqus-comments.html %}
+
+
+<div class="container-fluid" style="background-color: #000000;">
+  <div class="col-lg-3">
+
+  </div>
+  <div class="col-lg-9" style="padding: 30px 120px 20px 0px;">
+		{% include mailing-list-signup.html %}
+  </div>
 
 {% include footer-post.html %}

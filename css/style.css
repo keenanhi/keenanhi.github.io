@@ -306,6 +306,94 @@ hr {
   background: #84E8E1;
 }
 
+/* --- mastering section colors --- */
+
+.master-color{
+  background: #84E8E1;
+}
+
+.master-color-light{
+  background: #B7F5F1;
+}
+
+.master-color-lighter{
+  background: #EEFEFD;
+}
+
+.master-color-dark{
+  background: #C5D0C7;
+}
+
+.master-color-darker{
+  background: #38B1A8;
+}
+
+/* --- big picture section colors --- */
+
+.big-color{
+  background: #8EBEE8;
+}
+
+.big-color-light{
+  background: #BCDBF6;
+}
+
+.big-color-lighter{
+  background: #EFF7FE;
+}
+
+.big-color-dark{
+  background: #66A0D4;
+}
+
+.big-color-darker{
+  background: #4380B8;
+}
+
+/* --- back to basics section colors --- */
+
+.back-color{
+  background: #FFD395;
+}
+
+.back-color-light{
+  background: #FFE4BE;
+}
+
+.back-color-lighter{
+  background: #FFF8EE;
+}
+
+.back-color-dark{
+  background: #FFC471;
+}
+
+.back-color-darker{
+  background: #FFB751;
+}
+
+/* --- digging in section colors --- */
+
+.digging-color{
+  background: #FFC395;
+}
+
+.digging-color-light{
+  background: #FFDBBE;
+}
+
+.digging-color-lighter{
+  background: #FFF6EE;
+}
+
+.digging-color-dark{
+  background: #FFAE71;
+}
+
+.digging-color-darker{
+  background: #FF9C51;
+}
+
 /* --- section color var --- */
 
 .text-light {

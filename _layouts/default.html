@@ -1,13 +1,25 @@
 {% include header.html %}
 
-<div class="row-fluid">
-  <div class="col-lg-8" style="padding-top: 100px; padding-right: 1px;">
-    {{ content }}
-  </div>
-  <div class="col-lg-4">
+<div class="container-fluid">
+<div class="row" style="padding: 0px 0px 20px 0px;">
+  <div class="col-lg-3">
     {% include sidebar.html %}
   </div>
+  <div class="col-lg-9" style="padding: 90px 30px 0px 10px;">
+  	<div class="row" >
+    {{ content }}
+	</div>
+  </div>
+</div>
 </div>
 
+<div class="container-fluid" style="background-color: #000000;">
+  <div class="col-lg-3">
+
+  </div>
+  <div class="col-lg-9" style="padding: 30px 120px 20px 0px;">
+		{% include mailing-list-signup.html %}
+  </div>
 {% include footer.html %}
+
 

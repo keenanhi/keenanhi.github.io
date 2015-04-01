@@ -2,32 +2,46 @@
 
 <body>
 <div>
-	<section class="bg-gray" style="padding: 30px; padding-top: 100px;">
-<h3>What is Get Mastered?</h3>
+	<section style="padding: 20px; padding-top: 90px;">
+<h3 style="color: #000000; text-align: justify;
+    text-justify: inter-word; ">
+    What is Get Mastered?
+</h3>
 
-<p>Get Mastered is an instructional blog striving to teach audio engineers
+<p style="text-align: justify;
+    text-justify: inter-word;">
+Get Mastered is an instructional blog striving to teach audio engineers
 and musicians alike how to crack open the clandestine art of mastering music through
 interactive tutorials.<br>
 <br>
 Though the blog is focused on mastering, ocassionally I will delve into related topics,
 such as recording, mixing, and songwriting. Indulge me.</p>
 
-<h3>Who Am I?</h3>
+<h3 style="color: #000000; text-align: justify;
+    text-justify: inter-word;">
+    Who Am I?</h3>
 
-<p>My name is Keenan, and I'm a recording hobbyist and <span><a href="http://whoisyohannes.com">musician</a></span>. I have always been unsure as to why the mastering profession is so shrouded in mystery, so 
+<p style="text-align: justify;
+    text-justify: inter-word;">
+My name is Keenan, and I'm a recording hobbyist and <span><a href="http://whoisyohannes.com">musician</a></span>. I have always been unsure as to why the mastering profession is so shrouded in mystery, so 
 	this website is my way of clearing the fog, and showing you how to get your own tracks to a
 	professional level.
 	<br>
 	<br>
 	If you think what I'm doing is like super cool, please consider <span><a href="http://whoisyohannes.com">buying me a cup o' joe</a></span>. A lot of work goes into this thing!
 
-<h3>What's New?</h3>
 
-<ul>
+
+<h3 style="color: #000000;">What's New?</h3>
+
   {% for post in site.posts%}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <a href="{{ post.url }}">  {{ post.title }}</a><br>
   {% endfor %}
-</ul>
+
+<br>
+
+<h3 style="color: #000000;">Where Can I Go To Keep Learning?</h3>
+
 
 </section>
 </div>
