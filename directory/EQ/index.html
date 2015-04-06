@@ -1,0 +1,14 @@
+---
+title: EQ Posts
+layout: default
+---
+
+
+<section id="blog">
+{% for post in site.tags.EQ %}
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.3em;"><a href="{{ post.url }}"><u>{{ post.title }}</u></a></p>
+  </div>
+{% endfor %}
+
+</section>

@@ -1,7 +1,6 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 
-
 body {
     width: 100%;
     height: 100%;
@@ -21,7 +20,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
     margin: 0 0 30px;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
@@ -31,7 +30,7 @@ h6 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -309,89 +308,89 @@ hr {
 /* --- mastering section colors --- */
 
 .master-color{
-  background: #84E8E1;
+  color: #84E8E1;
 }
 
 .master-color-light{
-  background: #B7F5F1;
+  color: #B7F5F1;
 }
 
 .master-color-lighter{
-  background: #EEFEFD;
+  color: #EEFEFD;
 }
 
 .master-color-dark{
-  background: #C5D0C7;
+  color: #C5D0C7;
 }
 
 .master-color-darker{
-  background: #38B1A8;
+  color: #38B1A8;
 }
 
 /* --- big picture section colors --- */
 
 .big-color{
-  background: #8EBEE8;
+  color: #8EBEE8;
 }
 
 .big-color-light{
-  background: #BCDBF6;
+  color: #BCDBF6;
 }
 
 .big-color-lighter{
-  background: #EFF7FE;
+  color: #EFF7FE;
 }
 
 .big-color-dark{
-  background: #66A0D4;
+  color: #66A0D4;
 }
 
 .big-color-darker{
-  background: #4380B8;
+  color: #4380B8;
 }
 
 /* --- back to basics section colors --- */
 
 .back-color{
-  background: #FFD395;
+  color: #FFD395;
 }
 
 .back-color-light{
-  background: #FFE4BE;
+  color: #FFE4BE;
 }
 
 .back-color-lighter{
-  background: #FFF8EE;
+  color: #FFF8EE;
 }
 
 .back-color-dark{
-  background: #FFC471;
+  color: #FFC471;
 }
 
 .back-color-darker{
-  background: #FFB751;
+  color: #FFB751;
 }
 
 /* --- digging in section colors --- */
 
 .digging-color{
-  background: #FFC395;
+  color: #FFC395;
 }
 
 .digging-color-light{
-  background: #FFDBBE;
+  color: #FFDBBE;
 }
 
 .digging-color-lighter{
-  background: #FFF6EE;
+  color: #FFF6EE;
 }
 
 .digging-color-dark{
-  background: #FFAE71;
+  color: #FFAE71;
 }
 
 .digging-color-darker{
-  background: #FF9C51;
+  color: #FF9C51;
 }
 
 /* --- section color var --- */
@@ -407,10 +406,11 @@ hr {
 ============================ */
 
 .intro {
-	width:100%;
+	max-width:100%;
+  height: auto;
 	position:relative;
-	
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: url(/img/bg1.jpg) no-repeat top center;
+  background-size: cover;
 }
 
 #intro.intro {
@@ -835,6 +835,8 @@ Parallax
     .top-nav-collapse {
         padding: 0;
         background-color: #000;
+        
+    box-shadow: 0px 3px 3px #888888;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -873,6 +875,10 @@ Parallax
 
 @media (max-width:480px) {
 
+  .sidebar {
+    visibility: hidden;
+  }
+
     .navbar {
         padding: 10px 0;
         border-bottom: 0;
@@ -886,6 +892,8 @@ Parallax
     .top-nav-collapse {
         padding: 0;
         background-color: #000;
+        
+    box-shadow: 0px 3px 3px #888888;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -970,3 +978,14 @@ Parallax
 	}
 	
 }
+
+
+.row.equal [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.row.equal{
+  overflow: hidden; 
+}
+

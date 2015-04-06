@@ -1,0 +1,14 @@
+---
+title: Archive
+layout: default
+---
+
+
+<section id="blog">
+{% for post in site.posts %}
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.3em;"><a href="{{ post.url }}"><u>{{ post.title }}</u></a></p>
+  </div>
+{% endfor %}
+
+</section>

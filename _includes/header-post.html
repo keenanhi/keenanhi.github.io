@@ -16,10 +16,47 @@
     <link href="/css/style.css" rel="stylesheet">
 	  <link href="/color/default.css" rel="stylesheet">
 
+
+{% if page.categories == "gets-mastered" %}
+
+<style type="text/css">
+a{
+    color: #84E8E1;
+}
+</style>
+
+{% elsif page.categories == "digging-in" %}
+
+<style type="text/css">
+a{
+    color: #FFC395;
+}
+</style>
+
+{% elsif page.categories == "back-to-basics" %}
+
+<style type="text/css">
+a{
+    color: #FFD395;
+}
+</style>
+
+{% elsif page.categories == "big-picture" %}
+
+<style type="text/css">
+a{
+    color: #8EBEE8;
+}
+</style>
+
+{% else %}
+
+{% endif %}
+
   </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0;">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="background: url(/img/Background-Blog.jpg) no-repeat top center; background-size: cover; background-position: 0px -230px;">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0; box-shadow: 0px 3px 3px #000;">
         <div class="container-fluid">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -44,5 +81,4 @@
         <!-- /.container -->
     </nav>
 
-<section class="bg-white">
 
