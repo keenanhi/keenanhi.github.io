@@ -2,7 +2,8 @@
 title: What is Get Mastered?
 layout: post
 description: Description of the Get Mastered blog, including Getting Started mini-series, commenting, and submissions
-soundcloud: "off"
+soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/161390332&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+caption: "hey I'm a caption!"
 ---
 
 Living on the cusp of insane technological inovations like autonomous automobiles, smart watches, and [freaky dog robot things](https://www.youtube.com/watch?v=M8YjvHYbZ9w), it confuses me how the technological world of the independent musician has remained so stagnant. There is such a wealth of knowledge out there that remains inaccessible to musicians, due to a combination of jargon, myths, and old industry practices and separations, particularly the separation of artist and producer.
