@@ -2,6 +2,8 @@
 title: Get Started Part 1
 layout: post
 description: This is the first part of the Get Started mini series. This part of the series answers the question what is mastering? It also briefly runs through the entire process of recording and mixing audio
+soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/161390332&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+caption: example track
 ---
 
 ##What is Digital Audio?

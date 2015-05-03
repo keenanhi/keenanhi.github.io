@@ -4,11 +4,13 @@ layout: default
 ---
 
 
-<section id="blog">
+<section id="archive">
+	<div class="row-fluid" style="padding: 13px 0px 600px 0px;">
 {% for post in site.posts %}
   <div class="row-fluid">
       <p style="font-size: 14px; line-height: 0.3em;"><a href="{{ post.url }}"><u>{{ post.title }}</u></a></p>
   </div>
 {% endfor %}
+</div>
 
 </section>

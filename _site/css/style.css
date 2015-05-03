@@ -412,7 +412,7 @@ hr {
   height: auto;
 	position:relative;
 	background: url(/img/bg1.jpg) no-repeat top center;
-  background-size: cover;
+  background-size: cover; 
 }
 
 #intro.intro {
@@ -420,12 +420,12 @@ hr {
 }
 
 .intro .slogan {
-	text-align: center;
-
+	text-align: left;
+  vertical-align: top;
 }
 
 .intro .page-scroll {
-	text-align: center;
+	text-align: left;
 }
 
 .brand-heading {
@@ -439,8 +439,8 @@ hr {
 .intro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 100px;
+	line-height: 110px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
@@ -486,7 +486,7 @@ hr {
 }
 
 .team-social {
-	text-align: center;
+	text-align: left;
 }
 
 .team-social li{
@@ -503,14 +503,14 @@ hr {
 	width: 40px;
     height: 40px;
     line-height: 40px;
-    text-align: center;
+    text-align: left;
     background: #3bbec0;
 	color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 .team-social a i{
-	text-align: center;
+	text-align: left;
 	margin:0;
 	padding:0;
 }
@@ -692,7 +692,7 @@ Parallax
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 250px;
+    margin-top: 100px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -838,7 +838,7 @@ Parallax
         padding: 0;
         background-color: #000;
         
-    box-shadow: 0px 3px 3px #888888;
+    box-shadow: 0px 3px 3px #000;
     }
 
     .navbar-custom.top-nav-collapse {
