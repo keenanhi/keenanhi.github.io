@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 
 
-<section style="padding: 0px 15px 0px 15px; text-align: right;">
+<section class="bg-white" style="padding: 0px 15px 5px 30px; margin: 0px; text-align: right;">
 
-<h4 style="color: #aaa; display: inline;">
+<h4 style="color: #777; display: inline;">
     What is Get Mastered?
 </h4>
 
-<p style="color: #bbb; font-size: 12px; padding-top: 5px;">
-Get Mastered is an instructional blog for audio engineers
-and musicians to learn how to master music through
-interactive tutorials -- 
+<p style="color: #999; font-size: 15px; padding-top: 5px;">
+Get Mastered is a tutorial website for musicians who want to learn how to master music -- 
 
 <span><a href="/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more</a><br><br></p>
 
-<h4 style="color: #aaa; display: inline;">
+<h4 style="color: #777; display: inline;">
     Who Am I?</h4>
 
-<p style="color: #bbb; font-size: 12px; padding-top: 5px;">
-My name is Keenan. I'm an audio engineer and <span><a href="http://whoisyohannes.com" style="color: #aaa;">musician</a></span> who loves mastering, mixing, and recording music.<br><br></p>
+<p style="color: #999; font-size: 15px; padding-top: 5px;">
+My name is Keenan. I'm a <span><a href="http://whoisyohannes.com" style="color: #aaa;">musician</a></span> and engineer who loves mastering, mixing, and recording music.<br><br></p>
 
 
+<h4 style="color: #777; display: inline;">
+    Can't Wait?
+</h4>
+<p> <a style="font-size: 15px; color:#56C29F;" href="/mastering-services/">Get Mastered by me, right now!</a></p>
 
-<h4 style="color: #aaa; display: inline;">Topics:</h4>
+<br>
+
+<h4 style="color: #777; display: inline;">Topics:</h4>
 
 
-<p style="color: #bbb; font-size: 12px; padding-top: 5px;">
-  <a href="/directory/EQ/" style="color: #aaa;">EQ</a> - 
-  <a href="/directory/compression/" style="color: #aaa;">Compression</a> - 
-  <a href="/directory/depth/" style="color: #aaa;">Depth</a>
+<p style="color: #999; font-size: 15px; padding-top: 5px;">
 
+{% for tag in site.tags %}
+    <a style="color: #aaa;" href="/directory/{{ tag | first | slugize }}/">
+        {{ tag | first }} 
+        {% if forloop.last == false %}
+        	//
+        {% endif %}
+    </a>
+{% endfor %}
 
 </p>
 
-<p style="color: #000;"> <a style="font-size: 12px; color:#aaa;" href="/archive/index.html">Archive</a></p>
+<p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p>
 
 </section>

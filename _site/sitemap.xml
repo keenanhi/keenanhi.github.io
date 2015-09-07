@@ -1,78 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:4000/about/What-Is-Get-Mastered/</loc>
-    <lastmod>2015-04-01T00:00:00-04:00</lastmod>
+    <loc>http://localhost:4000/mini-series/getting-started/Get-Started-Part-3/</loc>
+    <lastmod>2015-04-25T00:00:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/mini-series/getting-started/Get-Started-Part-2/</loc>
+    <lastmod>2015-04-24T00:00:00-04:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://localhost:4000/mini-series/getting-started/Get-Started-Part-1/</loc>
-    <lastmod>2015-04-01T00:00:00-04:00</lastmod>
+    <lastmod>2015-04-23T00:00:00-04:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/gets-mastered/Test-Post-6/</loc>
-    <lastmod>2015-03-23T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/digging-in/Test-Post-5/</loc>
-    <lastmod>2015-03-23T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/gets-mastered/Test-Post-4/</loc>
-    <lastmod>2015-03-22T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/back-to-basics/Test-Post-3/</loc>
-    <lastmod>2015-03-21T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/back-to-basics/Test-Post-2/</loc>
-    <lastmod>2015-03-20T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/big-picture/Test-Post-1/</loc>
-    <lastmod>2015-03-19T00:00:00-04:00</lastmod>
+    <loc>http://localhost:4000/about/What-Is-Get-Mastered/</loc>
+    <lastmod>2015-04-22T00:00:00-04:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://localhost:4000/archive/</loc>
-    <lastmod>2015-05-03T16:17:28-04:00</lastmod>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/blog/</loc>
-    <lastmod>2015-05-03T16:17:28-04:00</lastmod>
+    <loc>http://localhost:4000/directory/analog-vs-digital/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/directory/Compression/</loc>
-    <lastmod>2015-05-03T16:17:28-04:00</lastmod>
+    <loc>http://localhost:4000/directory/automation/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/directory/Depth/</loc>
-    <lastmod>2015-05-03T16:17:28-04:00</lastmod>
+    <loc>http://localhost:4000/directory/compression/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/directory/depth/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/EQ/</loc>
-    <lastmod>2015-05-03T16:17:28-04:00</lastmod>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/index.html</loc>
-    <lastmod>2015-05-03T16:18:37-04:00</lastmod>
-    <priority>0.6</priority>
+    <loc>http://localhost:4000/directory/microphones/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/directory/reverb/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/directory/sound/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/free-master/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/mastering-services/</loc>
+    <lastmod>2015-09-07T18:06:32-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

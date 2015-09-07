@@ -191,7 +191,7 @@ a:focus {
 
 
 #loaderInner {
-    background:#ffffff url(../img/spinner.gif) center center no-repeat;
+    background:#ffffff url(/img/spinner.gif) center center no-repeat;
     height: 60px;
     left: 50%;
     margin: -50px 0 0 -50px;
@@ -221,19 +221,19 @@ a:focus {
 
 @keyframes shadowSpin{
   0%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px #FFB94E, -10px 10px #34AA83;
   }
   25%{
-    box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+    box-shadow: 10px 10px #34AA83, -10px -10px #FFB94E;
   }
   50%{
-    box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+    box-shadow: -10px 10px #FFB94E, 10px -10px #34AA83;
   }
   75%{
-    box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+    box-shadow: -10px -10px #34AA83, 10px 10px #FFB94E;
   }
   100%{
-    box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    box-shadow: 10px -10px #FFB94E, -10px 10px #34AA83;
   }
 }
 
@@ -249,7 +249,7 @@ a:focus {
   left: 0;
   right: 0;
   border-radius: 0px;
-  border: 5px solid #FF4136;
+  border: 5px solid #aaa;
   box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
   animation: shadowSpin 1s ease-in-out infinite;
 }
@@ -281,7 +281,7 @@ hr {
 
 
 .section-heading h2 {
-	font-size: 40px;
+	font-size: 42px;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -413,19 +413,20 @@ hr {
 	position:relative;
 	background: url(/img/bg1.jpg) no-repeat top center;
   background-size: cover; 
+  background-attachment: fixed;
 }
 
 #intro.intro {
-	padding: 20% 0 0 0;
+	padding: 10% 0 10% 0;
 }
 
 .intro .slogan {
-	text-align: left;
+	text-align: center;
   vertical-align: top;
 }
 
 .intro .page-scroll {
-	text-align: left;
+	text-align: center;
 }
 
 .brand-heading {
@@ -486,7 +487,7 @@ hr {
 }
 
 .team-social {
-	text-align: left;
+	text-align: center;
 }
 
 .team-social li{
@@ -503,14 +504,14 @@ hr {
 	width: 40px;
     height: 40px;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
     background: #3bbec0;
 	color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 .team-social a i{
-	text-align: left;
+	text-align: center;
 	margin:0;
 	padding:0;
 }
@@ -567,7 +568,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .widget-contact {
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -578,7 +579,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .company-social {
-	text-align: left;
+	text-align: center;
 }
 
 .company-social li{
@@ -682,7 +683,7 @@ Parallax
 	border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -690,22 +691,23 @@ Parallax
 
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 100px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    /*margin-left: 0px;*/
+    padding: 20px 0px;
+    border: 0px solid #fff;
     border-radius: 50%;
-    font-size: 40px;
-    color: #C7C7C7;
-    background: 0 0;
+    font-size: 120px;
+    color: #aaa;
+    background: 0 0;/*
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;*/
 }
 
 .btn-circle.btn-dark {
-    border: 2px solid #666;
+    border: 0px solid #666;
     color: #666;
 }
 
@@ -713,8 +715,8 @@ Parallax
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #84E8E1;
-    background: rgba(255,255,255,.1);
+    color: #56C29F;
+    background: rgba(255,255,255,0);
 }
 
 .btn-circle.btn-dark :hover,
@@ -804,7 +806,7 @@ Parallax
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
+    border: 0px solid #28c3ab;
     outline: 0;
     color: #000;
     background-color: #28c3ab;
@@ -846,8 +848,8 @@ Parallax
     }
 	
     .intro {
-        height: 100%;
-        padding: 0;
+        height: 110%;
+        padding: 100%;
     }
 
     .brand-heading {
@@ -863,19 +865,6 @@ Parallax
 }
 @media (max-width:768px) {
 
-
-	.team.boxed-grey {
-		margin-bottom: 30px;
-	}
-	
-	.boxed-grey {
-		margin-bottom: 30px;
-	}
-
-	
-}
-
-@media (max-width:480px) {
 
   .sidebar {
     visibility: hidden;
@@ -895,7 +884,7 @@ Parallax
         padding: 0;
         background-color: #000;
         
-    box-shadow: 0px 3px 3px #888888;
+    box-shadow: 0px 3px 3px #000;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -916,38 +905,35 @@ Parallax
 .navbar-brand h1{
   /*color: rgba(0,0,0,0);*/
   font-size: 14px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .navbar-brand h2{
   font-size: 10px;
-  line-height: 30px;
+  line-height: 10px;
 }
 
 .intro {
 	width:100%;
-	height:100%;
+	height:120%;
 	position:relative;
-  background-image: none;
+ /* background-image: none;
 	background-color: #000000;
-
+*/
 }
 
 #intro.intro {
-  padding: 40% 0 0 0;
+  padding: 20% 0 40% 0;
 }
 
 .intro .slogan h2 {
   font-size: 40px;
-  line-height: 40px
-  font-weight: 700;
+  line-height: 40px;
   text-align: center;
-  display: inline;
 }
 
 .intro .slogan h4 {
   font-size: 15px;
-  display: inline;
 }
 
 	.navbar-custom .nav.navbar-nav {
@@ -981,13 +967,60 @@ Parallax
 	
 }
 
+@media (max-width:480px) {
+
+.navbar-brand {
+  height: 40px;
+  /*padding: 5px 5px;*/
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.navbar-brand h1{
+  /*color: rgba(0,0,0,0);*/
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navbar-brand h4{
+  font-size: 10px;
+  line-height: 10px;
+}
+
+  .intro {
+  width:100%;
+  height:120%;
+  position:relative;
+ /* background-image: none;
+  background-color: #000000;
+*/
+}
+
+#intro.intro {
+  padding: 20% 0 40% 0;
+}
+
+.intro .slogan h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.intro .slogan h4 {
+  font-size: 10px;
+}
+
+
+  }
+
 
 .row.equal [class*="col-"]{
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+ /* margin-bottom: -99999px;
+  padding-bottom: 99999px;*/
 }
 
 .row.equal{
   overflow: hidden; 
 }
+
 
