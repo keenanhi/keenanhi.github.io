@@ -1,5 +1,6 @@
 ---
-title: Get Started Part 2 - What is Digital Audio? 
+subtitle: Get Started Part 2
+title: What is Digital Audio? 
 layout: post
 description: "An overview of the conversion of sound to digital audio"
 soundcloud: "off"

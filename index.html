@@ -8,7 +8,7 @@ layout: default
 {% for post in paginator.posts %}
   <div class="row-fluid" style="border-style: none none inset none;">
       {% if forloop.index == 1 %}
-        <h1><a class="master-color-light" style="font-size: 5vw;" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h1><a class="master-color-light" href="{{ post.url }}"><span style="font-size: 20px; color: #777;">{{ post.subtitle }}</span><br><span style="font-size: 5vw;">{{ post.title }}</span></a></h1>
         {% if post.cover != "off" %}
         <div class="row-fluid">
           <a href="{{ post.url }}"><img src="{{ post.cover }}" alt="page.coveralt"></a>
@@ -37,7 +37,7 @@ layout: default
         </div>
 
       <div class="col-lg-9" style="padding-top: 20px;">
-        <h1><a class="master-color-light" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h1><a class="master-color-light" href="{{ post.url }}"><span style="font-size: 20px; color: #777;">{{ post.subtitle }}</span><br>{{ post.title }}</a></h1>
         <p>
         {{ post.description }} --
         <b>

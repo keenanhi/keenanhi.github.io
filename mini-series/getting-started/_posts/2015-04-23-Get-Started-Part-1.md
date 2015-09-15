@@ -1,5 +1,6 @@
 ---
-title: Get Started Part 1 -  What is sound, really though?
+subtitle: Get Started Part 1
+title: What is sound, really though?
 layout: post
 description: "An overview of the different aspects of sound and acoustic music"
 soundcloud: "off"

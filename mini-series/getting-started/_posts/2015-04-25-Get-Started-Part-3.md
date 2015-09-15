@@ -1,5 +1,6 @@
 ---
-title: Get Started Part 3 - What is Mixing?
+subtitle: Get Started Part 3
+title: What is Mixing?
 layout: post
 description: "An overview of the tools and techniques common to modern mixing"
 soundcloud: "off"

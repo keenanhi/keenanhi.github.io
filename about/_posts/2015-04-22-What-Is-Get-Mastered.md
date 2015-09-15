@@ -1,4 +1,5 @@
 ---
+subtitle: About the blog
 title: What is Get Mastered?
 layout: post
 description: Description of the Get Mastered blog, including Getting Started mini-series, commenting, and submissions
@@ -24,7 +25,7 @@ Don't know how to record music, or mix music either? We'll get there too.
 
 Get Mastered is not just a resource for mastering; it's a resource for everything an artist needs to become a professional sounding producer.
 
-Another reason this blog is named Get Mastered: you can [get mastered by me, for free](/#get_mastered). More on that later.
+Another reason this blog is named Get Mastered: you can [get mastered by me, for free](/free-master). More on that later.
 
 ###How does this thing work?
 
@@ -52,7 +53,7 @@ sound foreign to you, you should check out the Get Started mini-series. This is 
 
 The last section of this mini-series also includes the software you will need to do your own mastering, including free alternatives, so if you don’t already have your own setup, make sure you don’t miss out on that!
 
-In due time, I will be developing more mini-series, especially concerning recording and mixing. [Sign up for the mailing list](/#mailing_list) if you wanna get in on those.
+In due time, I will be developing more mini-series, especially concerning recording and mixing. Sign up for the mailing list in the sidebar if you wanna get in on those (if you're on mobile, you can find it on the bottom of the home page).
 
 ###What if I want to tell you that you're wrong, or dumb or something?
 
@@ -64,7 +65,7 @@ I also have comment sections at the bottom of all my posts. Get Mastered is mean
 
 Woah, calm down there persistently questioning subsection header! In addition to your questions, I want to hear your music: you could be featured in the **A Reader Gets Mastered** section and walk away with a free master from me! 
 
-[Find out more about submissions here.](/#submissions)
+[Find out more about submissions here.](/free-master)
 
 If you like the quality of the mastered tracks you hear on this blog, I also offer my own services at an *extremely* competitive price.
 
@@ -78,4 +79,4 @@ If you like what I’m doing, show your appreciation by being a part of the comm
 
 ###Okay, I'm ready. What do I click?
 
-[This.](/blog/)
+[This.](/mini-series/getting-started/Get-Started-Part-1/)
