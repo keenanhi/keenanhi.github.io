@@ -5,6 +5,8 @@ description: Description of the Get Mastered blog, including Getting Started min
 soundcloud: "off"
 cover: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsum0bqwdt.jpg
 coveralt: interface
+cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsbxllc2tb.jpg
+color: "text-light"
 caption: "Some knobs of mine"
 ---
 

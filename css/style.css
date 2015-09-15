@@ -840,11 +840,11 @@ Parallax
         padding: 0;
         background-color: #000;
         
-    box-shadow: 0px 3px 3px #000;
+    /*box-shadow: 0px 3px 3px #000;*/
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(0,0,0,.3);
+        /*border-bottom: 1px solid rgba(0,0,0,.3);*/
     }
 	
     .intro {
@@ -915,7 +915,7 @@ Parallax
 
 .intro {
 	width:100%;
-	height:120%;
+	height:80%;
 	position:relative;
  /* background-image: none;
 	background-color: #000000;
@@ -966,18 +966,16 @@ Parallax
 	}
 	
 }
-
+/*
 @media (max-width:480px) {
 
 .navbar-brand {
   height: 40px;
-  /*padding: 5px 5px;*/
   font-size: 14px;
   line-height: 1em;
 }
 
 .navbar-brand h1{
-  /*color: rgba(0,0,0,0);*/
   font-size: 14px;
   line-height: 20px;
 }
@@ -989,20 +987,17 @@ Parallax
 
   .intro {
   width:100%;
-  height:120%;
+  height:80%;
   position:relative;
- /* background-image: none;
-  background-color: #000000;
-*/
 }
 
 #intro.intro {
-  padding: 20% 0 40% 0;
+  padding: 20% 10% 40% 10%;
 }
 
 .intro .slogan h2 {
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 50px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -1011,7 +1006,7 @@ Parallax
 }
 
 
-  }
+  }*/
 
 
 .row.equal [class*="col-"]{

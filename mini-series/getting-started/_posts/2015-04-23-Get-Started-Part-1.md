@@ -4,6 +4,8 @@ layout: post
 description: "An overview of the different aspects of sound and acoustic music"
 soundcloud: "off"
 cover: http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif
+cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/FU2E0V7H0URBWVS.LARGE_zpsnsro3pw6.jpg
+color: "text-light"
 coveralt: sound waves
 caption: Some sound
 tags: sound
@@ -45,8 +47,7 @@ Pressure is a distribution of force across a given area. In terms of sound, the 
 
 Below is a great animation with which we can visualize the change in density of air molecules that leads to our hearing of sound. Notice how if you pick one position in the sqaure, there is a constantly changing density of air molecules, as the higher pressure "ripples" of air seem to move through that point.
 
-![pressure wave gif](http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif)
-*http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif*
+<img src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="50%">
 
 In fact, a very useful way of thinking about these "ripples" of higher density air molecules is to call them waves. Specifically, we call this a **sound wave**, and we can think about it just like a wave created by dropping a rock into a pond.
 
@@ -79,7 +80,9 @@ So remember: pitch is your brain's translation of fundamental frequency, and tim
 
 Perhaps the easiest instrument on which to visualize fundamental frequencies versus harmonic frequencies is the synthesizer. Most synthesizers start by sending out very basic tones that can then be altered with all of those knobs, buttons, and sliders. These basic tones are usually include easy to recognize shapes, such as sine waves, square waves, triangle waves, and sawtooth waves, represented below (in that order):
 
-![synth waves](http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg)
+<!--![synth waves](http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg)-->
+
+<img src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="70%">
 
 It's easy to see where these names come from!
 

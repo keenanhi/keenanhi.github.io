@@ -3,8 +3,10 @@ title: Get Started Part 2 - What is Digital Audio?
 layout: post
 description: "An overview of the conversion of sound to digital audio"
 soundcloud: "off"
-cover: http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg
+cover: http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg
 coveralt: signal chain
+cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/clapverb_wav_zpsvizwsogc.jpg
+color: "text-light"
 caption: The famed "signal chain"
 tags: analog-vs-digital microphones
 ---
@@ -25,7 +27,9 @@ Learning only a little bit of the technical know-how surrounding audio will put 
 
 Energy from sound waves go through an obstacle course of sorts as they make their way inside a computer in a process known as **recording**. In this article, we will follow sound energy through this obstacle course, which we call the **signal chain**, as it makes its way into a computer. Here is a block diagram with the three basic parts in the recording signal chain:
 
-![signal chain](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg" alt="signal chain" width="70%">
+
+<!--![signal chain](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg)-->
 
 As you can see, we start with the acoustic sound we described in Part 1, and end with digital audio inside your computer. There are three main sections to the recording signal chain: the microphone, the analog to digital converter (or the ADC), and of course the computer.
 
@@ -33,13 +37,17 @@ Let's start with the bridge between the acoustic world and electrical world
 
 ###The Microphone
 
-![microphone](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg" alt="microphone" width="70%">
+
+<!--![microphone](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg)-->
 
 Microphones are a type of **transducer**, which is a device that shifts energy between different forms. In the specific case of the microphone, acoustic energy is shifted into electrical energy, so they are categorized as **Electro-acoustic transducers**. We won't go too into detail about how different microphones work, as there a few different methods by which they can convert energy between the electrical and acoustical domains. Essentially, you can think of it this way: a sound wave *pushes* on something, which in turn *pushes* on electrons, sending electrons out of the microphone in the exact same pattern that the microphone was *pushed* by the sound wave. 
 
 Here is a ubiquoitous microphone, Shure's **SM57**:
 
-![sm57](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg) 
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg" alt="sm57" width="50%">
+
+<!--![sm57](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg) -->
 
 Sound waves come into the metal mesh in front (called a **grille**), and electrical waves come out of the back of it.
 
@@ -49,7 +57,9 @@ So if you could "hear" electrons, and put your electron-hearing-ear on the outpu
 
 Different microphones have different characteristics (sometimes called **color**) due to the distinct mechanisms through which they convert energy. These audible characteristics stem from the fact that microphones do not pick up all frequencies of sound equally; take for example the SM57 above. Included by the manufacturer with this microphone is something called a **frequency response**, which is exactly what it sounds like: how the microphone responds to certain frequencies (and thus, how it colors the sound). You can see boosts and cuts of certain frequencies in the response below:
 
-![sm57 frequency response](http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif)
+<img src="http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif" alt="sm57 frequency response" width="70%">
+
+<!--![sm57 frequency response](http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif)-->
 
 We can see from the frequency response of the SM57 that it has a relatively flat response in the mid-range, with some boosts in the high end, and a cut in the low end that gently slopes as we get lower (keen observers will note that the scale of this graph is a little weird; we will get there in Part 3, for now, don't worry about it.) Thus, microphones, just like *any part* of the signal path, act as a filter. Though filtering in microphones is subtle, it is always there, whether you like it or not.
 
@@ -57,7 +67,9 @@ There are also other types of transducers we can use in the place of a microphon
 
 ###The Analog to Digital Converter
 
-![Analog to Digital Converter](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg" alt="Analog to Digital Converter" width="70%">
+
+<!--![Analog to Digital Converter](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg)-->
 
 Next, the signal travels to a soundcard, a mixer, or, what you are probably using to record sound: an audio interface. Each of these has something called an **Analog to Digital Converter**, or an **ADC**, which acts as a translator for your computer, which works in 0's in 1's, not electrons. The ADC basically says, "Okay, electron here, electron there... that means 110010".
 
@@ -67,7 +79,7 @@ The ADC is a complicated device, but is unrefutably the most important to digita
 
 Analog to digital conversion is *hugely important*, and not something you want to mess up. To understand a bit more of how this works, we first need to understand what **analog** and **digital** mean in the first place.
 
-The electrons entering the ADC from the cable exist in the "real world." This is different from the 1's and 0's which exist in the "digital world". You know this; if you are watching [a live video stream of a panda] (http://nationalzoo.si.edu/animals/webcams/giant-panda.cfm), the panda is not the "real world" panda, but it is a "digital world" copy that looks just about close enough, as far as we can tell. There is no panda inside your computer (really!). We would call the panda inside your computer the "digital panda" and the panda in The Smithsonian's National Zoo the "analog panda."
+The electrons entering the ADC from the cable exist in the "real world." This is different from the 1's and 0's which exist in the "digital world". You know this; if you are watching [a live video stream of a panda](http://nationalzoo.si.edu/animals/webcams/giant-panda.cfm), the panda is not the "real world" panda, but it is a "digital world" copy that looks just about close enough, as far as we can tell. There is no panda inside your computer (really!). We would call the panda inside your computer the "digital panda" and the panda in The Smithsonian's National Zoo the "analog panda."
 
 When you think analog, think "real world". Think: *there is no smallest chunk*.
 
@@ -91,7 +103,9 @@ Space and time are two aspects of the "real world" that the digital world absolu
 
 Thinking about audio as a wave, as we have before, can be very helpful in understanding these two ideas. Plus, audio is usually displayed as a **waveform** in recording softwares. Take the following digital waveform of a clap I clapped:
 
-![digital waveform](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg" alt="digital waveform" width="70%">
+
+<!--![digital waveform](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg)-->
 
 This is quite intuitive to understand, but worth explaining: At the points where the waveform is very tall, it means that the ADC recieved a big chunk of electrons, and therefore that the microphone sent a big chunk of electrons down the cable to the ADC, and *therefore* that the microphone recieved a big chunk of air molecules. In other words: something loud just happened! At the points, on the other hand, where the waveform is centered at the 0, there is no sound, as far as the ADC can tell.
 
@@ -113,33 +127,43 @@ Imagine you are assigned a job as an ADC, and you had to figure out the lowest s
 
 If you tried capturing a 300 Hz wave by sampling at 300 samples per second, you would capture the values represented by the blue line on the graph below.
 
-![300Hz sampled at 300 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 300 Hz" width="70%">
+
+<!--![300Hz sampled at 300 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)-->
 
 As you can see, the blue line, or what we captured as an ADC, never moves from 0! We have failed to capture our 300 Hz tone; we cannot see 300 Hz with a sampling frequency of 300 Hz. As far as we know, as an ADC, there is no 300 Hz wave.
 
 Let's try again, but this time doubling the sampling frequency. Notice, we get the exact same thing:
 
-![300Hz sampled at 600 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 600 Hz" width="70%">
+
+<!--![300Hz sampled at 600 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)-->
 
 However, as we will see, any frequency above 600 Hz we will start getting values greater than zero. Here is 601 Hz:
 
-![300Hz sampled at 601 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg" alt="300Hz sampled at 601 Hz" width="70%">
 
-
+<!--![300Hz sampled at 601 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg)-->
 
 You can just start to see nonzero values appearing if you look at the values highlighted by red dots.
 
 Let's try 1200 Hz for a more clear picture:
 
-![300Hz sampled at 1200 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg" alt="300Hz sampled at 1200 Hz" width="70%">
+
+<!--![300Hz sampled at 1200 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg)-->
 
 And 2400 Hz:
 
-![300Hz sampled at 2400 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg" alt="300Hz sampled at 2400 Hz" width="70%">
+
+<!--![300Hz sampled at 2400 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg)-->
 
 And finally let's take a ton of samples; here is 44100 Hz:
 
-![300Hz sampled at 44100 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg" alt="300Hz sampled at 44100 Hz" width="70%">
+
+<!--![300Hz sampled at 44100 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg)-->
 
 Where our blue digital signal is completely overlayed on our green analog signal. As you can see, any sample rate above what we call the **nyquist rate**, which is double the rate of the highest frequency wave we are trying to capture, will give us nonzero values, and the higher we go, the better of a picture we get of said wave. Even in the case of the 601 Hz wave, we have enough nonzero points that, if we tried to sketch a sine wave that intercepted all of them, we would have a sine wave at 300 Hz. In fact, computer software is so good at making these sketches, 601 Hz will do just fine to capture a 300 Hz wave. The higher our sample rate, the higher the maximum frequency we can capture. 
 
@@ -153,7 +177,7 @@ We know that if we zoomed into the panda cam, we would eventually reach pixels o
 
 The binary system is just a system of counting that is easy for computers to use. We humans use a system of counting that goes something like "0, 1, 2, 3, 4, 5, 6, 7, 8, 9". For any value above that, we shift over a decimal place and start again, "10, 11, 12, 13, 14... 21, 21, 23, 24... 31, 32, 33, 34... etc". You know how it goes from there (I hope). This is called a **base ten**, or **decimal** counting system, because we have ten different symbols that we use in representing any given value.
 
-In contrast to this system, computers use a **base-two** counting system (which is just another word for binary), which only uses two symbols: 0 and 1. A computer counts "0, 1" and then shift over a decimal place and start again: "10, 11, 100, 101, 110, 111, 1000, 1001... etc". These are just different ways of representing the same values: 0 in binary is 0 in decimal, 1 in binary is 1 in decimal, 10 in binary is 2 in decimal, 11 in binary is 3 in decimal, 100 in binary is 4 in decimal, and so on, forever (for more on conversion information, see wikipedia: https://en.wikipedia.org/wiki/Binary_number#Counting_in_binary). 
+In contrast to this system, computers use a **base-two** counting system (which is just another word for binary), which only uses two symbols: 0 and 1. A computer counts "0, 1" and then shift over a decimal place and start again: "10, 11, 100, 101, 110, 111, 1000, 1001... etc". These are just different ways of representing the same values: 0 in binary is 0 in decimal, 1 in binary is 1 in decimal, 10 in binary is 2 in decimal, 11 in binary is 3 in decimal, 100 in binary is 4 in decimal, and so on, forever (for more on conversion information, [see wikipedia](https://en.wikipedia.org/wiki/Binary_number#Counting_in_binary)). 
 
 Each digit in a base-two number, at least for a digital system like a computer, is called a **bit**, and it turns out that the number of different values we can represent in a binary number is directly related to how many bits (how many digits) it contains: specifically by raising 2 to the number of bits. So if we had a 4-bit number, we would have 2^4 = 8 values we can represent. We can count these ourselves: 000, 001, 010, 011, 100, 101, 110, 111, which, remember, represent 0 through 7 in decimal (note that here we are using **leading zeros**, which are zeros on the left hand side meant to be placeholders. These are meaningless, just as they are meaningless in base-ten, e.g. when you are writing a date: 04/01/2015 which we understand as 4/1/2015)
 
@@ -166,7 +190,9 @@ Say we had a 1-bit ADC. At any given point in time, this ADC looks at it's input
 
 Which is not all that useful. If we were trying to capture a sine wave, it would look something like:
 
-![1-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg" alt="1-bit ADC" width="70%">
+
+<!--![1-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg)-->
 
 The analog wave we are sampling (green) is a sine wave at 300 Hz, while our sampled wave (blue) doesn't quite look like a sine wave.
 
@@ -179,13 +205,17 @@ Now say we had a 2-bit ADC. At any given point in time, this ADC looks at it's i
 
  Now we are getting somewhere a little closer to our analog wave:
 
-![2-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg) 
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg" alt="2-bit ADC" width="70%">
+
+<!--![2-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg) -->
  
  (Note that here we are using the base-ten values on the y-axis, not binary)
  
  Imagine now we have a 16-bit ADC, or, if we want to learn some vocab, an ADC with a **bit-depth** of 16 bits. Now, our ADC can count to 2^16 = 65536. Now our resolution is much better; we can represent each individual electron with a bit of it's own, and even have 5536 bits left to spare. Here is what we get when we sample at that bit-depth:
  
- ![16-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg)
+ <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg" alt="16-bit ADC" width="70%">
+ 
+<!-- ![16-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg)-->
  
  Finally, our blue sampled wave completely matches our green analog wave (in fact, it completely overlaps it in this picture!)
  
@@ -197,7 +227,9 @@ blah blah clipping
 
 ### The Computer
 
-![computer](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg)
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg" alt="computer" width="70%">
+
+<!--![computer](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg)-->
 
 Finally, we have a digital audio wave from our ADC that we can save onto our computer! To store these digital sound waves, computers typically use a user-friendly software called a **Digital Audio Workstation**, or DAW for short. There are many different types of DAWs, ranging from basic freewares such as Audacity to more advanced programs like Logic, Pro Tools, and Cubase. 
 
