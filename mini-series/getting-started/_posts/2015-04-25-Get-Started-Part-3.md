@@ -37,7 +37,8 @@ The most basic of the four aspects of mixing is **levels**. The level of a track
 
 Typically, in a DAW, each track has what's called a **fader**, which is a slider that dictates the volume of the track. A bunch of faders from Logic X are pictured below:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="40%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="40%">
 
 <!--![faders](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png)-->
 
@@ -57,7 +58,8 @@ The two different types of situations call for two different solutions. In our f
 
 Here is an arbitrary example of automation on a kick drum track.
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.09.39%20PM_zpsyvg5ykft.png" alt="automation" width="20%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.09.39%20PM_zpsyvg5ykft.png" alt="automation" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.09.39%20PM_zpsyvg5ykft.png" alt="automation" width="20%">
 
 <!--![automation](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.09.39%20PM_zpsyvg5ykft.png)
 -->
@@ -75,7 +77,8 @@ Sometimes, though, we have changes we want to make to a sounds' level that are t
 
 Here's a compressor that has a nice visualization of some common controls:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.06.48%20PM_zpskc0htcaq.png" alt="compressor" width="50%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.06.48%20PM_zpskc0htcaq.png" alt="compressor" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.06.48%20PM_zpskc0htcaq.png" alt="compressor" width="50%">
 
 <!--![compressor](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.06.48%20PM_zpskc0htcaq.png)-->
 
@@ -91,7 +94,8 @@ You can also tell from this graph that the input can go from -100 dB to 0 dB, wh
 
 Sometimes we want to bring the compressed track back up in volume, since compression often makes our track sound quieter. We can do this by adding **makeup gain**. If we give this compressor 40 dB of makeup gain, our graph looks like this:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.04.52%20PM_zpshvqlszvs.png" alt="makeup gain" width="50%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.04.52%20PM_zpshvqlszvs.png" alt="makeup gain" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.04.52%20PM_zpshvqlszvs.png" alt="makeup gain" width="50%">
 
 <!--![makeup gain](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.04.52%20PM_zpshvqlszvs.png)-->
 
@@ -107,7 +111,8 @@ Compressors also come in a few different flavors. A standard compressor acts as 
 
 A **limiter** for instance is a compressor with ratio and threshhold controls tied together: as the threshhold decreases, the ratio increases. A popular limiter is shown below:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.59%20PM_zps4ljuzahk.png" alt="limiter" width="30%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.59%20PM_zps4ljuzahk.png" alt="limiter" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.59%20PM_zps4ljuzahk.png" alt="limiter" width="30%">
 
 <!--![limiter](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.59%20PM_zps4ljuzahk.png)
 -->
@@ -127,11 +132,13 @@ HPFs and LPFs have a parameter called **slope** (sometimes called **roll-off**) 
 
 Below is a picture of a HPF, with a slope of 24 dB/octave and a cutoff frquency of 79 Hz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.15%20PM_zpsjlq4nz6c.png" alt="HPF" width="30%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.15%20PM_zpsjlq4nz6c.png" alt="HPF" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.15%20PM_zpsjlq4nz6c.png" alt="HPF" width="30%">
 
 And next is a picture of a LPF, with a slope of 24 dB/octave and a cutoff frquency of 7 kHz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="30%">
+<img class="hidden-xslhidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="30%">
 
 <!--![LPF](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png)-->
 
@@ -141,7 +148,8 @@ Another type of filter is a **bell filter**, which is named because of it's bell
 
 Below is a picture of an EQ using a bell filter with a gain of +9 dB and a Q value of 0.3 (located below the gain value in this picture). It is located at the frequency 1040 Hz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.57%20PM_zpslpdmsxya.png" alt="bell filter" width="30%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.57%20PM_zpslpdmsxya.png" alt="bell filter" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.57%20PM_zpslpdmsxya.png" alt="bell filter" width="30%">
 
 <!--![bell filter](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.57%20PM_zpslpdmsxya.png)-->
 
@@ -151,7 +159,8 @@ Alternatively, if a filter has a high Q value, meaning it is very narrow, and is
 
 Below is a notch filter at the same frequency, with a gain of -24 dB and a Q value of 2.1:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.19%20PM_zpsxmjjzmrm.png" alt="notch filter" width="30%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.19%20PM_zpsxmjjzmrm.png" alt="notch filter" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.19%20PM_zpsxmjjzmrm.png" alt="notch filter" width="30%">
 
 <!--![notch filter](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.08.19%20PM_zpsxmjjzmrm.png)-->
 
@@ -181,7 +190,8 @@ Reverb can be added artificially in most DAWs using anything from basic to hugel
 
 Here is an example of a great reverb engine that comes bundled with Logic X:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.10.23%20PM_zpslj3m0e2n.png" alt="reverb" width="30%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.10.23%20PM_zpslj3m0e2n.png" alt="reverb" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.10.23%20PM_zpslj3m0e2n.png" alt="reverb" width="30%">
 
 <!--![reverb](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.10.23%20PM_zpslj3m0e2n.png)-->
 
@@ -199,7 +209,8 @@ Any of the tools we talked about earlier (automation, compression, EQ, and rever
 
 In addition to tools that alter sound, a lot of DAWS have added controls for ease of workflow. A couple of these you may have noticed in the earlier picture of the Logic X faders, notably the buttons labeled M and S
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="40%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="100%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png" alt="faders" width="40%">
 
 <!--![faders](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-03%20at%203.36.47%20PM_zps5ojmcegn.png)-->
 
@@ -211,7 +222,8 @@ Sometimes a mix engineer might want to align certain tracks, remove squeaks, bre
 
 Usually this can be done in what is often called the **workspace** of the DAW, pictured below:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.46.36%20PM_zpsa5mn2bcf.png" alt="workspace" width="20%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.46.36%20PM_zpsa5mn2bcf.png" alt="workspace" width="70%">
+<img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.46.36%20PM_zpsa5mn2bcf.png" alt="workspace" width="20%">
 
 <!--![workspace](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-06%20at%201.46.36%20PM_zpsa5mn2bcf.png)-->
 

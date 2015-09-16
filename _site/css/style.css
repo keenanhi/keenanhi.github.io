@@ -39,6 +39,11 @@ p.lead {
 	font-weight: 600;
 }
 
+ul {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 a {
     /*color: #28c3ab;*/
     color: #34AA83;
