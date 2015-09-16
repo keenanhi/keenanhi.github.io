@@ -28,11 +28,11 @@ The series will be split into three sections:
 
 **Part 1: What is Sound, Really Though?** An overview of sound and it's basic characteristics (hint: you are reading this one)
 
-**Part 2: What is Digital Audio?** How sound waves, electricity, and computers work together ([jump to Part 2](http://getmastered.com/blog/mini-series/getting-started/Get-Started-Part-2/))
+**Part 2: What is Digital Audio?** How sound waves, electricity, and computers work together ([jump to Part 2](/mini-series/getting-started/Get-Started-Part-2/))
 
-**Part 3: What is Mixing?** An overview of the modern recording process, including tools used in altering recorded music ([jump to Part 3](http://getmastered.com/blog/mini-series/getting-started/Get-Started-Part-3/))
+**Part 3: What is Mixing?** An overview of the modern recording process, including tools used in altering recorded music ([jump to Part 3](/mini-series/getting-started/Get-Started-Part-3/))
 
-**Part 4: What is Mastering?** A bit on mix preparation, and your toolkit as a mastering engineer ([jump to Part 4](http://getmastered.com/blog/mini-series/getting-started/Get-Started-Part-4/))
+**Part 4: What is Mastering?** A bit on mix preparation, and your toolkit as a mastering engineer ([jump to Part 4](/mini-series/getting-started/Get-Started-Part-4/))
 
 This series will also frequently reference the glossary I am actively cultivating. Don’t just skip over words that confuse you; learning this vocab now will save you headaches later. Plus, you will impress all your friends when you can point out the sidechain compression on the kick in that EDM song at that party (if they can hear you over the bass, that is)
 
@@ -48,7 +48,7 @@ Pressure is a distribution of force across a given area. In terms of sound, the 
 
 Below is a great animation with which we can visualize the change in density of air molecules that leads to our hearing of sound. Notice how if you pick one position in the sqaure, there is a constantly changing density of air molecules, as the higher pressure "ripples" of air seem to move through that point.
 
-<img src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="50%">
+<img src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="25%">
 
 In fact, a very useful way of thinking about these "ripples" of higher density air molecules is to call them waves. Specifically, we call this a **sound wave**, and we can think about it just like a wave created by dropping a rock into a pond.
 
@@ -83,7 +83,7 @@ Perhaps the easiest instrument on which to visualize fundamental frequencies ver
 
 <!--![synth waves](http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg)-->
 
-<img src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="70%">
+<img src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="25%">
 
 It's easy to see where these names come from!
 

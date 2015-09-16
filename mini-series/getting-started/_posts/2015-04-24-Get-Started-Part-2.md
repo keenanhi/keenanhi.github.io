@@ -28,7 +28,7 @@ Learning only a little bit of the technical know-how surrounding audio will put 
 
 Energy from sound waves go through an obstacle course of sorts as they make their way inside a computer in a process known as **recording**. In this article, we will follow sound energy through this obstacle course, which we call the **signal chain**, as it makes its way into a computer. Here is a block diagram with the three basic parts in the recording signal chain:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg" alt="signal chain" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg" alt="signal chain" width="30%">
 
 <!--![signal chain](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg)-->
 
@@ -38,7 +38,7 @@ Let's start with the bridge between the acoustic world and electrical world
 
 ###The Microphone
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg" alt="microphone" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg" alt="microphone" width="30%">
 
 <!--![microphone](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg)-->
 
@@ -46,7 +46,7 @@ Microphones are a type of **transducer**, which is a device that shifts energy b
 
 Here is a ubiquoitous microphone, Shure's **SM57**:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg" alt="sm57" width="50%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg" alt="sm57" width="10%">
 
 <!--![sm57](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg) -->
 
@@ -58,7 +58,7 @@ So if you could "hear" electrons, and put your electron-hearing-ear on the outpu
 
 Different microphones have different characteristics (sometimes called **color**) due to the distinct mechanisms through which they convert energy. These audible characteristics stem from the fact that microphones do not pick up all frequencies of sound equally; take for example the SM57 above. Included by the manufacturer with this microphone is something called a **frequency response**, which is exactly what it sounds like: how the microphone responds to certain frequencies (and thus, how it colors the sound). You can see boosts and cuts of certain frequencies in the response below:
 
-<img src="http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif" alt="sm57 frequency response" width="70%">
+<img src="http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif" alt="sm57 frequency response" width="30%">
 
 <!--![sm57 frequency response](http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif)-->
 
@@ -68,7 +68,7 @@ There are also other types of transducers we can use in the place of a microphon
 
 ###The Analog to Digital Converter
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg" alt="Analog to Digital Converter" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg" alt="Analog to Digital Converter" width="50%">
 
 <!--![Analog to Digital Converter](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg)-->
 
@@ -104,7 +104,7 @@ Space and time are two aspects of the "real world" that the digital world absolu
 
 Thinking about audio as a wave, as we have before, can be very helpful in understanding these two ideas. Plus, audio is usually displayed as a **waveform** in recording softwares. Take the following digital waveform of a clap I clapped:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg" alt="digital waveform" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg" alt="digital waveform" width="30%">
 
 <!--![digital waveform](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/clapverb_wav_zpsb90kqnrj.jpg)-->
 
@@ -128,7 +128,7 @@ Imagine you are assigned a job as an ADC, and you had to figure out the lowest s
 
 If you tried capturing a 300 Hz wave by sampling at 300 samples per second, you would capture the values represented by the blue line on the graph below.
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 300 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 300 Hz" width="30%">
 
 <!--![300Hz sampled at 300 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)-->
 
@@ -136,13 +136,13 @@ As you can see, the blue line, or what we captured as an ADC, never moves from 0
 
 Let's try again, but this time doubling the sampling frequency. Notice, we get the exact same thing:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 600 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg" alt="300Hz sampled at 600 Hz" width="30%">
 
 <!--![300Hz sampled at 600 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_600_zpspmnekno4.jpg)-->
 
 However, as we will see, any frequency above 600 Hz we will start getting values greater than zero. Here is 601 Hz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg" alt="300Hz sampled at 601 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg" alt="300Hz sampled at 601 Hz" width="30%">
 
 <!--![300Hz sampled at 601 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_601_zpsca5qqbit.jpg)-->
 
@@ -150,19 +150,19 @@ You can just start to see nonzero values appearing if you look at the values hig
 
 Let's try 1200 Hz for a more clear picture:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg" alt="300Hz sampled at 1200 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg" alt="300Hz sampled at 1200 Hz" width="30%">
 
 <!--![300Hz sampled at 1200 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_1200_zpssywmpkty.jpg)-->
 
 And 2400 Hz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg" alt="300Hz sampled at 2400 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg" alt="300Hz sampled at 2400 Hz" width="30%">
 
 <!--![300Hz sampled at 2400 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_2400_zpspcjoufbm.jpg)-->
 
 And finally let's take a ton of samples; here is 44100 Hz:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg" alt="300Hz sampled at 44100 Hz" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg" alt="300Hz sampled at 44100 Hz" width="30%">
 
 <!--![300Hz sampled at 44100 Hz](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/300_sampled_at_44100_zpskmdn8yal.jpg)-->
 
@@ -191,7 +191,7 @@ Say we had a 1-bit ADC. At any given point in time, this ADC looks at it's input
 
 Which is not all that useful. If we were trying to capture a sine wave, it would look something like:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg" alt="1-bit ADC" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg" alt="1-bit ADC" width="30%">
 
 <!--![1-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/1-bit-adc_zpsqmi7vtap.jpg)-->
 
@@ -206,7 +206,7 @@ Now say we had a 2-bit ADC. At any given point in time, this ADC looks at it's i
 
  Now we are getting somewhere a little closer to our analog wave:
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg" alt="2-bit ADC" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg" alt="2-bit ADC" width="30%">
 
 <!--![2-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/2-bit-adc_zpsoflibjdo.jpg) -->
  
@@ -214,7 +214,7 @@ Now say we had a 2-bit ADC. At any given point in time, this ADC looks at it's i
  
  Imagine now we have a 16-bit ADC, or, if we want to learn some vocab, an ADC with a **bit-depth** of 16 bits. Now, our ADC can count to 2^16 = 65536. Now our resolution is much better; we can represent each individual electron with a bit of it's own, and even have 5536 bits left to spare. Here is what we get when we sample at that bit-depth:
  
- <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg" alt="16-bit ADC" width="70%">
+ <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg" alt="16-bit ADC" width="30%">
  
 <!-- ![16-bit ADC](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/16-bit-adc_zpslxhhikfw.jpg)-->
  
@@ -228,7 +228,7 @@ blah blah clipping
 
 ### The Computer
 
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg" alt="computer" width="70%">
+<img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg" alt="computer" width="50%">
 
 <!--![computer](http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-comp_zpslp45indb.jpg)-->
 
