@@ -137,7 +137,7 @@ Below is a picture of a HPF, with a slope of 24 dB/octave and a cutoff frquency 
 
 And next is a picture of a LPF, with a slope of 24 dB/octave and a cutoff frquency of 7 kHz:
 
-<img class="hidden-xslhidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="100%">
+<img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="100%">
 <img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png" alt="LPF" width="30%">
 
 <!--![LPF](http://i1045.photobucket.com/albums/b459/keenanhi/Screen%20Shot%202015-09-04%20at%2012.07.43%20PM_zpsdornclmf.png)-->
