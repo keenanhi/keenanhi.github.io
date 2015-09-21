@@ -11,6 +11,8 @@ color: "text-light"
 caption: "Some knobs of mine"
 ---
 
+**A quick note to the reader: This site is currently under construction, though I am still [accepting submissions for a free master](/free-master) and [taking clients](/mastering-services)**
+
 Living on the cusp of insane technological inovations like autonomous automobiles, smart watches, and [freaky dog robot things](https://www.youtube.com/watch?v=M8YjvHYbZ9w), it confuses me how the technological world of the independent musician has remained so stagnant. There is such a wealth of knowledge out there that remains inaccessible to musicians, due to a combination of jargon, myths, and old industry practices and separations, particularly the separation of artist and producer.
 
 Get Mastered is a blog devoted to teaching artists how easy it can be to produce high quality, professional music with no background techincal knowledge.
