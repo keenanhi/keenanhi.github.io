@@ -11,6 +11,7 @@ coveralt: sound waves
 caption: Some sound
 tags: sound
 ---
+**A quick note to the reader: This site is currently under construction, though I am still [accepting submissions for a free master](/free-master) and [taking clients](/mastering-services)**
 
 **Contents:**
 

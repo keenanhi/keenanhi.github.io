@@ -8,7 +8,7 @@
 </h4>
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is a tutorial website for musicians who want to learn how to master music -- 
+Get Mastered is a resource for musicians to hone their recording and mixing skills, and home of the absolute best value mastering services -- 
 
 <span><a href="/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more</a><br><br></p>
 
@@ -16,32 +16,37 @@ Get Mastered is a tutorial website for musicians who want to learn how to master
     Who Am I?</h4>
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
-My name is Keenan. I'm a <span><a href="http://whoisyohannes.com" style="color: #aaa;">musician</a></span> and engineer who loves mastering, mixing, and recording music.<br><br></p>
+My name is Keenan and I've been mastering, mixing, and recording music for six years. I currently aspire to gain a masters in acoustics<br><br></p>
 
 
 <h4 style="color: #777; display: inline;">
-    Can't Wait?
+    Done mixing?
 </h4>
-<p> <a style="font-size: 15px;" href="/mastering-services/">Get Mastered by me, right now!</a></p>
+<p> <a style="font-size: 15px;" href="/mastering-services/">Get Mastered, right now</a></p>
 
 <br>
 
-<h4 style="color: #777; display: inline;">Topics:</h4>
+<h4 style="color: #777; display: inline;">Looking for something?</h4>
 
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
 
 {% for tag in site.tags %}
-    <a style="color: #aaa;" href="/directory/{{ tag | first | slugize }}/">
+    <a style="color: #ccc;" href="/directory/{{ tag | first | slugize }}/">
         {{ tag | first }} 
         {% if forloop.last == false %}
-        	//
+        	|
         {% endif %}
     </a>
 {% endfor %}
 
 </p>
 
-<p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p>
+ <form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 10px 0px 10px 20px;">
+ 		<!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
+              <input style="font-size: 13px;" type="text" name="query" placeholder="Or search a term">
+            </form>
+
+<!-- <p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p> -->
 
 </section>
