@@ -11,6 +11,7 @@ coveralt: sound waves
 caption: Some sound
 tags: sound
 ---
+
 **A quick note to the reader: This site is currently under construction, though I am still [accepting submissions for a free master](/free-master) and [taking clients](/mastering-services)**
 
 **Contents:**
@@ -33,11 +34,10 @@ The series will be split into three sections:
 
 **Part 3: What is Mixing?** An overview of the modern recording process, including tools used in altering recorded music ([jump to Part 3](/mini-series/getting-started/Get-Started-Part-3/))
 
-**Part 4: What is Mastering?** A bit on mix preparation, and your toolkit as a mastering engineer ([jump to Part 4](/mini-series/getting-started/Get-Started-Part-4/))
+**Part 4: What is Mastering?** A bit on what the term "mastering" means to different people ([jump to Part 4](/mini-series/getting-started/Get-Started-Part-4/))
 
-This series will also frequently reference the glossary I am actively cultivating. Don’t just skip over words that confuse you; learning this vocab now will save you headaches later. Plus, you will impress all your friends when you can point out the sidechain compression on the kick in that EDM song at that party (if they can hear you over the bass, that is)
 
-So let’s Get Started by answering the question:
+So let’s get started by answering the question:
 
 ###What is sound?
 
@@ -58,7 +58,7 @@ It is a little bit easier to think of these variations in pressure as vibration.
 
 An easy way to differentiate sound waves from one another is to measure the distance between the points of highest pressure, or the points of highest air molecule density. This is pretty easy to see: All the "darker" circles are high pressure points. Since we are taling about sound waves, we call this distance the **wavelength**, the length of the wave. Every wavelength, the wave repeats itself. A wavelength is a distance per cycle of the wave.
 
-Now something that is going to [blow your mind](http://img.pandawhale.com/post-28553-Steve-Jobs-mind-blown-gif-HD-T-pVbd.gif): Keep your eyes focused on one individual air molecule in the animation above (one individual dot). Notice that it is vibrating back and forth at a constant rate (if you are having trouble seeing it, it's a little easier to see towards the center of the image). Now pick any other dot, and notice that it too is vibrating back and forth *at the exact same rate*. Pull out a stopwatch if you don't believe me. Call my bluff, I dare you.
+Now, keep your eyes focused on one individual air molecule in the animation above (one individual dot). Notice that it is vibrating back and forth at a constant rate (if you are having trouble seeing it, it's a little easier to see towards the center of the image). Now pick any other dot, and notice that it too is vibrating back and forth *at the exact same rate*. Pull out a stopwatch if you don't believe me. Call my bluff, I dare you.
 
 This vibration is called a sound's **frequency**. Air can vibrate quickly, and air can vibrate slowly.  When air vibrates quickly, it has a high frequency, and when it vibrates slowly, it has a low frequency. 
 
@@ -66,10 +66,7 @@ The unit of frequency is **Hertz** (abbreviated Hz), which simply means cycles p
 
 If air vibrates at a frequency anywhere between 20 Hz and 20,000 Hz, we can hear it as sound. Outside of that range, the air is still moving; we just can't hear it! Other animals can hear different ranges of frequencies that we cannot ([dogs, for instance, can hear frequencies above 20,000 Hz](https://www.youtube.com/watch?v=dk0HsvQ7m_E))
 
-Remember, a wavelength is a distance per cycle, and a frequency is a cycle per second. If a sound wave goes 2 meters per cycle (has a wavelength of 2 meters) and cycles once every one second (has a frequency of 1 Hz), it is moving 2 meters every second. Thus, sound waves also have a speed, or **velocity** that is a direct relationship between wavelength and frequency. Mathematically, velocity, wavelength, and frequency are related by the equation:
-
-
-Which should seem pretty intuitive if you've followed along thus far.
+Remember, a wavelength is a distance per cycle, and a frequency is a cycle per second. If a sound wave goes 2 meters per cycle (has a wavelength of 2 meters) and cycles once every one second (has a frequency of 1 Hz), it is moving 2 meters every second. Thus, sound waves also have a speed, or **velocity** that is a direct relationship between wavelength and frequency.
 
 ### Fundamental Frequency, Harmonics, and Pitch
 
@@ -77,7 +74,7 @@ In nearly all real life scenarios, sound will not consist of one frequency, but 
 
 Our brains translate these fundamental frequencies into something we call **pitch**. When you hit a middle C on a piano, you hear a pitch corresponding to that key's fundamental frequency, which is, in this case, 261.6 Hz. This is the lowest frequency in the sound you hear when you hear a middle C on a piano, *but* there are still harmonics above this, which are translated by your brain as **timbre**, or the characteristic of the sound. If you listened to a trumpet playing concert middle C, you are still hearing the fundamental frequency of 261.6 Hz as its pitch, but the trumpet's harmonics, and thus its timbre, are significantly different from that of a piano.
 
-So remember: pitch is your brain's translation of fundamental frequency, and timbre is your brain's translation of harmonics [^notreally]
+So remember: pitch is your brain's translation of fundamental frequency, and timbre is your brain's translation of harmonics.
 
 ##### An Example: The synthesizer
 

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 
 
-<section class="bg-white" style="padding: 0px 15px 5px 30px; margin: 0px; text-align: right;">
+<section class="bg-white" style="padding: 5px 5px 5px 60px; margin: 0px; text-align: right;">
 
 <h4 style="color: #777; display: inline;">
     What is Get Mastered?
 </h4>
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is a resource for musicians to hone their recording and mixing skills, and home of the absolute best value mastering services -- 
+Get Mastered is home of the best mastering rates, period. 
 
-<span><a href="/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more</a><br><br></p>
+<span><a href="/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br><br></p>
 
-<h4 style="color: #777; display: inline;">
+<!-- <h4 style="color: #777; display: inline;">
     Who Am I?</h4>
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
-My name is Keenan and I've been mastering, mixing, and recording music for six years. I currently aspire to gain a masters in acoustics<br><br></p>
+My name is Keenan and I've been mastering, mixing, and recording music for six years. 
+<span><a href="/about/Who-Am-I/" style="color: #aaa;">More about me</a>
+<br><br></p> -->
 
 
 <h4 style="color: #777; display: inline;">
@@ -26,16 +28,16 @@ My name is Keenan and I've been mastering, mixing, and recording music for six y
 
 <br>
 
-<h4 style="color: #777; display: inline;">Looking for something?</h4>
+<h4 style="color: #777; display: inline;">Improve your</h4>
 
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
 
 {% for tag in site.tags %}
     <a style="color: #ccc;" href="/directory/{{ tag | first | slugize }}/">
-        {{ tag | first }} 
+        {{ tag | first }}
         {% if forloop.last == false %}
-        	|
+        <br>
         {% endif %}
     </a>
 {% endfor %}

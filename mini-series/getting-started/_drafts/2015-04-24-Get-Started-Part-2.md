@@ -9,7 +9,7 @@ coveralt: signal chain
 cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/clapverb_wav_zpsvizwsogc.jpg
 color: "text-light"
 caption: The famed "signal chain"
-tags: analog-vs-digital microphones
+tags: digital-audio
 ---
 
 **A quick note to the reader: This site is currently under construction, though I am still [accepting submissions for a free master](/free-master) and [taking clients](/mastering-services)**
@@ -28,7 +28,7 @@ Why should you care about the technical details of digital audio? Well... you wa
 
 Learning only a little bit of the technical know-how surrounding audio will put you miles ahead of your fellow musicians, and open your ears to so much more going on underneath the surface of the music you listen to every day.
 
-Energy from sound waves go through an obstacle course of sorts as they make their way inside a computer in a process known as **recording**. In this article, we will follow sound energy through this obstacle course, which we call the **signal chain**, as it makes its way into a computer. Here is a block diagram with the three basic parts in the recording signal chain:
+Sound waves go through an obstacle course of sorts as they make their way inside a computer in a process known as **recording**. In this article, we will follow sound energy through this obstacle course, which we call the **signal chain**, as it makes its way into a computer. Here is a block diagram with the three basic parts in the recording signal chain:
 
 <img class="hidden-xl hidden-lg" src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg" alt="signal chain" width="100%">
 <img class="hidden-xs hidden-sm hidden-md" src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain_zpsy7fogvyi.jpg" alt="signal chain" width="50%">
@@ -61,14 +61,14 @@ Remember how a sound wave is just air molecules vibrating back and forth? When p
 
 So if you could "hear" electrons, and put your electron-hearing-ear on the output of the microphone, you would hear all of that stuff from part one: fundamental frequencies, harmonics, loudness, etc. A piano's timbre looks the same coming into and going out of the microphone, it is just that on the input air molecules are making this shape, and on the output electrons are making this shape.
 
-Different microphones have different characteristics (sometimes called **color**) due to the distinct mechanisms through which they convert energy. These audible characteristics stem from the fact that microphones do not pick up all frequencies of sound equally; take for example the SM57 above. Included by the manufacturer with this microphone is something called a **frequency response**, which is exactly what it sounds like: how the microphone responds to certain frequencies (and thus, how it colors the sound). You can see boosts and cuts of certain frequencies in the response below:
+Different microphones have different characteristics (sometimes called **color**) due to the distinct mechanisms through which they convert energy. These audible characteristics stem from the fact that microphones do not pick up all frequencies of sound equally; take for example the SM57 above. Included by the manufacturer with this microphone is something called a **frequency response**, which is exactly what it sounds like: a depiction of how the microphone responds to certain frequencies (and thus, how it colors the sound). You can see boosts and cuts of certain frequencies in the response below:
 
 <img class="hidden-lg hidden-xl" src="http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif" alt="sm57 frequency response" width="100%">
 <img class="hidden-xs hidden-sm hidden-md" src="http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif" alt="sm57 frequency response" width="40%">
 
 <!--![sm57 frequency response](http://grahamspice.com/docs/images/Shure_SM57_freqResp.gif)-->
 
-We can see from the frequency response of the SM57 that it has a relatively flat response in the mid-range, with some boosts in the high end, and a cut in the low end that gently slopes as we get lower (keen observers will note that the scale of this graph is a little weird; we will get there in Part 3, for now, don't worry about it.) Thus, microphones, just like *any part* of the signal path, act as a filter. Though filtering in microphones is subtle, it is always there, whether you like it or not.
+We can see from the frequency response of the SM57 that it has a relatively flat response in the mid-range, with some boosts in the high end, and a cut in the low end that gently slopes as we get lower. Thus, microphones, just like *any part* of the signal path, act as a filter. Though filtering in microphones is subtle, it is always there, whether you like it or not.
 
 There are also other types of transducers we can use in the place of a microphone for different types of sounds: for example, if you are recording electric guitar, you can use the pickup of the guitar, which is another type of transducer. Or, if you are recording something like a synthesizer, which outputs electronic signals only and no actual sound, you can bypass this whole stage, since you are already starting with electrons! Remember: In this first step, our goal is only to convert sound energy to electrical energy.
 
@@ -81,7 +81,9 @@ There are also other types of transducers we can use in the place of a microphon
 
 Next, the signal travels to a soundcard, a mixer, or, what you are probably using to record sound: an audio interface. Each of these has something called an **Analog to Digital Converter**, or an **ADC**, which acts as a translator for your computer, which works in 0's in 1's, not electrons. The ADC basically says, "Okay, electron here, electron there... that means 110010".
 
-The ADC is a complicated device, but is unrefutably the most important to digital recording. Don't be intimidated! We will split this part of the signal chain up a little, and explain the ADC more in depth. A lot of concepts explained for the ADC have wide-arcing implications in modern recorded music, so it is imortant to really understand how this thing works.
+The ADC is a complicated device, but is unrefutably the most important to digital recording. Don't be intimidated! We will split this part of the signal chain up a little, and explain the ADC more in depth. A lot of concepts explained for the ADC have wide-arcing implications in modern recorded music, so it is important to really understand how this thing works.
+
+Buckle your seatbelts!
 
 ##### Analog vs Digital
 
@@ -103,7 +105,7 @@ So remember: in the digital world, *there is always a smallest chunk*, and we ca
 
 ##### Audio Quality
 
-Space and time are two aspects of the "real world" that the digital world absolutely cannot recreate, and this turns out to be crucially important in recreating sound waves, which can get pretty darn fast, and pretty darn small, and on which you could zoom in, forever, both in space and time. In the digital world, we *need* a smallest, otherwise our computers would not be able to handle the size of the audio file. We need a discrete chunk of electrons to be our smallest chunk. Luckily, there is a point below which our ears can't hear the difference between real world audio and digital audio if this discrete chunk is small enough. Generally, the smaller you go, the higher the **quality** of the recording. In audio, we call each discrete chunk a **sample**. Thus, the more samples you have in any given time or space, the higher the objective quality of your audio.
+Space and time are two aspects of the "real world" that the digital world absolutely cannot perfectly recreate, and this turns out to be crucially important in recreating sound waves, which can get pretty darn fast, and pretty darn small, and on which you could zoom in, forever, both in space and time. In the digital world, we *need* a smallest, otherwise our computers would not be able to handle the size of the audio file. We need a discrete chunk of electrons to be our smallest chunk. Luckily, there is a point below which our ears can't hear the difference between real world audio and digital audio if this discrete chunk is small enough. Generally, the smaller you go, the higher the **quality** of the recording. In audio, we call each discrete chunk a **sample**. Thus, the more samples you have in any given time or space, the higher the objective quality of your audio.
 
 (This is the same language we use for things like drum samples; sample just means a chunk of audio. For this discussion, however, when we use the word sample, we are refering to the *smallest* chunk. In fact, a drum sample as we normally think of it is actually made up of many, many smaller samples. This is not meant to confuse; only to clarify that the sample we are refering to is the smallest sample)
 
@@ -254,4 +256,4 @@ Finally, we have a digital audio wave from our ADC that we can save onto our com
 
 (An important thing to note moving forward is that I primarilly use Logic X, because I work on a Mac, and my experience with Logic has been better for my personal needs than alternative DAWs. But don't run away if you don't have any intention of using Logic, or don't use a Mac! I will jump through flaming hoops to make sure everything I talk about on Get Mastered is applicable accross DAWs. Unfortunately, for Logic users, this means I will refrain from specifics of logic in my general tutorials. If there is demand for it, I can make some more Logic specific tutorials down the line. Perhaps a "Working With Logic" mini-series could happen if ther's enough clammor for it...)
 
-Moving on to Part 3, we will work exclusively inside of the computer. It is important to remember that since we are working inside of a computer *from now on, everything is digital*. If you skimmed over those big analog vs. digital concepts, it will come back to bite you later when you are dealing with some more advanced features of DAWs; make sure you understand these concepts before moving on! They are tricky, but incredibly important, and your understanding of them will put your music production skills miles ahead of 99% of musicians poking their noses around Garage Band.
+Moving on to [Part 3](http://getmastered.com/mini-series/getting-started/Get-Started-Part-3/), we will work exclusively inside of the computer. It is important to remember that since we are working inside of a computer *from now on, everything is digital*. If you skimmed over those big analog vs. digital concepts, it will come back to bite you later when you are dealing with some more advanced features of DAWs; make sure you understand these concepts before moving on! They are tricky, but incredibly important, and your understanding of them will put your music production skills miles ahead of 99% of musicians poking their noses around Garage Band.
