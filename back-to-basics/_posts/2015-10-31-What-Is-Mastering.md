@@ -1,5 +1,5 @@
 ---
-subtitle: Back to Basiscs
+subtitle: Back to Basics
 title: What is Mastering?
 layout: post
 description: "Defining a word that means different things for different people"
