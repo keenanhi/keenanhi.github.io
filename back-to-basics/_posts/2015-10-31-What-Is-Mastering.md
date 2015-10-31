@@ -16,7 +16,7 @@ So you've finished your mix, and everything sounds great. But when you listen to
 
 *I've been here!* I've mixed music for my own band for years, and I know the feeling. Luckily, there's an easy way to solve this problem:
 
-###Ask Someone To Help!
+####Ask Someone To Help!
 
 Mastering, at the most basic, basic level, is simply asking another engineer to help you make your sound better. And there's no shame in getting help! Even the best mixing engineers in the world get their music mastered, because they know that another pair of ears *always* helps.
 
@@ -50,4 +50,4 @@ When a lot of people think of mastering, the one thing they have in mind is maki
 
 The last thing I do when mastering a track is to make it louder in a genre specific way (that is to say, I won't make your folk song sound like an EDM track, or vice versa). I use high quality limiters and an experienced ear (and maybe even other secret tricks) to make this as absolutely transparent as possible.
 
-So there you have it! If you decide to [get mastered by me](/mastering-services), this is what you're paying for (or not paying for if you want to get [get mastered for free!](/free-master) As I've said ad nauseam, mastering means a lot of different things to a lot of different people, and I will work with you to make sure I adhere to the definition you have in mind.
+So there you have it! If you decide to [get mastered by me](/mastering-services), this is what you're paying for (or not paying for if you want to get [get mastered for free!](/free-master)) As I've said ad nauseam, mastering means a lot of different things to a lot of different people, and I will work with you to make sure I adhere to the definition you have in mind.
