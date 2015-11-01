@@ -22,19 +22,19 @@ Mastering, at the most basic, basic level, is simply asking another engineer to 
 
 The word **mastering** means a lot of different things to a lot of different people, but to me, mastering means helping you make your track sound better. Despite this extremely general definition of the job, there are a few concrete steps I will typically go through to get this done:
 
-##1) Ask You What You Want
+##1) I Ask You What You Want
 
 As I mentioned, many people often have different definitions of what mastering means to them, and if there is anything specific a client wants done, I like to have it in the front of my mind.
 
 During this step, I also like to get an idea of what my client wants their song to sound like. This may be a list of influences, or musical descriptors, but it really helps me get an idea of how to move forward and what to listen for.
 
-##2) Give It a Listen
+##2) I Give It a Listen
 
 Perhaps obviously, before I start mastering your track, I'll give it a critical listen, all the way through. This allows me to understand the message of the song, the feel of the song, and which instruments in the mix were felt to be most important by the mix engineer.
 
 During this step, I can also identify mix-level issues, and give you tips on how to make your mix better, before I even get to mastering.
 
-##3) Sculpt Tone Appropriately
+##3) I Sculpt Tone Appropriately
 
 Finally, time to get my hands dirty! (my mouse dirty?) 
 
@@ -42,7 +42,7 @@ Often, a mix won't come to me sounding perfect! I'll do some genre-specific proc
 
 **I don't under-do it, and I certainly don't over-do it**. Often mastering is a collection of subtle tweaks that leads to a big change in tone. 
 
-##4) Make It Loud Already!!!
+##4) I Make It Louder
 
 Okay, okay!
 
