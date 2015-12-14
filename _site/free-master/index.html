@@ -49,9 +49,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-left navbar-main-collapse col-lg-9">
       <ul class="nav navbar-nav" style="text-align: left; padding-left: 0px;">
-        <li class="active"><a href="/">Home</a></li>
+        <li class="active"><a href="/">Blog</a></li>
         <li><a href="/free-master">Free Master</a></li>
-        <li><a href="/mastering-services/">Mastering Services</a></li>
+        <li><a href="/mastering-services/">Rates</a></li>
         <li><a href="/hear-the-difference/">Hear The Difference</a></li>
         <li><a href="/archive/">Post Archive</a></li>
       </ul>
@@ -118,8 +118,9 @@
 					</div>
 
 					<p style="font-size: 20px;">
+						While Get Mastered is just getting off the ground, I am offering free mastering to our lucky first site visitors, with absolutely no commitment! <br><br>
 
-						Send me a message below to Get Mastered right now!
+						Send me a message with your project details (including some of your music) to get started!
 					</p>
 					
 					</div>
@@ -132,18 +133,18 @@
                 <form id="contact-form" method="POST" action="http://formspree.io/keenan.hye@getmastered.com">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="name">
                                 Name</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" style=" text-align: left;" />
-                        </div>
+                        </div> -->
                         <div class="form-group">
                             <label for="email">
                                 Email Address</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" style=" text-align: left;"/></div>
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Enter email" required="required" style=" text-align: left;"/></div>
                         </div>
                         <div class="form-group">
                             <label for="subject">
@@ -163,6 +164,7 @@
                                 placeholder="Please include a link to some of your music!" style=" text-align: left;"></textarea>
                         </div>
                     </div>
+                    <input type="hidden" name="_next" value="/thank-you" />
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
                             Submit</button>

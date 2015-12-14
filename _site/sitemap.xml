@@ -12,91 +12,97 @@
   </url>
   <url>
     <loc>http://localhost:4000/archive/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/automation/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/compression/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/depth/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/digital-audio/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/EQ/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/mastering/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/mastering-services/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <loc>http://localhost:4000/directory/microphones/</loc>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/mixing/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/sound/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/free-master/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/hear-the-difference/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:4000/directory/microphones/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <loc>http://localhost:4000/mastering-services/</loc>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4000/thank-you/</loc>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/search/</loc>
-    <lastmod>2015-11-21T16:35:33-05:00</lastmod>
+    <lastmod>2015-12-14T13:38:33-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
