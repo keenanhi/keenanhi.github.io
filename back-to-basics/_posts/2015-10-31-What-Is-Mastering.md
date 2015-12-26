@@ -14,7 +14,7 @@ tags: mastering
 
 So you've finished your mix, and everything sounds great. But when you listen to your final bounce next to commercial tracks, it just doesn't sound quite right. Something is off, and it's hard to put a finger on what. No matter how much you tweak, you just can't get your tracks to sound like those produced by artists you love.
 
-*I've been here!* I've mixed music for my own band for years, and I know the feeling. Luckily, there's an easy way to solve this problem:
+*I've been here!* I've mixed music for years, and I know the feeling. Luckily, there's an easy way to solve this problem:
 
 ####Ask Someone To Help!
 

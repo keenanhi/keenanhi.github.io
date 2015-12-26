@@ -11,14 +11,21 @@ color: "text-light"
 caption: "Some knobs of mine"
 ---
 
-It's a great time to be a self-producing musician. But despite easy access to recording programs, mastering a few songs can often cost an arm and a leg, specifically an arm and a leg dressed in a Italian tailored suit.
+My name is Keenan, and for all of my life I have had a passion for really, really great sounding music. 
 
-**Get Mastered offers mastering services at a rate artists can actually afford.** Plus, Get Mastered is the *only* site where you can test the waters, and get an [absolutely, no joke, 100% free master](/free-master) without any commitment. That's how confident I am you'll love what you hear.
+However, having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master a song that you are completely proud of. In my experience, there was always that special "extra something" missing, and I was quick to realize an easy way to fix this issue: all I needed was someone who knew a little bit more than me to help!
+
+Of course, I am lucky enough to know a lot of audio engineers with different types of experience and tastes than I. But I know that a lot of musicians aren't quite that fortunate, and Get Mastered is my way of helping those musicians.
+
+**I created Get Mastered as a way for independent musicians to foster a direct, personal relationship with an experienced audio engineer, and make great sounding music, together.**
+
+As part of my whole vibe, **Get Mastered offers mastering services at rates that artists can actually afford.** Plus, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master and mix consultation](/free-master) without any commitment. That's how confident I am you'll love your mastered song.
+
+In part of my effort to help musicians, I am also fostering a blog devoted to helping artists produce their own music, that I will update periodically with performance, recording, and mixing advice. 
+
+Why mastering? To understand why I believe the mastering process to be a perfect time to get help making your music shine, read my next post on the blog, [What is Mastering?](/back-to-basics/What-Is-Mastering/).
 
 
-[Get more information on how I can charge such low rates here](/mastering-services).
-
-In addition to being the best place to get your music mastered online, Get Mastered is also a blog devoted to teaching artists how easy it can be to produce high quality, professional sounding recordings by beefing up that pink matter *between* your ears with recording and mixing knowledge.
 
 <!--###What if I am totally, *totally* new to this stuff?
 
@@ -32,6 +39,6 @@ To get the most out of the blog, however, it is super helpful to have some basic
 
 sound foreign to you, you should check out [the Get Started mini-series](/mini-series/getting-started/Get-Started-Part-1/). This is where I explain a lot of that pesky jargon, in a way that is very easy to digest.-->
 
-###What if I want to tell you that you're wrong, or dumb or something?
+<!--###What if I want to tell you that you're wrong, or dumb or something?
 
-I have comment sections at the bottom of all my posts. Get Mastered is meant to be a collaborative learning environment; it doesn’t work unless you make your thoughts known, boost good comments, and, of course... *ask questions!* I take care to answer all questions in the comments as quickly as possible.
+I have comment sections at the bottom of all my posts. Get Mastered is meant to be a collaborative learning environment; it doesn’t work unless you make your thoughts known, boost good comments, and, of course... *ask questions!* I take care to answer all questions in the comments as quickly as possible.-->
