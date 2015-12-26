@@ -1,6 +1,6 @@
 ---
 subtitle: Back to Basics
-title: Prepare Your Mix
+title: Prepare Your Mix For Mastering
 layout: post
 description: "4 steps to get your mix ready for mastering"
 soundcloud: "off"
