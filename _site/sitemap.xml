@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://localhost:4000/back-to-basics/Prepare-Your-Mix/</loc>
+    <lastmod>2015-12-26T00:00:00-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://localhost:4000/back-to-basics/What-Is-Mastering/</loc>
     <lastmod>2015-10-31T00:00:00-04:00</lastmod>
     <priority>0.8</priority>
@@ -12,97 +17,97 @@
   </url>
   <url>
     <loc>http://localhost:4000/archive/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/automation/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/compression/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/depth/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/digital-audio/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/EQ/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/mastering/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/microphones/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/mixing/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/directory/sound/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/free-master/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/hear-the-difference/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:4000/mastering-services/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/thank-you/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://localhost:4000/search/</loc>
-    <lastmod>2015-12-25T20:41:54-05:00</lastmod>
+    <lastmod>2015-12-26T12:52:38-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

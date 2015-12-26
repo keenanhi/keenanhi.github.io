@@ -2,7 +2,7 @@
 subtitle: About the site
 title: What is Get Mastered?
 layout: post
-description: A quick description of the Get Mastered site
+description: A quick description of Get Mastered
 soundcloud: "off"
 cover: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsum0bqwdt.jpg
 coveralt: interface
