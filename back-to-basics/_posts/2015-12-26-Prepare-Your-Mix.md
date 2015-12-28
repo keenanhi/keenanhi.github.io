@@ -12,7 +12,7 @@ caption:
 tags: mastering
 ---
 
-So, you're ready to Get Mastered! The following are steps you should make sure to make before you send me your mix:
+So, you're ready to Get Mastered! The following are steps you should make sure to take before you send me your mix:
 
 **1) Turn off any limiters or other plugins on the output bus**
 
