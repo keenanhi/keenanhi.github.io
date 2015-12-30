@@ -1,6 +1,6 @@
 ---
 subtitle: Back to Basics
-title: Prepare Your Mix For Mastering
+title: Preparing Your Mix For Mastering
 layout: post
 description: "4 steps to get your mix ready for mastering"
 soundcloud: "off"
@@ -9,7 +9,7 @@ coveralt: Sound wave
 cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/cover-blur_zpsfkucsqxl.png
 color: "text-light"
 caption: 
-tags: mastering
+tags: mixing mastering
 ---
 
 So, you're ready to Get Mastered! The following are steps you should make sure to take before you send me your mix:
