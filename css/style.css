@@ -696,6 +696,7 @@ Parallax
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 100;
+    background-color: #999;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -740,7 +741,7 @@ Parallax
 
 .btn-circle.btn-dark :hover i,
 .btn-circle.btn-dark :focus i{
-    color: #999;
+    color: #555;
 }
 
 .page-scroll .btn-circle i.animated {
