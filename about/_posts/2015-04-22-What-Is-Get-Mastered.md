@@ -19,11 +19,11 @@ Of course, I am lucky enough to know a lot of audio engineers with different typ
 
 **I created Get Mastered as a way for independent musicians to foster a direct, personal relationship with an experienced audio engineer, and make great sounding music, together.**
 
-As part of my whole vibe, **Get Mastered offers mastering services at rates that artists can actually afford.** Plus, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master and mix consultation](/free-master) without any commitment. That's how confident I am you'll love your mastered song.
+As part of our whole vibe, **Get Mastered offers mastering and mixing services at rates that artists can actually afford.** Plus, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master or mix](/free-master) without any commitment. That's how confident I am you'll love your mastered song.
 
-In part of my effort to help musicians, I am also fostering a blog devoted to helping artists produce their own music, that I will update periodically with performance, recording, and mixing advice. 
+We also offer audio restoration services for podcasts, voiceovers, and anything else audio related. Any time you want to make your audio better, we are here to help **(for inquiries on audio restoration, shoot us an email at <a href="mailto:services@getmastered.com?Subject=Other%20audio%20services" target="_top">services@getmastered.com</a>)**.
 
-Why mastering? To understand why I believe the mastering process to be a perfect time to get help making your music shine, read my next post on the blog, [What is Mastering?](/back-to-basics/What-Is-Mastering/).
+In part of my effort to help artists, I am also fostering a blog devoted to helping artists produce their own music, that I will update periodically with performance and recording advice. Be sure to check out the next post: [What is Mastering?](/back-to-basics/What-Is-Mastering/).
 
 
 
