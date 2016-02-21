@@ -1,9 +1,9 @@
 name: "Get Mastered"
-description: "Mastering and mix consultation"
+description: "Mastering, Free Mix Feedback"
 
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
 
-# url: "http://getmastered.com"
+url: "http://getmastered.com"
 
 gems:
   - jekyll-sitemap
