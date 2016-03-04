@@ -1,168 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://getmastered.com/back-to-basics/Preparing-Your-Mix/</loc>
-    <lastmod>2015-12-26T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/back-to-basics/What-Is-Mastering/</loc>
-    <lastmod>2015-10-31T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/about/What-Is-Get-Mastered/</loc>
-    <lastmod>2015-04-22T00:00:00-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/archive/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/berkley/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/blog/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/contact/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/automation/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/compression/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/depth/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/digital-audio/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/EQ/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/student/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/microphones/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/mixing/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/submit/stem-mastering/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/examples/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/free-master/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/neu/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/mastering/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/submit/mastering/student/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/submit/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/submit/mastering/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/submit/stem-mastering/student/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/directory/sound/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/thank-you/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://getmastered.com/search/</loc>
-    <lastmod>2016-02-26T00:11:33-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url>
+<loc>http://getmastered.com/back-to-basics/Preparing-Your-Mix/</loc>
+<lastmod>2015-12-26T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://getmastered.com/back-to-basics/What-Is-Mastering/</loc>
+<lastmod>2015-10-31T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://getmastered.com/about/What-Is-Get-Mastered/</loc>
+<lastmod>2015-04-22T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://getmastered.com/archive/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/berkley/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/blog/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/contact/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/automation/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/compression/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/depth/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/digital-audio/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/EQ/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/mastering/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/microphones/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/mixing/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/directory/sound/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/examples/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/free-master/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/student/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/mastering/student/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/mastering/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/stem-mastering/student/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/stem-mastering/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/subscriptions/Basic/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/subscriptions/Free/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/subscriptions/Pro/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/subscriptions/Value/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/subscriptions/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/thank-you/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/neu/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/search/</loc>
+</url>
 </urlset>

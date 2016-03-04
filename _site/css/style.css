@@ -107,11 +107,10 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 1px;
     color: #ffffff;
-	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
