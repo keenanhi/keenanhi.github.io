@@ -48,9 +48,6 @@ a {
     /*color: #28c3ab;*/
     color: #34AA83;
     font-weight: 600;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 
 a:hover,
