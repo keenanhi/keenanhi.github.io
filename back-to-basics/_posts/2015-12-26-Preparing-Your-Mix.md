@@ -3,7 +3,6 @@ subtitle: Back to Basics
 title: Preparing Your Mix For Mastering
 layout: post
 description: "4 steps to get your mix ready for mastering"
-soundcloud: "off"
 cover: http://i1045.photobucket.com/albums/b459/keenanhi/cover_zpsqphxxyhe.jpg
 coveralt: Sound wave
 cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/cover-blur_zpsfkucsqxl.png

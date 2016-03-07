@@ -60,7 +60,7 @@
       <h3 class="text-gray hidden-lg hidden-xl" style="font-size: 100%; text-transform: uppercase;">{{ page.subtitle }}</h3>
       <h3 class="text-gray hidden-md hidden-sm hidden-xs" style="font-size: 160%; text-transform: uppercase;">{{ page.subtitle }}</h3>
       <h1 class="{{ page.color }} hidden-lg hidden-xl" style="font-size: 11vw; text-transform: uppercase;">{{ page.title }}</h1>
-      <h1 class="{{ page.color }} hidden-md hidden-sm hidden-xs" style="font-size: 7vw; text-transform: uppercase;">{{ page.title }}</h1>
+      <h1 class="{{ page.color }} hidden-md hidden-sm hidden-xs" style="font-size: 500%; text-transform: uppercase;">{{ page.title }}</h1>
     <!-- </div> -->
   </div>
 <!--     <div>
@@ -91,11 +91,9 @@
       {% include disqus-comments.html %}
     </div>
   </div>
-    <div class="row-fluid hidden-lg hidden-xl">
-      {% include mailing-list-signup.html %}
-    </div>
+
     </div>
   </div>
 </div>
 
-<!-- {% include footer.html %} -->
+{% include footer-splash.html %}

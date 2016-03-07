@@ -3,7 +3,6 @@ subtitle: About the site
 title: What is Get Mastered?
 layout: post
 description: A quick description of Get Mastered
-soundcloud: "off"
 cover: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsum0bqwdt.jpg
 coveralt: interface
 cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsbxllc2tb.jpg
@@ -13,11 +12,13 @@ caption: "Some knobs of mine"
 
 My name is Keenan, and for all of my life I have had a passion for really, really great sounding music. 
 
-However, having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master a song that you are completely proud of. In my experience, there was always that special "extra something" missing, and I was quick to realize an easy way to fix this issue: all I needed was someone to help!
+However, having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master a song that you are completely proud of. In my experience, there was always that special "extra something" missing, and I was quick to realize an easy way to fix this issue: get someone to help!
+
+
 
 Of course, I am lucky enough to know a lot of audio engineers with different types of experience and tastes than I. But I know that a lot of musicians aren't quite that fortunate, and Get Mastered is my way of helping those musicians.
 
-**I created Get Mastered as a way for independent musicians to foster a direct, personal relationship with an experienced audio engineer, and make great sounding music, together.**
+**I created Get Mastered as a way for independent musicians to foster a direct relationship with an experienced audio engineer, and make great sounding music, together.**
 
 As part of our whole vibe, **Get Mastered offers mastering services at rates that artists can actually afford.** Plus, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master](/) without any commitment. That's how confident I am you'll love your mastered song.
 
