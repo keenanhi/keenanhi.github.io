@@ -8,6 +8,7 @@ coveralt: interface
 cover-blur: http://i1045.photobucket.com/albums/b459/keenanhi/bg3_zpsbxllc2tb.jpg
 color: "text-light"
 caption: "Some knobs of mine"
+tags: mastering
 ---
 
 My name is Keenan, and for all of my life I have had a passion for really, really great sounding music. I grew up recording music and have never looked back, receiving a degree in Electrical Engineering and Music Recording. I'm of course also an active musician, singing and playing guitar in a band, and dabbling in whatever else I can get my hands on.
