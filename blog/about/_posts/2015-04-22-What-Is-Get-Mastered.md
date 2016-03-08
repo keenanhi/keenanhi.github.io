@@ -18,7 +18,7 @@ Unfortunately, typical mastering services were expensive for my budget, and all 
 
 I believe the mastering process to be not only an important final step for gluing a track together and adding volume, but to be an important (and oft missed) opportunity to receive mixing feedback and grow as a producer.
 
-**That is why I created Get Mastered, as a way for independent musicians and recording hobbyists to foster a direct relationship with an experienced audio engineer, and make great sounding music, together.**
+#### That is why I created Get Mastered, as a way for independent musicians and recording hobbyists to foster a direct relationship with an experienced audio engineer, and make great sounding music, together.
 
 As part of our whole vibe, **Get Mastered offers mastering services at rates that artists can actually afford.** After extensive data collection, I have set my rates to sit around what musicians consider a fair price, and offer different packages for different budgets. In addition to this, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master](/) without any commitment. That's how confident I am you'll love working with us.
 
@@ -26,4 +26,4 @@ We also offer services for anything else audio related. Whether it be for your p
 
 Despite our extensive experience with audio, we are in our humble beginnings as a business, so please let us know if you see anything you think we can improve. Whether they be technological, or concerning any part of our service, shoot all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Other%20audio%20services" target="_top">services@getmastered.com</a>.
 
-### Here's to making great music, together!
+## Here's to making great music, together!
