@@ -59,6 +59,48 @@ a:focus {
     text-decoration: none;
     color: #176e61;
 }
+.social{
+  background-color: #777;
+}
+.social:hover{
+  background-color: #34AA83;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+/*
+}
+.soundcloud{
+  background-color: #fff;
+}
+.soundcloud:hover{
+  background-color: #34AA83;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+}
+.instagram{
+  background-color: #777;
+}
+.instagram:hover{
+  background-color: #34AA83;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+}
+.twitter{
+  background-color: #777;
+}
+.twitter:hover{
+  background-color: #34AA83;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}*/
 
 .light {
     font-weight: 400;
