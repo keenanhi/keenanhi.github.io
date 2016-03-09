@@ -53,11 +53,11 @@
         <li><a href="/#rates">Rates</a></li>
         <li><a href="/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
-        <li><a href="/login/">Login</a></li>
+        <li><a href="/login/">Log In</a></li>
         <!-- <li><a href="/subscriptions/">Subscribe</a></li> -->
         <li class="hidden-sm hidden-xs hidden-md"><a href="/submit/mastering/">Submit</a></li>
         <li class="hidden-lg hidden-xl"><a href="/contact/">Contact</a></li>
-        <!-- <li class="hidden-sm hidden-xs hidden-md"><a href="/blog/">Blog</a></li> -->
+        <li class="hidden-sm hidden-xs hidden-md"><a href="/blog/">Blog</a></li>
         <!-- <li class="active"><a href="/blog/">Blog</a></li> -->
         <!-- <li><a href="/archive/">Post Archive</a></li> -->
       </ul>
@@ -90,102 +90,115 @@
 
 
 
-<div style="padding: 40px; margin: 0px;">
-    </div>
+      <section id="Services" align="center">
 
-<div class="row equal bg-white" style="padding: 0px; margin: 0px;">
-  <div class="col-lg-3 sidebar bg-white hidden-md hidden-sm hidden-xs" style="padding: 0px; margin: 0px;">
-    <div data-spy="affix" data-offset-top="0">
-    <div>
-      <!DOCTYPE html>
+<div class="col-lg-12 bg-white" style="padding: 120px 10% 0px 10%; margin: 0px;">
+<div class="row">
 
-
-<section class="bg-white" style="padding: 5px 5px 5px 60px; margin: 0px; text-align: right;">
-
-<h4 style="color: #777; display: inline; text-transform: uppercase;">
-    What is Get Mastered?
-</h4>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is an affordable audio mastering service with feedback to help you grow your production skills - 
-
-<span><a href="/blog/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br><br></p>
-
-<!-- <h4 style="color: #777; display: inline;">
-    Who Am I?</h4>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-My name is Keenan and I've been mastering, mixing, and recording music for six years. 
-<span><a href="/about/Who-Am-I/" style="color: #aaa;">More about me</a>
-<br><br></p> -->
-
-<h4 style="color: #777; display: inline; text-transform: uppercase;">
-    Want a free master?
-</h4>
-<p> <a style="font-size: 15px;" target="_blank" href="/">Connect with your engineer right now</a></p>
-
+<h1 style="font-size: 400%; color: #000; text-align: center;">Ready? </h1>
 <br>
+<!-- <p style="font-size: 22px; color: #000;">
+  Send me high quality bounces of your mixes using the form below. Make sure to read my post on <a href="/back-to-basics/Preparing-Your-Mix/">Preparing Your Mixes For Mastering</a> so that I can get you the best master possible!
+</p> -->
 
 
+<p style="font-size: 20px;">
+
+            Select your service below. If you are a paying subscriber, please contact your engineer directly.<br><br>
+          </p>
+
+<div class="col-lg-6 bg-white">
+<script type='text/javascript' src="https://www.paywhirl.com/js/widget.js"></script>
+<iframe frameBorder="0" style='width:100%; height:auto; border:0; overflow:hidden;' id='paywhirl_frame' scrolling='no' src="https://www.paywhirl.com/widget/payment-form/3978?api_key=PW6392B71ECD91B0F440C49FD26F6A9625"></iframe>
+</div>
+
+<div class="col-lg-6 bg-white">
+<script type='text/javascript' src="https://www.paywhirl.com/js/widget.js"></script>
+<iframe frameBorder="0" style='width:100%; height:auto; border:0; overflow:hidden;' id='paywhirl_frame' scrolling='no' src="https://www.paywhirl.com/widget/payment-form/4023?api_key=PW6392B71ECD91B0F440C49FD26F6A9625"></iframe>
+
+</div>
+</div>
+<div class="row">
 
 
+          <p style="font-size: 20px;"><b>Having issues? On mobile? Have another query?</b> Reach out to us using the form below:
+      <br>
+    </p>
 
-<h4 style="color: #777; display: inline; text-transform: uppercase;">Learn about:</h4>
+            <div class="boxed-grey">
+                <form id="contact-form" method="POST" action="http://formspree.io/keenan.hye@getmastered.com">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Enter email" required="required" style=" text-align: left;"/></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="Get Mastered: Submission">Mastering</option>
+                                <option value="Get Mastered: Other">Mix Feedback</option>
+                                <option value="Get Mastered: Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Your message here" style=" text-align: left;"></textarea>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_next" value="/thank-you" />
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                            Submit</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <br><br>
+
+            <p>You can also send your files, questions, and concerns directly to <a href="mailto:services@getmastered.com">services@getmastered.com</a></p>
 
 
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-
-
-    <a style="color: #ccc;" href="/directory/mastering/">
-        mastering
-        
-    </a>
-
-
-</p>
-
- <form action="/search" method="GET" style="padding: 10px 0px 10px 20px;">
- 		<!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
-              <input style="font-size: 13px;" type="text" name="query" placeholder="Or search a term">
-            </form>
-
-            <br>
-
-            <!-- <h4 style="color: #777; display: inline; text-transform: uppercase;">
-    Get Social
-</h4>
-
-<br>
-<a target="_blank" href="http://www.facebook.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-FB.png" width="30px" height="30px"> </a>
-
-<a target="_blank" href="http://www.soundcloud.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-SC.png" width="30px" height="30px"> </a>
-
-<a target="_blank" href="http://www.twitter.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-Twit.png" width="30px" height="30px"> </a>
-<br>
-<br> -->
-
-<!-- <p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p> -->
-
-</section>
-    </div>
-    </div>
-  </div>
-  <div class="col-lg-9 bg-white" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
-    <div class="row-fluid" style="color: #000;">
-      <section id="sound-waves">
-	<div class="row-fluid" style="padding: 8px 0px 700px 0px;">
-		<h3>Automation Posts</h3>
-
+</div>
 </div>
 
 </section>
-    </div>
 
-	</div>
-</div>
+    <!-- Core JavaScript Files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>  
+      <script src="/js/jquery.scrollTo.js"></script>
+      <script src="/js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/custom.js"></script>
+
+</body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MSTFPS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSTFPS');</script>
+<!-- End Google Tag Manager -->
 
 
-    
+</html>
+
+          
 
 
     </div>

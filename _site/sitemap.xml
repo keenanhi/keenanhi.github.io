@@ -50,6 +50,9 @@
 <loc>http://getmastered.com/free-master/</loc>
 </url>
 <url>
+<loc>http://getmastered.com/login/</loc>
+</url>
+<url>
 <loc>http://getmastered.com/</loc>
 </url>
 <url>
@@ -60,6 +63,9 @@
 </url>
 <url>
 <loc>http://getmastered.com/submit/mastering/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/submit/payment/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/submit/stem-mastering/student/</loc>
