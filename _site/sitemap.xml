@@ -50,7 +50,16 @@
 <loc>http://getmastered.com/free-master/</loc>
 </url>
 <url>
+<loc>http://getmastered.com/login/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/mastering/album/</loc>
+</url>
+<url>
 <loc>http://getmastered.com/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/mastering/single/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/neu/</loc>
@@ -77,7 +86,7 @@
 <loc>http://getmastered.com/subscriptions/basic/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/subscriptions/free/</loc>
+<loc>http://getmastered.com/subscriptions/budget/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/subscriptions/pro/</loc>
@@ -92,7 +101,7 @@
 <loc>http://getmastered.com/thank-you/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/login/</loc>
+<loc>http://getmastered.com/mastering/ep/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/search/</loc>
