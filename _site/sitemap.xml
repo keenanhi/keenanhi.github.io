@@ -8,9 +8,6 @@
 <loc>http://getmastered.com/archive/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/berkley/</loc>
-</url>
-<url>
 <loc>http://getmastered.com/blog/</loc>
 </url>
 <url>
@@ -47,9 +44,6 @@
 <loc>http://getmastered.com/examples/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/free-master/</loc>
-</url>
-<url>
 <loc>http://getmastered.com/login/</loc>
 </url>
 <url>
@@ -60,9 +54,6 @@
 </url>
 <url>
 <loc>http://getmastered.com/mastering/single/</loc>
-</url>
-<url>
-<loc>http://getmastered.com/neu/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/payment/master-1/</loc>
@@ -80,10 +71,10 @@
 <loc>http://getmastered.com/payment/master-13/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/</loc>
+<loc>http://getmastered.com/payment/master-14/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/master-15/</loc>
+<loc>http://getmastered.com/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/payment/master-16/</loc>
@@ -122,9 +113,6 @@
 <loc>http://getmastered.com/payment/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/student/</loc>
-</url>
-<url>
 <loc>http://getmastered.com/submit/mastering/</loc>
 </url>
 <url>
@@ -152,7 +140,7 @@
 <loc>http://getmastered.com/thank-you/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/master-14/</loc>
+<loc>http://getmastered.com/payment/master-15/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/search/</loc>
