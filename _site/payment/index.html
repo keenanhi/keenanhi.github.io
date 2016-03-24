@@ -51,10 +51,10 @@
       <ul class="nav navbar-nav" style="text-align: left; padding-left: 0px;">
         <li><a href="/#about">About</a></li>
         <li><a href="/#rates">Rates</a></li>
-        <!-- <li><a href="/#memberships">Memberships</a></li> -->
+        <li><a href="/#memberships">Memberships</a></li>
         <li><a href="/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
-        <!-- <li><a href="/login/">Login</a></li> -->
+        <li><a href="/login/">Login</a></li>
         <!-- <li><a href="/subscriptions/">Subscribe</a></li> -->
         <!-- <li class="hidden-sm hidden-xs hidden-md"><a href="/submit/mastering/">Submit</a></li> -->
         <li class="hidden-lg hidden-xl"><a href="/contact/">Contact</a></li>
@@ -95,7 +95,86 @@
 
 <div class="col-lg-12 bg-white" style="padding: 120px 10% 0px 10%; margin: 0px;">
 
-<p>work in progress - stay tuned!</p>
+
+<!-- <link rel="stylesheet" href="https://embed.calculoid.com/styles/main.css" />
+<script src="https://embed.calculoid.com/scripts/combined.min.js"></script>
+<div ng-app="calculoid" ng-controller="CalculoidMainCtrl" ng-init="init({calcId:10445,apiKey:'56f2cacd6fbd1'})" ng-include="load()"></div>
+ -->
+
+<div class="row">
+	<div class="col-xs-12">
+		<h3>How many songs do you need mastered?</h3>
+
+<p>Enter the number of songs in your project</p>
+
+<input id="numb">
+
+<button type="btn" onclick="priceCalc()">Calculate Price</button>
+
+<p id="error" style="font-weight: 700;"></p>
+<p id="price" style="font-weight: 700;"></p>
+<p id="frees" style="font-weight: 700;"></p>
+
+<center>
+<a id="purchase" class="btn btn-skin" style="width: 20%; height: 50px; font-size: 18px; padding-top: 10px; display: none;"></a>
+</center>
+<br>
+
+<script>
+function priceCalc() {
+    var x, textError, textPrice, textFrees, quant, price, frees;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1) {
+        textError = "Ummm... maybe you meant another number?";
+            document.getElementById("error").innerHTML = textError;
+            document.getElementById("price").innerHTML = "";
+            document.getElementById("frees").innerHTML = "";
+            document.getElementById("purchase").style.display = "none";
+    } else if (x > 18){
+    	textError = "That's sure a lot of songs! For orders larger than 18 songs, we may be able to give you even lower rates per song. Email your engineer for more information";
+    	    document.getElementById("error").innerHTML = textError;
+    	    document.getElementById("price").innerHTML = "";
+            document.getElementById("frees").innerHTML = "";
+            document.getElementById("purchase").style.display = "none";
+    }
+
+    else {
+    	document.getElementById("error").innerHTML = "";
+    	if (x > 0 && x < 4){
+    		price = x*36;
+    	} else if (x > 3 && x < 7){
+    		price = x*33;
+    	}
+    	else{
+    		price = x*29;
+    	}
+    	frees = x/3;
+    	textPrice = price.toString();
+    	textFrees = frees.toFixed(2);
+    	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
+    document.getElementById("frees").innerHTML = "Free Master Credits: ".concat(textFrees);
+
+    document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
+    document.getElementById("purchase").innerHTML = "Checkout";
+    document.getElementById("purchase").style.display = "block";
+
+
+        // text = "Input OK";
+    }
+    
+}
+</script>
+
+<!-- 		<a class="btn btn-skin" style="width: 100%; height: 50px; font-size: 18px; padding-top: 10px;" href="/payment/master-1/">Purchase</a> -->
+	</div>
+</div>
+
+
+
 
 </div>
 
