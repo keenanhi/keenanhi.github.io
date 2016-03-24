@@ -18,20 +18,24 @@ layout: splash
 	<div class="col-xs-12">
 		<h3>How many songs do you need mastered?</h3>
 
+
 <p>Enter the number of songs in your project</p>
 
 <input id="numb">
 
 <button type="btn" onclick="priceCalc()">Calculate Price</button>
 
-<p id="error" style="font-weight: 700;"></p>
-<p id="price" style="font-weight: 700;"></p>
-<p id="frees" style="font-weight: 700;"></p>
+<p id="error" style="font-weight: 700; font-size: 24px;"></p>
+<p id="price" style="font-weight: 700; font-size: 24px;"></p>
+<p id="frees" style="font-weight: 700; font-size: 24px;"></p>
 
 <center>
 <a id="purchase" class="btn btn-skin" style="width: 20%; height: 50px; font-size: 18px; padding-top: 10px; display: none;"></a>
 </center>
 <br>
+
+<br>
+<h5><a href="/payment/mix-feedback/">(or are you looking for Mix Feedback?)</a></h5>
 
 <script>
 function priceCalc() {
@@ -69,7 +73,7 @@ function priceCalc() {
     	textPrice = price.toString();
     	textFrees = frees.toFixed(2);
     	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
-    document.getElementById("frees").innerHTML = "Free Master Credits: ".concat(textFrees);
+    document.getElementById("frees").innerHTML = "Free Master Credits: +".concat(textFrees);
 
     document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
     document.getElementById("purchase").innerHTML = "Checkout";

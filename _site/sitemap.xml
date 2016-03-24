@@ -74,10 +74,10 @@
 <loc>http://getmastered.com/payment/master-14/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/</loc>
+<loc>http://getmastered.com/payment/master-15/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/master-16/</loc>
+<loc>http://getmastered.com/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/payment/master-17/</loc>
@@ -110,6 +110,9 @@
 <loc>http://getmastered.com/payment/master-9/</loc>
 </url>
 <url>
+<loc>http://getmastered.com/payment/mix-feedback/</loc>
+</url>
+<url>
 <loc>http://getmastered.com/payment/</loc>
 </url>
 <url>
@@ -140,7 +143,7 @@
 <loc>http://getmastered.com/thank-you/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/master-15/</loc>
+<loc>http://getmastered.com/payment/master-16/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/search/</loc>
