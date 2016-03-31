@@ -34,10 +34,11 @@ p {
     /*font-size: 20px;*/
     font-size: 120%;
     line-height: 1.6em;
+    font-weight: 400;
 }
 
 p.lead {
-	font-weight: 600;
+	font-weight: 900;
 }
 
 ul {
