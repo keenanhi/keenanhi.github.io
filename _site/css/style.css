@@ -1,5 +1,5 @@
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700');
 
 body {
     width: 100%;
@@ -69,39 +69,6 @@ a:focus {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-/*
-}
-.soundcloud{
-  background-color: #fff;
-}
-.soundcloud:hover{
-  background-color: #34AA83;
-  -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-}
-.instagram{
-  background-color: #777;
-}
-.instagram:hover{
-  background-color: #34AA83;
-  -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-}
-.twitter{
-  background-color: #777;
-}
-.twitter:hover{
-  background-color: #34AA83;
-  -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}*/
 
 .light {
     font-weight: 400;
@@ -302,38 +269,9 @@ a:focus {
   animation: shadowSpin 1s ease-in-out infinite;
 }
 
-/* misc */
-hr {
-  margin-top: 10px;
-}
-
-/* margins */
-.marginbot-0{margin-bottom:0 !important;}
-.marginbot-10{margin-bottom:10px !important;}
-.marginbot-20{margin-bottom:20px !important;}
-.marginbot-30{margin-bottom:30px !important;}
-.marginbot-40{margin-bottom:40px !important;}
-.marginbot-50{margin-bottom:50px !important;}
-
 /* ===========================
 --- General sections
 ============================ */
-
-.home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
-	display:block;
-    position:relative;
-    z-index:120;
-}
-
-
-.section-heading h2 {
-	font-size: 42px;
-}
-.section-heading i {
-	margin-bottom: 20px;
-}
 
 
 /* --- section bg var --- */
@@ -377,221 +315,6 @@ hr {
   color: #097E58;
 }
 
-/* --- big picture section colors --- */
-
-.big-color{
-  color: #3C6FA7;
-}
-
-.big-color-light{
-  color: #5D8BBF;
-}
-
-.big-color-lighter{
-  color: #8CB1DA;
-}
-
-.big-color-dark{
-  color: #235C9B;
-}
-
-.big-color-darker{
-  color: #12447B;
-}
-
-/* --- back to basics section colors --- */
-
-.back-color{
-  color: #FFB94E;
-}
-
-.back-color-light{
-  color: #FFC771;
-}
-
-.back-color-lighter{
-  color: #FFD89C;
-}
-
-.back-color-dark{
-  color: #EE9F25;
-}
-
-.back-color-darker{
-  color: #BD780D;
-}
-
-/* --- digging in section colors --- */
-
-.digging-color{
-  color: #FF8A4E;
-}
-
-.digging-color-light{
-  color: #FFA171;
-}
-
-.digging-color-lighter{
-  color: #FFBD9C;
-}
-
-.digging-color-dark{
-  color: #EE6925;
-}
-
-.digging-color-darker{
-  color: #BD480D;
-}
-
-/* --- section color var --- */
-
-.text-light {
-	color: #fff;
-}
-
-.text-gray {
-  color: #ccc;
-}
-
-
-
-/* ===========================
---- Intro
-============================ */
-
-.intro {
-	max-width:100%;
-  height: auto;
-	position:relative;
-	background: url(/img/bg1.jpg) no-repeat top center;
-  background-size: cover; 
-  background-attachment: fixed;
-}
-
-#intro.intro {
-	padding: 10% 0 10% 0;
-}
-
-.intro .slogan {
-	text-align: center;
-  vertical-align: top;
-}
-
-.intro .page-scroll {
-	text-align: center;
-}
-
-.brand-heading {
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-.intro-text {
-    font-size: 18px;
-}
-
-.intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 100px;
-	line-height: 110px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
-}
-
-.intro .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
-  text-transform: uppercase;
-}
-
-
-/* ===========================
---- About
-============================ */
-
-.boxed-grey {
-	background: #EAEAE8;
-	padding: 20px;
-}
-
-.team h5 {
-	margin-bottom: 10px;
-}
-
-.team p.subtitle {
-	margin-bottom: 10px;
-}
-
-.avatar {
-	margin-bottom: 20px;
-}
-
-.team-social {
-	margin-left: 0;
-	padding-left: 0;
-	
-}
-
-.team-social {
-	text-align: center;
-}
-
-.team-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.team-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.team-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
-
-
-/* ===========================
---- Services
-============================ */
-
-.service-icon {
-	margin-bottom: 20px;
-}	
-
-
 
 /* ===========================
 --- Contact
@@ -624,71 +347,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 .widget-contact {
 	text-align: center;
-}
-
-
-.company-social {
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: 10px;
-}
-
-.company-social {
-	text-align: center;
-}
-
-.company-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.company-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.company-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.company-social .social-facebook a{background: #3873ae;}
-.company-social .social-twitter a{background: #62c6f8;}
-.company-social .social-dribble a{background: #d74980;}
-.company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
-.company-social .social-vimeo a{background: #51a6d3;}
-.company-social .social-facebook a:hover{background: #4893ce;}
-.company-social .social-twitter a:hover{background: #82e6ff;}
-.company-social .social-dribble a:hover{background: #f769a0;}
-.company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
-.company-social .social-vimeo a:hover{background: #71c6f3;}
-
-
-
-/* ===========================
---- Footer
-============================ */
-
-footer {
-	text-align: center;
-	padding: 10px 0 ;
-	
-}
-
-footer p {
-	color: #f8f8f8;
 }
 
 /* ==========================
@@ -744,66 +402,6 @@ Parallax
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
-
-
-.btn-circle {
-    width: 150px;
-    height: 150px;
-    margin-top: 0px;
-    /*margin-left: 0px;*/
-    padding: 20px 0px;
-    border: 0px solid #fff;
-    border-radius: 50%;
-    font-size: 120px;
-    color: #aaa;
-    background: 0 0;/*
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;*/
-}
-
-.btn-circle.btn-dark {
-    border: 0px solid #666;
-    color: #666;
-}
-
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #56C29F;
-    background: rgba(255,255,255,0);
-}
-
-.btn-circle.btn-dark :hover,
-.btn-circle.btn-dark :focus {
-    outline: 0;
-    color: #999;
-    background: #fff;
-}
-
-.btn-circle.btn-dark :hover i,
-.btn-circle.btn-dark :focus i{
-    color: #555;
-}
-
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
 }
 
 @-webkit-keyframes pulse {    
@@ -867,15 +465,6 @@ Parallax
     outline: 0;
     color: #000;
     background-color: #34AA83;
-}
-
-.btn-huge {
-    padding: 25px;
-    font-size: 26px;
-}
-
-.banner-social-buttons {
-    margin-top: 0;
 }
 
 
@@ -1028,53 +617,6 @@ Parallax
 		font-size: 20px;
 	}
 	
-}
-/*
-@media (max-width:480px) {
-
-.navbar-brand {
-  height: 40px;
-  font-size: 14px;
-  line-height: 1em;
-}
-
-.navbar-brand h1{
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.navbar-brand h4{
-  font-size: 10px;
-  line-height: 10px;
-}
-
-  .intro {
-  width:100%;
-  height:80%;
-  position:relative;
-}
-
-#intro.intro {
-  padding: 20% 10% 40% 10%;
-}
-
-.intro .slogan h2 {
-  font-size: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-
-.intro .slogan h4 {
-  font-size: 10px;
-}
-
-
-  }*/
-
-
-.row.equal [class*="col-"]{
- /* margin-bottom: -99999px;
-  padding-bottom: 99999px;*/
 }
 
 .row.equal{
