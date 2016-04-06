@@ -33,6 +33,7 @@ layout: splash
 <p id="error" style="font-weight: 700; font-size: 24px; color: #333;"></p>
 <p id="price" style="font-weight: 700; font-size: 24px; color: #333;"></p>
 <p id="frees" style="font-weight: 700; font-size: 24px; color: #333;"></p>
+<p id="savings" style="font-weight: 700; font-size: 24px; color: #FFB94E;"></p>
 
 <center>
 <a id="purchase" class="btn btn-skin" style="width: 40%; height: 50px; font-size: 120%; padding-top: 10px; display: none;"></a>
@@ -58,26 +59,34 @@ function priceCalc() {
             document.getElementById("error").innerHTML = textError;
             document.getElementById("price").innerHTML = "";
             document.getElementById("frees").innerHTML = "";
+            document.getElementById("savings").innerHTML = "";
             document.getElementById("purchase").style.display = "none";
     } else if (x > 18){
     	textError = "That's sure a lot of songs! For orders larger than 18 songs, we may be able to give you even lower rates per song. Email your engineer for more information";
     	    document.getElementById("error").innerHTML = textError;
     	    document.getElementById("price").innerHTML = "";
             document.getElementById("frees").innerHTML = "";
+            document.getElementById("savings").innerHTML = "";
             document.getElementById("purchase").style.display = "none";
     }
 
     else {
+        frees = x/3;
     	document.getElementById("error").innerHTML = "";
     	if (x > 0 && x < 4){
     		price = x*36;
+            sav = frees*36;
+            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
     	} else if (x > 3 && x < 7){
     		price = x*33;
+            sav = frees*36 + 3*x;
+            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
     	}
     	else{
     		price = x*29;
+            sav = frees*36 + 7*x;
+            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
     	}
-    	frees = x/3;
     	textPrice = price.toString();
     	textFrees = frees.toFixed(2);
     	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
@@ -86,6 +95,7 @@ function priceCalc() {
     document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
     document.getElementById("purchase").innerHTML = "Purchase";
     document.getElementById("purchase").style.display = "block";
+
 
 
         // text = "Input OK";
