@@ -402,6 +402,7 @@ Parallax
     font-weight: 400;
     background-color: #bbb;
     font-size: 90%;
+    color: #fff;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;

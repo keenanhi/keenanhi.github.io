@@ -236,41 +236,77 @@ Connect with your engineer by entering your email below:</b></p> -->
 
 </p>
 
-<div class="col-md-6 col-xs-12" style="margin: 2% 0% 4% 0%;">
-  <h3>BEFORE:</h3>
-  <audio id="player"  controls>
+<div class="row-fluid" style="margin: 2% 0% 4% 0%;">
+  <h1 id="beforeAfter"><br></h1>
+  <audio id="player1" muted="true;" loop="true;" hidden  controls>
     <source src="/audio/UNMASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3" type="audio/mpeg">
       Your browser does not support the audio element.
   </audio>
-<!--
-  <button type="btn" onclick="audioToggle()">Toggle Audio</button>
 
-<script>
-function audioToggle() {
-  var player;
-  audio = document.getElementById("player")
-
-  if (audio.currentSrc == "/audio/UNMASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3"){
-    document.getElementById("player").currentSrc = "/audio/MASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3";
-  }
-  else {
-    document.getElementById("player").currentSrc = "/audio/UNMASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3";
-  } 
-
-}
-</script>
--->
-</div>
-<div class="col-md-6 col-xs-12" style="margin: 2% 0% 4% 0%;">
-  <h3>AFTER:</h3>
-  <audio controls>
+  <audio id="player2" muted="true;" loop="true;" hidden controls>
     <source src="/audio/MASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3" type="audio/mpeg">
       Your browser does not support the audio element.
   </audio>
+
+  <button class="btn btn-skin" id="playpause" type="btn" onclick="audioPlayPause()" style="font-size: 32px;">Play Example</button>
+  <br><br>
+  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden !important;">Toggle Before/After</button>
+
 <!-- <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/241187982&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
 <br>
 </div>
 
+
+<script>
+var playing = false;
+var p1, p2;
+
+  p1 = document.getElementById("player1");
+  p2 = document.getElementById("player2");
+
+function audioToggle() {
+
+  
+     if (p1.muted == true){
+      // mute only mastered
+      p1.muted = false;
+      // play unmastered
+      p2.muted = true;
+      document.getElementById("beforeAfter").innerHTML = "Before";
+    } else {
+      // mute only unmastered
+      p1.muted = true;
+      // play mastered
+      p2.muted = false;
+      document.getElementById("beforeAfter").innerHTML = "After";
+    }
+  
+
+}
+function audioPlayPause(){
+
+  if (playing == false) {
+    p1.muted = false;
+    p2.muted = true;
+    p1.play();
+    p2.play();
+    playing = true;
+    document.getElementById("toggle").style = "visibility: visible !important;";
+    document.getElementById("playpause").innerHTML = "Pause Audio";
+    document.getElementById("beforeAfter").innerHTML = "Before";
+  } else {
+    document.getElementById("player1").pause()
+    document.getElementById("player2").pause()
+    playing = false;
+    document.getElementById("playpause").innerHTML = "Play Audio";
+    document.getElementById("toggle").style = "visibility: hidden !important;";
+    document.getElementById("beforeAfter").innerHTML = "<br>";
+  }
+
+}
+</script>
+
+<div class="row-fluid">
 <p style="font-size: 16px;">
 
     <b>
@@ -282,13 +318,7 @@ function audioToggle() {
 
   <br>
   <br>
-  <!-- In addition to mastering, Get Mastered offers stem mastering, as well as other audio restoration services for podcasters, voiceovers, or anything else audio. <a target="_blank" href="/about/What-Is-Get-Mastered/">Click here for more about us.</a> -->
-<!-- 
-  <br>
-  <br>
-
-<a href="/free-master">Test the waters, and get a free master from your personal mastering engineer by clicking here!</a> -->
-
+</div>
 </div>
 </div>
 
