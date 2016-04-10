@@ -50,8 +50,8 @@
             <div class="collapse navbar-collapse navbar-left navbar-main-collapse col-lg-9">
       <ul class="nav navbar-nav" style="text-align: left; padding-left: 0px;">
         <li><a href="/#about">About</a></li>
-        <li><a href="/#rates">Rates</a></li>
-        <li><a href="/#memberships">Memberships</a></li>
+        <li><a href="/#mastering">Mastering</a></li>
+        <li><a href="/#mix-feedback">Mix Feedback</a></li>
         <li><a href="/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
         <li><a href="/payment/">Submit</a></li>
@@ -108,8 +108,7 @@
 		<h1>Our price calculator</h1>
 
 
-<p style="color: #333;">Enter the number of songs in your project in the field below to instantly calculate the price of your project, and the amount of Free Master Credits you will receive after your purchase. Free Master Credits can be used on any future project, and they never expire.
-
+<p style="color: #333;">Enter the number of songs in your project in the field below to instantly calculate the price of your project.
     <br>
     <br>
 </p>
@@ -130,9 +129,6 @@
 
 <br>
 <p style="color: #333;"><i>(Here's another hint for the coupon clippers out there: follow us on <a target="_blank" href="https://www.facebook.com/getmastered">Facebook</a>, <a target="_blank" href="https://www.instagram.com/getmastereddeals/">Instagram</a>, and <a target="_blank" href="https://twitter.com/getmastered">Twitter</a> for regular coupon codes to get an even better discount on your project!)</i><br></p>
-<br>
-<br>
-<h5><a href="/payment/mix-feedback/">Are you looking for Mix Feedback?</a></h5>
 
 <script>
 function priceCalc() {
@@ -162,23 +158,22 @@ function priceCalc() {
         frees = x/3;
     	document.getElementById("error").innerHTML = "";
     	if (x > 0 && x < 4){
-    		price = x*36;
-            sav = frees*36;
-            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
+    		price = x*62;
+            document.getElementById("savings").innerHTML = "";
     	} else if (x > 3 && x < 7){
-    		price = x*33;
-            sav = frees*36 + 3*x;
-            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
+    		price = x*59;
+            sav = 3*x;
+            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
     	}
     	else{
-    		price = x*29;
-            sav = frees*36 + 7*x;
-            document.getElementById("savings").innerHTML = "With Free Master Credits and quantity discounts, you save $".concat(sav.toString());
+    		price = x*57;
+            sav = 5*x;
+            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
     	}
     	textPrice = price.toString();
     	textFrees = frees.toFixed(2);
     	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
-    document.getElementById("frees").innerHTML = "Free Master Credits: +".concat(textFrees);
+    // document.getElementById("frees").innerHTML = "Free Master Credits: +".concat(textFrees);
 
     document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
     document.getElementById("purchase").innerHTML = "Purchase";

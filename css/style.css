@@ -467,8 +467,8 @@ Parallax
 .btn-default:focus {
     /*border: 0px solid #28c3ab;*/
     outline: 0;
-    color: #000;
-    background-color: #34AA83;
+    color: #fff;
+    background-color: #56C29F !important;
 }
 
 
