@@ -23,8 +23,8 @@ I believe the mastering process to be not only an important final step for gluin
 
 #### That is why I created Get Mastered, as a way for independent musicians and recording hobbyists to foster a direct relationship with an experienced audio engineer, and make great sounding music, together.
 
-I set out to make Get Mastered affordable for serious musicians, and after extensive data collection from clients, I have based my rates off of what musicians consider fair rates for professional mastering. In addition to this, Get Mastered is the *only* place where you can test the waters, and get an [absolutely, no joke, 100% free master](/) without any commitment. That's how confident I am you'll love working with us.
+I set out to make Get Mastered affordable for serious musicians, and after extensive data collection from clients, I have based my rates off of what musicians consider fair rates for professional mastering. In addition to this, Get Mastered is the *only* place where you can test the waters, and get an [absolutely free master](/) without any commitment. That's how confident I am you'll love working with us.
 
-Despite our extensive experience with audio, we are in our humble beginnings as a business, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, shoot all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Other%20audio%20services" target="_top">services@getmastered.com</a>. I hear we give out coupons for that kind of stuff...
+Despite our extensive experience with audio, we are just launching our service, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, shoot all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Other%20audio%20services" target="_top">services@getmastered.com</a>. I hear we give out coupons for that kind of stuff...
 
 ## Here's to making great music, together!
