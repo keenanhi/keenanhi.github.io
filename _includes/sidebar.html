@@ -3,38 +3,41 @@
 
 <section class="bg-white" style="padding: 5px 5px 5px 60px; margin: 0px; text-align: right;">
 
-<h4 style="color: #777; display: inline; text-transform: uppercase;">
-    What is Get Mastered?
-</h4>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is an affordable audio mastering service with feedback to help you grow your production skills - 
-
-<span><a href="/blog/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br><br></p>
-
-<!-- <h4 style="color: #777; display: inline;">
-    Who Am I?</h4>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-My name is Keenan and I've been mastering, mixing, and recording music for six years. 
-<span><a href="/about/Who-Am-I/" style="color: #aaa;">More about me</a>
-<br><br></p> -->
-
-<h4 style="color: #777; display: inline; text-transform: uppercase;">
-    Want a free master?
-</h4>
-<p> <a style="font-size: 15px;" target="_blank" href="/">Connect with your engineer right now</a></p>
-
+<!--     <h4 style="color: #777; display: inline; text-transform: uppercase;">
+    <a href="/blog/">Blog home</a></h4>
 <br>
+<br> -->
 
-
-
-
-
-<h4 style="color: #777; display: inline; text-transform: uppercase;">Learn about:</h4>
-
+<h5 style="color: #777; display: inline; text-transform: uppercase;">
+    What is Get Mastered?
+</h5>
 
 <p style="color: #999; font-size: 15px; padding-top: 5px;">
+Get Mastered is an audio improvement and mastering service with Mix Feedback - 
+
+<span><a href="/blog/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br></p>
+
+
+<br><h5 style="color: #777; display: inline; text-transform: uppercase;">
+    Who Are we?</h5>
+
+<p style="color: #999; font-size: 15px; padding-top: 5px;">
+We are passionate engineers looking to reinvigorate the human side of mastering - 
+<span><a href="/blog/about/Who-We-Are/" style="color: #aaa;">More about us</a>
+<br><br></p>
+
+
+
+<h5 style="color: #777; display: inline; text-transform: uppercase;">
+    <a href="/">Try us out for free</a><br><br><br>
+</h5>
+
+
+
+<h5 style="color: #777; display: inline; text-transform: uppercase;">Learn about</h5>
+
+
+<p style="color: #999; font-size: 15px; padding: 5px 0px 0px 0px;">
 
 {% for tag in site.tags %}
     <a style="color: #ccc;" href="/directory/{{ tag | first | slugize }}/">
@@ -47,12 +50,17 @@ My name is Keenan and I've been mastering, mixing, and recording music for six y
 
 </p>
 
- <form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 10px 0px 10px 20px;">
+ <form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 0px 0px 10px 20px;">
  		<!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
-              <input style="font-size: 13px;" type="text" name="query" placeholder="Or search a term">
+              <input style="font-size: 13px;" type="text" name="query" placeholder="Or, search a term">
             </form>
 
             <br>
+
+
+
+
+<br>
 
             <!-- <h4 style="color: #777; display: inline; text-transform: uppercase;">
     Get Social
