@@ -34,7 +34,7 @@
       <a class="master-color-light" href="/blog/">BLOG HOME</a>
         {% if page.previous.title != null %}
          | Go Back:
-        <a class="master-color-light" href="{{ page.previous.url }}">< {{ page.previous.title }}</a>
+        <a class="master-color-light" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
         {% endif %}
         {% if page.previous.title == null %}
         {% if page.next.title != null %}
@@ -43,7 +43,7 @@
         {% endif %}
         {% if page.next.title != null %}
          | Next Up:
-        <a class="master-color-light" href="{{ page.next.url }}">{{ page.next.title }} ></a> 
+        <a class="master-color-light" href="{{ page.next.url }}">{{ page.next.title }}</a> 
         {% endif %}
       </h5>
     </div>
