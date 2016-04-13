@@ -8,8 +8,12 @@ layout: default
 {% for post in paginator.posts %}
   <div class="row-fluid" style="border-style: none none inset none;">
       {% if forloop.index == 1 %}
-      <div class="row-fluid" style="background: url({{ post.cover }}) no-repeat center center;   background-size: cover; padding: 30%; filter        : brightness(50%);
+      <div class="row-fluid hidden-xs hidden-sm hidden-md" style="background: url({{ post.cover }}) no-repeat center center;   background-size: cover; padding: 10%; filter        : brightness(50%);
     -webkit-filter: brightness(50%);" ></div>
+
+    <div class="row-fluid hidden-lg hidden-xl" style="background: url({{ post.cover }}) no-repeat center center;   background-size: cover; padding: 30%; filter        : brightness(50%);
+    -webkit-filter: brightness(50%);" ></div>
+
           <a class="hidden-xs hidden-sm hidden-md" href="{{ post.url }}"><h1 style="padding-left: 2%; position: absolute; top: 0px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="font-size: 200%; text-transform: uppercase; color: #fff;">{{ post.title }}<br><br><br><br></span></h1></a>
           <a class="hidden-xl hidden-lg" href="{{ post.url }}"><h1 style="padding-left: 2%; position: absolute; top: 0px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="text-transform: uppercase; color: #fff;">{{ post.title }}<br><br><br><br></span></h1></a>
           <!-- <a href="{{ post.url }}" style></a> -->
@@ -32,15 +36,15 @@ layout: default
         
         <div class="row">
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 hidden-xs hidden-sm hidden-md">
         {% if post.cover != "off" %}
-          <a href="{{ post.url }}"><img src="{{ post.cover }}" alt="page.coveralt" style="max-width: 100%; padding: 20px 0px 30px 0px;"></a>
+          <a href="{{ post.url }}"><img  src="{{ post.cover }}" alt="page.coveralt" style="max-width: 100%; padding: 20px 0px 30px 0px;"></a>
         {% elsif post.soundcloud != "off" %}
           <iframe width="95%" height="400" scrolling="no" frameborder="no" src={{ post.soundcloud }}></iframe>
         {% endif %}
         </div>
 
-      <div class="col-lg-9" style="padding-top: 20px;">
+      <div class="col-md-9 col-xs-12" style="padding-top: 20px;">
         <h1><a class="master-color-light" href="{{ post.url }}"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br>{{ post.title }}</a></h1>
         <p>
         {{ post.description }} - 
