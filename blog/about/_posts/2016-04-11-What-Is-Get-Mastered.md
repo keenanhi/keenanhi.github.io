@@ -9,20 +9,16 @@ cover: http://i1045.photobucket.com/albums/b459/keenanhi/mic_zpsfv4lb5bd.jpg
 coveralt: interface
 ---
 
-My name is Keenan, and for all of my life I have had a passion for really, really great sounding music. I grew up recording music and have never looked back, receiving a degree in Electrical Engineering and Music Recording. I've had experience researching human perception of audio quality, creating automated room equalizing algorithms, and engineering directional hearing devices to aid people with hearing loss.
+[My name is Keenan](/blog/about/Who-We-Are/), and for all of my life I have had a passion for really, really great sounding audio. I grew up recording my own original music and have never looked back, receiving a degree in Electrical Engineering and Music Recording. I've had experience researching human perception of audio quality, creating automated room equalization algorithms, and engineering directional hearing devices to aid people with hearing loss. I'm of course also an active musician, singing and playing guitar in a band, and learning whatever else I can get my hands on.
 
-I'm of course also an active musician, singing and playing guitar in a band, and dabbling in whatever else I can get my hands on.
+Having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master something that you are completely proud of. In my experience, there was always that special "extra something" missing. Before long I realized an easy way to make my audio professional: get someone with more experience to help!
 
-Having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master a song that you are completely proud of. In my experience, there was always that special "extra something" missing, and I was quick to realize an easy way to fix this issue: get someone to help!
+I had heard of music mastering being the stage where this "extra something" is added by professionals. Unfortunately, typical mastering services were completely beyond my budget, while cheaper services or automated softwares I could find were not cutting it (I know how to use a limiter is too, thanks). Even more than that though, I wanted someone who knew what they were doing to listen to my music and not only give my track a professional sound, but give me feedback on what I could be doing better. And I couldn't find that outside of my college classrooms.
 
-Unfortunately, typical mastering services were completely beyond my budget, while cheaper services or automated softwares I could find were not cutting it (I know how to use a limiter is too, thanks). Even more than that though, I wanted someone who knew what they were doing to listen to my music and not only give my track a professional sound, but give me feedback on what I could be doing better.
+#### That is why I created Get Mastered: as a way for independent musicians, recording hobbyists, and podcasters to foster a direct relationship with an experienced audio engineer, and not only make great sounding audio, but learn how to become better producers themselves.
 
-I believe the mastering process to be not only an important final step for gluing a track together and adding volume, but to be an important (and oft missed) opportunity to receive mixing feedback and grow as a producer.
+I set out to make Get Mastered affordable for those who are serious about their work, and have based our rates off of feedback from clients. Plus, while we launch, we are offering an [absolutely free master](/) to show you how much of a difference we can make to your audio.
 
-#### That is why I created Get Mastered, as a way for independent musicians and recording hobbyists to foster a direct relationship with an experienced audio engineer, and make great sounding music, together.
+Despite our extensive experience with audio, we are just launching our service, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, please send all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Feedback" target="_top">services@getmastered.com</a>.
 
-I set out to make Get Mastered affordable for serious musicians, and after extensive data collection from clients, I have based my rates off of what musicians consider fair rates for professional mastering. In addition to this, Get Mastered is the *only* place where you can test the waters, and get an [absolutely free master](/) without any commitment. That's how confident I am you'll love working with us.
-
-Despite our extensive experience with audio, we are just launching our service, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, shoot all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Feedback" target="_top">services@getmastered.com</a>. I hear we give out coupons for that kind of stuff...
-
-## Here's to making great music, together!
+## Here's to making great audio, together!

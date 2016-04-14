@@ -92,110 +92,110 @@
 
 
 
-<div style="padding: 40px; margin: 0px;">
-    </div>
+      <!--
+<section id="payment" align="center">
 
-<div class="row equal bg-white" style="padding: 0px; margin: 0px;">
-  <div class="col-lg-3 sidebar bg-white hidden-md hidden-sm hidden-xs" style="padding: 0px; margin: 0px;">
-    <div data-spy="affix" data-offset-top="0">
-    <div>
-      <!DOCTYPE html>
+<div class="col-lg-12 bg-white" style="padding: 120px 10% 120px 10%; margin: 0px;">
 
-
-<section class="bg-white" style="padding: 5px 5px 5px 60px; margin: 0px; text-align: right;">
-
-<!--     <h4 style="color: #777; display: inline; text-transform: uppercase;">
-    <a href="/blog/">Blog home</a></h4>
-<br>
-<br> -->
-
-<h5 style="color: #777; display: inline; text-transform: uppercase;">
-    What is Get Mastered?
-</h5>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is an audio improvement and mastering service with mix and recording feedback - 
-
-<span><a href="/blog/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br></p>
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Our podcast mastering price calculator</h1>
 
 
-<br><h5 style="color: #777; display: inline; text-transform: uppercase;">
-    Who Are we?</h5>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-We are passionate engineers who believe in amazing sounding audio - 
-<span><a href="/blog/about/Who-We-Are/" style="color: #aaa;">More about us</a>
-<br><br></p>
-
-
-
-<h5 style="color: #777; display: inline; text-transform: uppercase;">
-    <a href="/">Try us out for free</a><br><br><br>
-</h5>
-
-
-
-<h5 style="color: #777; display: inline; text-transform: uppercase;">Learn about</h5>
-
-
-<p style="color: #999; font-size: 15px; padding: 5px 0px 0px 0px;">
-
-
-    <a style="color: #ccc;" href="/directory/mastering/">
-        mastering
-        
-    </a>
-
-
+<p style="color: #333;">Enter the length of your audio (in minutes, rounding down to the nearest minute) in the field below to instantly calculate the price of your project.
+    <br>
+    <br>
 </p>
 
- <form action="/search" method="GET" style="padding: 0px 0px 10px 20px;">
- 		<!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
-              <input style="font-size: 13px;" type="text" name="query" placeholder="Or, search a term">
-            </form>
+<input id="numb" placeholder="Number of songs">
 
-            <br>
+<button type="btn" onclick="priceCalc()">Calculate Price</button>
 
+<p id="error" style="font-weight: 700; font-size: 24px; color: #333;"></p>
+<p id="price" style="font-weight: 700; font-size: 24px; color: #333;"></p>
+<p id="frees" style="font-weight: 700; font-size: 24px; color: #333;"></p>
+<p id="savings" style="font-weight: 700; font-size: 24px; color: #FFB94E;"></p>
 
-
-
+<center>
+<a id="purchase" class="btn btn-skin" style="width: 40%; height: 50px; font-size: 120%; padding-top: 10px; display: none;"></a>
+</center>
 <br>
 
-            <!-- <h4 style="color: #777; display: inline; text-transform: uppercase;">
-    Get Social
-</h4>
-
 <br>
-<a target="_blank" href="http://www.facebook.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-FB.png" width="30px" height="30px"> </a>
+<p style="color: #333;"><i>(Here's another hint for the coupon clippers out there: follow us on <a target="_blank" href="https://www.facebook.com/getmastered">Facebook</a>, <a target="_blank" href="https://www.instagram.com/getmastereddeals/">Instagram</a>, and <a target="_blank" href="https://twitter.com/getmastered">Twitter</a> for regular coupon codes to get an even better discount on your project!)</i><br></p>
 
-<a target="_blank" href="http://www.soundcloud.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-SC.png" width="30px" height="30px"> </a>
+<script>
+function priceCalc() {
+    var x, textError, textPrice, textFrees, quant, price, frees;
 
-<a target="_blank" href="http://www.twitter.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-Twit.png" width="30px" height="30px"> </a>
-<br>
-<br> -->
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
 
-<!-- <p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p> -->
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1) {
+        textError = "Ummm... maybe you meant another number?";
+            document.getElementById("error").innerHTML = textError;
+            document.getElementById("price").innerHTML = "";
+            document.getElementById("frees").innerHTML = "";
+            document.getElementById("savings").innerHTML = "";
+            document.getElementById("purchase").style.display = "none";
+    } else if (x > 18){
+    	textError = "That's sure a lot of songs! For orders larger than 18 songs, we may be able to give you even lower rates per song. Email your engineer for more information";
+    	    document.getElementById("error").innerHTML = textError;
+    	    document.getElementById("price").innerHTML = "";
+            document.getElementById("frees").innerHTML = "";
+            document.getElementById("savings").innerHTML = "";
+            document.getElementById("purchase").style.display = "none";
+    }
 
-</section>
-    </div>
-    </div>
-  </div>
-  <div class="col-lg-9 bg-white" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
-    <div class="row-fluid" style="color: #000;">
-      <section id="sound-waves">
-	<div class="row-fluid" style="padding: 8px 0px 700px 0px;">
-		<h3>Depth Posts</h3>
+    else {
+        frees = x/3;
+    	document.getElementById("error").innerHTML = "";
+    	if (x > 0 && x < 4){
+    		price = x*62;
+            document.getElementById("savings").innerHTML = "";
+    	} else if (x > 3 && x < 7){
+    		price = x*59;
+            sav = 3*x;
+            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
+    	}
+    	else{
+    		price = x*57;
+            sav = 5*x;
+            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
+    	}
+    	textPrice = price.toString();
+    	textFrees = frees.toFixed(2);
+    	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
+    // document.getElementById("frees").innerHTML = "Free Master Credits: +".concat(textFrees);
 
-</div>
+    document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
+    document.getElementById("purchase").innerHTML = "Purchase";
+    document.getElementById("purchase").style.display = "block";
 
-</section>
-    </div>
+
+
+        // text = "Input OK";
+    }
+    
+}
+</script>
 
 	</div>
 </div>
 
 
-    
+
+
+</div>
+
+</section>
+
+-->
+<div style="padding: 130px;"><center><h3>Hang tight! Podcast mastering is coming soon.</h3></center></div>
+
+
+          
 
 
     </div>
