@@ -15,10 +15,10 @@ Having self-produced my own music for many years, I know how difficult it can be
 
 I had heard of music mastering being the stage where this "extra something" is added by professionals. Unfortunately, typical mastering services were completely beyond my budget, while cheaper services or automated softwares I could find were not cutting it (I know how to use a limiter is too, thanks). Even more than that though, I wanted someone who knew what they were doing to listen to my music and not only give my track a professional sound, but give me feedback on what I could be doing better. And I couldn't find that outside of my college classrooms.
 
-#### That is why I created Get Mastered: as a way for independent musicians, recording hobbyists, and podcasters to foster a direct relationship with an experienced audio engineer, and not only make great sounding audio, but learn how to become better producers themselves.
+**That is why I created Get Mastered: as a way for independent musicians, recording hobbyists, and podcasters to foster a direct relationship with an experienced audio engineer, and not only make great sounding audio, but learn how to become better producers themselves.**
 
-I set out to make Get Mastered affordable for those who are serious about their work, and have based our rates off of feedback from clients. Plus, while we launch, we are offering an [absolutely free master](/) to show you how much of a difference we can make to your audio.
+I set out to make Get Mastered affordable for those who are serious about their work, and have based our rates and services off of direct feedback from clients. Plus, while we launch, we are offering an [absolutely free master](/) to show you how much of a difference we can make to your audio.
 
-Despite our extensive experience with audio, we are just launching our service, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, please send all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Feedback" target="_top">services@getmastered.com</a>.
+Despite our extensive experience with audio, we are just launching as a business, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, please send all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Feedback" target="_top">services@getmastered.com</a>.
 
 ## Here's to making great audio, together!

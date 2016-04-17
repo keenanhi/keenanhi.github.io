@@ -329,6 +329,7 @@ form#contact-form .form-group label {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 12px;
+
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
 	border-radius: 0;
@@ -336,6 +337,7 @@ form#contact-form input,form#contact-form select,form#contact-form textarea {
   -webkit-box-shadow: none;
           box-shadow:  none;
           text-align: center;
+
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
@@ -350,6 +352,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 .widget-contact {
 	text-align: center;
+
+}
+
+.boxed-grey {
+  background-color: #eee;
+  padding: 2%; 
 }
 
 /* ==========================

@@ -1,31 +1,37 @@
 ---
-title: Payment Podcast
+title: Podcast Mastering Calculator
 layout: splash
 ---
 
-<!--
+
 <section id="payment" align="center">
 
 <div class="col-lg-12 bg-white" style="padding: 120px 10% 120px 10%; margin: 0px;">
+
+
+<!-- <link rel="stylesheet" href="https://embed.calculoid.com/styles/main.css" />
+<script src="https://embed.calculoid.com/scripts/combined.min.js"></script>
+<div ng-app="calculoid" ng-controller="CalculoidMainCtrl" ng-init="init({calcId:10445,apiKey:'56f2cacd6fbd1'})" ng-include="load()"></div>
+ -->
 
 <div class="row">
 	<div class="col-xs-12">
 		<h1>Our podcast mastering price calculator</h1>
 
 
-<p style="color: #333;">Enter the length of your audio (in minutes, rounding down to the nearest minute) in the field below to instantly calculate the price of your project.
+<p style="color: #333;">Enter the length of your podcast (in minutes) in the field below to instantly calculate the price of your project.
     <br>
     <br>
 </p>
 
-<input id="numb" placeholder="Number of songs">
+<input id="numb" placeholder="Length (in minutes)">
 
 <button type="btn" onclick="priceCalc()">Calculate Price</button>
 
-<p id="error" style="font-weight: 700; font-size: 24px; color: #333;"></p>
+<p id="error" style="font-weight: 700; font-size: 24px; color: #FFB94E;"></p>
 <p id="price" style="font-weight: 700; font-size: 24px; color: #333;"></p>
-<p id="frees" style="font-weight: 700; font-size: 24px; color: #333;"></p>
-<p id="savings" style="font-weight: 700; font-size: 24px; color: #FFB94E;"></p>
+<!-- <p id="frees" style="font-weight: 700; font-size: 24px; color: #333;"></p> -->
+<!-- <p id="savings" style="font-weight: 700; font-size: 24px; color: #FFB94E;"></p> -->
 
 <center>
 <a id="purchase" class="btn btn-skin" style="width: 40%; height: 50px; font-size: 120%; padding-top: 10px; display: none;"></a>
@@ -37,50 +43,40 @@ layout: splash
 
 <script>
 function priceCalc() {
-    var x, textError, textPrice, textFrees, quant, price, frees;
+    var x, textError, textPrice, textFrees, quant, price;
 
     // Get the value of the input field with id="numb"
     x = document.getElementById("numb").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 1) {
+    if (isNaN(x) || x <= 0) {
         textError = "Ummm... maybe you meant another number?";
             document.getElementById("error").innerHTML = textError;
             document.getElementById("price").innerHTML = "";
             document.getElementById("frees").innerHTML = "";
-            document.getElementById("savings").innerHTML = "";
+            // document.getElementById("savings").innerHTML = "";
             document.getElementById("purchase").style.display = "none";
-    } else if (x > 18){
-    	textError = "That's sure a lot of songs! For orders larger than 18 songs, we may be able to give you even lower rates per song. Email your engineer for more information";
+    } else if (x > 90){
+    	textError = "That's sure a long one! For podcasts over 90 minutes long, we may be able to give you custom rates. Email your engineer for more information";
     	    document.getElementById("error").innerHTML = textError;
     	    document.getElementById("price").innerHTML = "";
             document.getElementById("frees").innerHTML = "";
-            document.getElementById("savings").innerHTML = "";
+            // document.getElementById("savings").innerHTML = "";
             document.getElementById("purchase").style.display = "none";
     }
 
     else {
-        frees = x/3;
     	document.getElementById("error").innerHTML = "";
-    	if (x > 0 && x < 4){
-    		price = x*62;
-            document.getElementById("savings").innerHTML = "";
-    	} else if (x > 3 && x < 7){
-    		price = x*59;
-            sav = 3*x;
-            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
-    	}
-    	else{
-    		price = x*57;
-            sav = 5*x;
-            document.getElementById("savings").innerHTML = "With quantity discounts, you save $".concat(sav.toString());
-    	}
+
+        quant = Math.floor(x/5)
+    	price = 6.25*quant;
+        // document.getElementById("savings").innerHTML = "";
+    	
     	textPrice = price.toString();
-    	textFrees = frees.toFixed(2);
-    	document.getElementById("price").innerHTML = "Price: $".concat(textPrice,".00");
+    	document.getElementById("price").innerHTML = "Price: $".concat(textPrice);
     // document.getElementById("frees").innerHTML = "Free Master Credits: +".concat(textFrees);
 
-    document.getElementById("purchase").href = "/payment/master-".concat(x.toString(),"/");
+    document.getElementById("purchase").href = "/payment/podcast-mastering/length-".concat((quant*5).toString(),"/");
     document.getElementById("purchase").innerHTML = "Purchase";
     document.getElementById("purchase").style.display = "block";
 
@@ -92,6 +88,7 @@ function priceCalc() {
 }
 </script>
 
+<!-- 		<a class="btn btn-skin" style="width: 100%; height: 50px; font-size: 18px; padding-top: 10px;" href="/payment/master-1/">Purchase</a> -->
 	</div>
 </div>
 
@@ -101,6 +98,3 @@ function priceCalc() {
 </div>
 
 </section>
-
--->
-<div style="padding: 130px;"><center><h3>Hang tight! Podcast mastering is coming soon.</h3></center></div>
