@@ -1,5 +1,5 @@
 /* ==== Google font ==== */
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic|Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic|Montserrat:700,400');
 
 body {
     width: 100%;
@@ -273,6 +273,95 @@ a:focus {
 }
 
 /* ===========================
+--- My panels
+============================ */
+
+.panel-holder {
+  position: relative;
+}
+
+.panel-header-grey {
+  background: #777;
+  padding: 20px;
+}
+
+.panel-header-grey h3 {
+  font-size: 100%;
+  line-height: 130%;
+  margin: 0px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.panel-header-green {
+  background: #56C29F;
+  padding: 20px;
+}
+
+.panel-header-green h3 {
+  font-size: 100%;
+  line-height: 130%;
+  margin: 0px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.panel-price {
+  background: #fff;
+  padding: 15px;
+  line-height: 24px;
+}
+
+.panel-price h3 {
+  font-size: 46px;
+  font-family: Lato,sans-serif;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.panel-price p {
+  font-size: 14px;
+  line-height: 14px;
+  margin: 4px;
+}
+
+.panel-divider {
+  padding: 1px;
+  background: #ddd;
+}
+
+.panel-item {
+  padding: 10px;
+  background: #fff;
+}
+
+.panel-item p {
+  margin: 0px;
+  /*line-height: 32px;*/
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.btn-panel {
+  width: 100%; padding: 20px;
+  border: 0px;
+  margin: 0px;
+}
+
+.btn-panel h3 {
+    /*line-height: 10px;*/
+  font-size: 14px !important;
+  font-weight: 400  !important;
+  font-family: Montserrat,sans-serif !important;
+  letter-spacing: 1px;
+  white-space: normal;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+/* ===========================
 --- General sections
 ============================ */
 
@@ -405,7 +494,7 @@ Parallax
 
 .btn {
 	border-radius: 0;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Lato,sans-serif;
     font-weight: 400;
     background-color: #bbb;
