@@ -3848,6 +3848,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
+    margin: 0px !important;
   }
   .navbar-right {
     float: right !important;

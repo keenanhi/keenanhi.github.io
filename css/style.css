@@ -61,8 +61,40 @@ a.btn{
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #86DBBF;
 }
+
+a div:hover,
+a div:focus {
+  background-color: rgba(0,0,0,.3);
+  -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+
+a div p{
+  color: #000;
+}
+
+a div:hover p,
+a div:focus p,
+a div:hover h3,
+a div:focus h3 {
+  color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a div:hover h4,
+a div:focus h4 {
+  color: #86DBBF;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
 .social{
   background-color: #777;
 }
@@ -361,8 +393,9 @@ a:focus {
 
 }
 
+
 /* ===========================
---- General sections
+--- Colors
 ============================ */
 
 
@@ -407,6 +440,87 @@ a:focus {
   color: #097E58;
 }
 
+
+/* ===========================
+--- Landing
+============================ */
+
+.landing-page{
+  padding: 11% 13%; background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;
+}
+
+.hook-big{
+  font-size: 450%; color: #fff; text-align: left; text-shadow: 0px 0px 20px #333; text-transform: uppercase; line-height: 10%;
+}
+
+.hook-big-m{
+  font-size: 300%; color: #fff; text-align: left; text-shadow: 0px 0px 20px #333; text-transform: uppercase; line-height: 10%;
+}
+
+.hook-small{
+  font-size: 170%; color: #fff; text-align: left; text-shadow: 0px 0px 20px #333; text-transform: uppercase; line-height: 150%;
+}
+
+.hook-small-m{
+  font-size: 120%; color: #fff; text-align: left; text-shadow: 0px 0px 20px #333; padding-top: 100px; text-transform: uppercase; line-height: 150%;
+}
+
+.clicky-plain{
+  font-size: 120%; color: #FFF; text-align: left; text-shadow: 0px 0px 20px #000; padding-top: 130px; font-weight: 400;
+}
+
+.clicky-color{
+  font-size: 170%; text-align: left; text-shadow: 0px 0px 20px #000; font-weight: 700; line-height: 20px;
+}
+
+
+/* ===========================
+--- Landing Lower
+============================ */
+
+.landing-lower{
+  padding: 6% 13% 11% 13%; background: url(/img/backgrounds/profile-bw-glass.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;
+}
+
+.landing-lower p{
+  font-weight: 400;
+}
+
+.service-panel {
+  padding: 12%;
+  margin: 1%;
+  border-style: solid;
+    border-width: 2px;
+}
+
+
+/* ===========================
+--- Rates
+============================ */
+
+.rates{
+  padding: 15% 5%; margin: 0px;
+}
+
+.mastering-rates{
+  background: url(/img/backgrounds/phones-b-lq.jpg) no-repeat center center;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+.mix-feedback-rates{
+  background: url(/img/backgrounds/mac-w-lq.jpg) no-repeat center center;   
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.podcast-rates{
+  background: url(/img/backgrounds/earbuds-b.jpg) no-repeat center center;   
+  background-size: cover; 
+  background-attachment: fixed;
+}
 
 /* ===========================
 --- Contact
