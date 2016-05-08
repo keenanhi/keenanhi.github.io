@@ -29,19 +29,18 @@
     </div>
 
 
-
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0;">
         <div class="container-fluid">
             <div class="navbar-left page-scroll col-lg-3" style="padding: 0px;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="hidden-xs hidden-sm hidden-md" href="/" align="right">
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-xs hidden-sm hidden-md brand" href="/" align="right">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
-                <a class="hidden-lg hidden-xl" href="/" align="left">
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-lg hidden-xl brand" href="/" align="left">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
             </div>
@@ -50,10 +49,16 @@
             <div class="collapse navbar-collapse navbar-left navbar-main-collapse col-lg-9">
       <ul class="nav navbar-nav" style="text-align: left; padding-left: 0px;">
         <!-- <li><a href="/#about">About</a></li> -->
-        <li><a href="#mastering">Mastering</a></li>
-        <li><a href="#mix-feedback">Mix Feedback</a></li>
-        <li><a href="#podcasts">Podcasts</a></li>
-        <li><a href="#reviews">Reviews</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="/services/#mastering">Mastering</a></li>
+            <li><a href="/services/#mix-feedback">Mix Feedback</a></li>
+            <li><a href="/services/#cleanup">Audio Cleanup</a></li>
+            </ul>
+        </li>
+        <li><a href="/services/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
         <!-- <li><a href="/payment/">Submit</a></li> -->
         <li class="active"><a href="/blog/">Blog</a></li>
@@ -107,7 +112,7 @@
 	<h1 class="hidden-xl hidden-lg" style="text-align: center; font-size: 200%;"><br>Examples of our work
 	</h1>
 
-<p><b>Please note:</b> these examples have been normalized for volume by setting the maximum values of the before and after waveforms to be equal. Otherwise, our "before" samples would be too quiet for you to make an unbiased assessment.</p>
+<p><b>Please note:</b> these examples have been normalized for volume by setting the maximum values of the before and after waveforms to be equal.<br>Otherwise, our "before" samples would be too quiet for you to make an unbiased assessment.</p>
 
 </div>
 
@@ -134,7 +139,7 @@
   <button class="btn btn-skin" id="playpause1" type="btn" onclick="audioPlayPause(1)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter1"><br></h3>
-  <button class="btn btn-skin" id="toggle1" type="btn btn-skin" onclick="audioToggle(1)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle1" type="btn btn-skin" onclick="audioToggle(1)" style="visibility: hidden;">Toggle Before/After</button>
   <br>
   <br>
   <br>
@@ -163,7 +168,7 @@
   <button class="btn btn-skin" id="playpause2" type="btn" onclick="audioPlayPause(2)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter2"><br></h3>
-  <button class="btn btn-skin" id="toggle2" type="btn btn-skin" onclick="audioToggle(2)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle2" type="btn btn-skin" onclick="audioToggle(2)" style="visibility: hidden;">Toggle Before/After</button>
 
 <br>
 <br>
@@ -190,7 +195,7 @@
   <button class="btn btn-skin" id="playpause3" type="btn" onclick="audioPlayPause(3)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter3"><br></h3>
-  <button class="btn btn-skin" id="toggle3" type="btn btn-skin" onclick="audioToggle(3)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle3" type="btn btn-skin" onclick="audioToggle(3)" style="visibility: hidden;">Toggle Before/After</button>
 
 
 
@@ -222,7 +227,7 @@
   <button class="btn btn-skin" id="playpause4" type="btn" onclick="audioPlayPause(4)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter4"><br></h3>
-  <button class="btn btn-skin" id="toggle4" type="btn btn-skin" onclick="audioToggle(4)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle4" type="btn btn-skin" onclick="audioToggle(4)" style="visibility: hidden;">Toggle Before/After</button>
 
 <br>
 <br>
@@ -250,7 +255,7 @@
   <button class="btn btn-skin" id="playpause5" type="btn" onclick="audioPlayPause(5)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter5"><br></h3>
-  <button class="btn btn-skin" id="toggle5" type="btn btn-skin" onclick="audioToggle(5)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle5" type="btn btn-skin" onclick="audioToggle(5)" style="visibility: hidden;">Toggle Before/After</button>
 
 
 <br>
@@ -278,7 +283,7 @@
   <button class="btn btn-skin" id="playpause6" type="btn" onclick="audioPlayPause(6)" style="font-size: 24px;">Play Example</button>
   <br><br>
   <h3 id="beforeAfter6"><br></h3>
-  <button class="btn btn-skin" id="toggle6" type="btn btn-skin" onclick="audioToggle(6)" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle6" type="btn btn-skin" onclick="audioToggle(6)" style="visibility: hidden;">Toggle Before/After</button>
 
 </div>
 </div>
@@ -434,7 +439,7 @@ function audioPlayPause(x){
     p1.play();
     p2.play();
     playing = true;
-    tog.style = "visibility: visible !important;";
+    tog.style.visibility = "visible";
     pp.innerHTML = "Pause Audio";
     ba.innerHTML = "Before";
   } else {
@@ -442,7 +447,7 @@ function audioPlayPause(x){
     p2.pause()
     playing = false;
     pp.innerHTML = "Play Audio";
-    tog.style = "visibility: hidden !important;";
+    tog.style.visibility = "hidden";
     ba.innerHTML = "<br>";
   }
 

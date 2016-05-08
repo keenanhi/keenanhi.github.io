@@ -22,7 +22,7 @@
 
   <button class="btn btn-skin" id="playpause" type="btn" onclick="audioPlayPause()" style="font-size: 32px;">Play Example</button>
   <br><br>
-  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden;">Toggle Before/After</button>
 
 <br>
 </div>
@@ -64,7 +64,7 @@ function audioPlayPause(){
     p1.play();
     p2.play();
     playing = true;
-    document.getElementById("toggle").style = "visibility: visible !important;";
+    document.getElementById("toggle").style.visibility = "visible";
     document.getElementById("playpause").innerHTML = "Pause Audio";
     document.getElementById("beforeAfter").innerHTML = "Before";
   } else {
@@ -72,7 +72,7 @@ function audioPlayPause(){
     document.getElementById("player2").pause()
     playing = false;
     document.getElementById("playpause").innerHTML = "Play Audio";
-    document.getElementById("toggle").style = "visibility: hidden !important;";
+    document.getElementById("toggle").style.visibility = "hidden";
     document.getElementById("beforeAfter").innerHTML = "<br>";
   }
 

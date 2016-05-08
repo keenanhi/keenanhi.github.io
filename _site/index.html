@@ -14,7 +14,8 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Need for mobile nav collapse -->
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="/js/jquery.min.js"></script> 
       <!-- <link href="/css/animate.css" rel="stylesheet" /> -->
     <!-- CSS -->
     <link href="/css/style.css" rel="stylesheet">
@@ -30,28 +31,33 @@
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0;">
         <div class="container-fluid">
-            <div class="navbar-left page-scroll col-sm-3" style="padding-left: 12%; white-space: nowrap;">
+            <div class="navbar-left page-scroll col-lg-3" style="padding: 0px;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="hidden-xs hidden-sm" href="/" align="left">
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-xs hidden-sm hidden-md brand" href="/" align="right">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
-                <a class="hidden-lg hidden-xl hidden-md" href="/" align="left">
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-lg hidden-xl brand" href="/" align="left">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- <div class = "col-md-1" style="padding: 0px; margin: 0px;"></div> -->
             <div class="collapse navbar-collapse navbar-left navbar-main-collapse col-sm-8">
       <ul class="nav navbar-nav" style="text-align: left;">
         <!-- <li><a href="#about">About</a></li> -->
-        <li><a href="/services/#mastering">Mastering</a></li>
-       <li><a href="/services/#mix-feedback">Mix Feedback</a></li>
-       <li><a href="/services/#podcasts">Podcasts</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="/services/#mastering">Mastering</a></li>
+            <li><a href="/services/#mix-feedback">Mix Feedback</a></li>
+            <li><a href="/services/#cleanup">Audio Cleanup</a></li>
+            </ul>
+        </li>
         <li><a href="/services/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
         <li><a href="/blog/">Blog</a></li>
@@ -61,6 +67,9 @@
         <!-- <li class="hidden-sm hidden-xs hidden-md"><a href="/blog/">Blog</a></li> -->
         <!-- <li><a href="/archive/">Post Archive</a></li> -->
       </ul>
+
+
+
 
 <!--       <ul class="nav navbar-nav hidden-xs" style="text-align: left; padding-left: 15px;">
         <li><a href="http://www.facebook.com/getmastered"> <img src="/img/Button-FB-tight.png" width="17px" height="17px"> </a></li>
@@ -76,6 +85,30 @@
 
         <li><a href="http://www.twitter.com/getmastered"> Twitter </a></li>
       </ul> -->
+
+      <script>
+      (function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".navbar-custom").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 600) {
+                $('.navbar').fadeIn();
+            } else {
+                $('.navbar').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+      </script>
 
             </div>
             <!-- /.navbar-collapse -->
@@ -96,11 +129,22 @@
 
 <div class="wow fadeInUp" data-wow-delay="1.4s">
 
+  <div class="col-lg-12 hidden-xs hidden-sm landing-top" align="right">
+    <p>
+  <a href="/services/#mastering">Mastering</a> / 
+    <a href="/services/#mix-feedback">Mix Feedback</a> / 
+    <a href="/services/#cleanup">Audio Cleanup</a> / 
+    <a href="/blog/">Blog</a> / 
+    <a href="/login/">Login</a>
+    </p>
+  </div>
+
 <div class="col-lg-12 landing-page">
 
+  
 
 
-  <div class="page-scroll row-fluid" style="padding-bottom: 100px;">
+  <div class="page-scroll row-fluid" style="padding-bottom: 100px; padding-top: 10%;">
     <h1 class="hook-small hidden-xs hidden-sm hidden-md">Your sound,<br>your skills,</h1>
 
     <h1 class="hook-small-m hidden-lg hidden-xl">Your sound,<br>your skills,</h1>
@@ -149,7 +193,7 @@
 
   <button class="btn btn-skin" id="playpause" type="btn" onclick="audioPlayPause()" style="font-size: 32px;">Play Example</button>
   <br><br>
-  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden !important;">Toggle Before/After</button>
+  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden;">Toggle Before/After</button>
 
 <br>
 </div>
@@ -191,7 +235,7 @@ function audioPlayPause(){
     p1.play();
     p2.play();
     playing = true;
-    document.getElementById("toggle").style = "visibility: visible !important;";
+    document.getElementById("toggle").style.visibility = "visible";
     document.getElementById("playpause").innerHTML = "Pause Audio";
     document.getElementById("beforeAfter").innerHTML = "Before";
   } else {
@@ -199,7 +243,7 @@ function audioPlayPause(){
     document.getElementById("player2").pause()
     playing = false;
     document.getElementById("playpause").innerHTML = "Play Audio";
-    document.getElementById("toggle").style = "visibility: hidden !important;";
+    document.getElementById("toggle").style.visibility = "hidden";
     document.getElementById("beforeAfter").innerHTML = "<br>";
   }
 
@@ -233,7 +277,7 @@ function audioPlayPause(){
   <div class="col-md-4">
     <a href="/services/#mix-feedback">
     <div class="service-panel">
-    <h3>Mix Feedback</h3><br>
+    <h3>Mix Feedback</h3>
     <p>With mix feedback, you get a detailed breakdown of how you can improve your mix, along with solutions to any specific problems you are running into. Find out more by clicking here.</p>
     <img src="/img/icons/speech.png">
     <br><br>
@@ -246,7 +290,7 @@ function audioPlayPause(){
   <div class="col-md-4">
     <a href="/services/#mastering">
     <div class="service-panel">
-    <h3>Music Mastering</h3><br>
+    <h3>Music Mastering</h3>
     <p>Make your music cohesive, clear, and balanced on any system through our collaborative mastering process. Bring your music to the level of the artists you admire by clicking here.</p>
     <img src="/img/icons/cd.png">
     <br><br>
@@ -257,10 +301,10 @@ function audioPlayPause(){
 
 
   <div class="col-md-4">
-    <a href="/services/#podcasts">
+    <a href="/services/#cleanup">
     <div class="service-panel">
-    <h3>Podcast Mastering</h3><br>
-    <p>Make every word of your dialogue sound as clear, audible, and natural as the podcasts you love, while also receiving personalized recording assistance. Click here to learn more.</p>
+    <h3>Audio Cleanup</h3>
+    <p>Restore problematic dialogue recordings to sound clear, audible, and natural. Whether you're working on a podcast, lecture, interview, or historical recording, click here to learn how we can help you.</p>
     <img src="/img/icons/mic.png">
     <br><br>
     <h4>Try now free</h4>
@@ -270,7 +314,7 @@ function audioPlayPause(){
   
 
   <div class="col-lg-12">
-  <p><br><b>Choose one of our above services, or learn more about our <a href="/blog/about/Who-We-Are/">engineers</a>, our <a href="/blog/about/What-Is-Get-Mastered/">philosophy</a>, and <a href="/services/#reviews">what people think of us</a>.</b></p>
+  <p><br><br><b>Choose one of our above services, or learn more about our <a href="/blog/about/Who-We-Are/">engineers</a>, our <a href="/blog/about/What-Is-Get-Mastered/">philosophy</a>, and <a href="/services/#reviews">what people think of us</a>.</b></p>
   <br>
   </div>
   
