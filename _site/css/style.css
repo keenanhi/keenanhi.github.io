@@ -135,7 +135,7 @@ a div:focus h4 {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: 1px;
     color: #ffffff;
 	font-weight: 500;
@@ -527,6 +527,100 @@ a div:focus h4 {
   background-attachment: fixed;
 }
 
+
+/* ===========================
+--- Examples
+============================ */
+
+.example-page-top{
+  padding: 10% 5% 3% 5%;
+  margin: 0px;
+  background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;
+}
+
+.example-page-bottom{
+  padding: 10% 5% 3% 5%;
+  margin: 0px;
+  background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;
+}
+
+.example-page-top p {
+  color: #000;
+  font-weight: 400;
+}
+
+.example-div{
+  padding: 15%; margin: 0%; 
+}
+
+/* mr grim */
+.example-1 {
+  background: url(/img/album-artwork/mr-grimly.jpg);
+  background-size:100%;
+}
+
+.example-1 h3{
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
+}
+
+/* tuxis */
+.example-2 {
+  background: url(/img/album-artwork/tuxis-giant.jpg);
+  background-size:100%;
+}
+
+.example-2 h3{
+  color: #000;
+  text-shadow: 0px 0px 10px #fff;
+}
+
+/* origin */
+.example-3 {
+  background: url(/img/album-artwork/origin-x.jpg);
+  background-size:100%;
+}
+
+.example-3 h3{
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
+}
+
+/* aa */
+.example-4 {
+  background: url(/img/album-artwork/aa-freq.jpg);
+  background-size:100%;
+}
+
+.example-4 h3{
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
+}
+
+/* patio */
+.example-5 {
+  background: url(/img/album-artwork/patio-drive-band.jpg) bottom; 
+  background-size:150%;
+}
+
+.example-5 h3{
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
+}
+
+/* traded */
+.example-6 {
+  background: url(/img/album-artwork/traded.jpg) center;
+  background-size:150%;
+}
+
+.example-6 h3{
+  color: #000;
+  text-shadow: 0px 0px 10px #fff;
+}
+
 /* ===========================
 --- Blog
 ============================ */
@@ -695,8 +789,8 @@ Parallax
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #56C29F;
-  border-color: #56C29F;
+  background-color: #86DBBF;
+  border-color: #86DBBF;
 }
 
 
