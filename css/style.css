@@ -528,6 +528,27 @@ a div:focus h4 {
 }
 
 /* ===========================
+--- Blog
+============================ */
+
+.sidebar-head{
+  color: #777;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.sidebar-text{
+  color: #999; 
+  font-size: 15px; 
+  padding-top: 5px;
+}
+
+.btn-search{
+  padding: 4px 10px; 
+  margin: 5px 0px 10px 0px;
+}
+
+/* ===========================
 --- Contact
 ============================ */
 
