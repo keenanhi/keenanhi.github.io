@@ -506,27 +506,51 @@ a div:focus h4 {
 ============================ */
 
 .rates{
-  padding: 15% 5%; margin: 0px;
+  padding: 15% 0% 15% 0%; margin: 0px;
+}
+
+.rates-header{
+  color: #fff;
+  font-size: 600%;
+  text-shadow: 0px 5px 50px #000;
+  padding-bottom: 3%;
 }
 
 .mastering-rates{
-  background: url(/img/backgrounds/phones-b-lq.jpg) no-repeat center center;
+  background: url(/img/backgrounds/phones.jpg) no-repeat center center;
   background-size: cover; 
   background-attachment: fixed;
 }
 
 .mix-feedback-rates{
-  background: url(/img/backgrounds/mac-w-lq.jpg) no-repeat center center;   
+  background: url(/img/backgrounds/mac.jpg) no-repeat center center;   
   background-size: cover;
   background-attachment: fixed;
 }
 
 .podcast-rates{
-  background: url(/img/backgrounds/earbuds-b.jpg) no-repeat center center;   
+  background: url(/img/backgrounds/tape.jpg) no-repeat center center;   
   background-size: cover; 
   background-attachment: fixed;
 }
 
+.service-container{
+  background-color: #efefef;
+  padding: 3% 5%;
+}
+
+.service-text{
+  padding: 2% 4%; margin: 0%;
+}
+
+.service-text h1{
+  margin-bottom: 5px; color: #000;
+}
+
+.service-text p{
+  font-size: 16px; color: #000;
+  margin: 0px;
+}
 
 /* ===========================
 --- Examples
@@ -641,6 +665,71 @@ a div:focus h4 {
   padding: 4px 10px; 
   margin: 5px 0px 10px 0px;
 }
+
+/* ===========================
+--- Blog - main page
+============================ */
+
+.blog-description{
+  padding-left: 2%; position: absolute; top: 80px; color: #fff;
+  font-weight: 400;
+}
+
+.blog-description:hover{
+  color: #86DBBF;
+          -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.blog-title{
+  padding-left: 2%; position: absolute; top: 0px;
+  text-transform: uppercase; 
+}
+
+.blog-title-sub{
+  font-size: 20px; color: #aaa;
+}
+
+.blog-title-title{
+  font-size: 200%; color: #fff;
+}
+
+.blog-title-title-mobile{
+  color: #fff;
+}
+
+.blog-description-2{
+  padding-left: 2%; color: #fff; position: relative; top: -70px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.blog-description-2:hover{
+    color: #86DBBF;
+          -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.blog-description-2-mobile{
+  padding-left: 2%; color: #fff; position: relative; top: -50px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.blog-description-2-mobile:hover{
+    color: #86DBBF;
+          -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.blog-title-2{
+  padding: 2%; margin-bottom: -120px; position: relative; top: -170px; z-index: 1;
+}
+
+
 
 /* ===========================
 --- Contact

@@ -1,0 +1,27 @@
+
+<section class="bg-white" style="padding: 65px 30px 5px 30px; margin: 0px; text-align: left;">
+
+
+ <form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 0px 0px 10px 0px; margin: 0px; margin-top: -5px;">
+        <!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
+              <input style="font-size: 14px;" type="text" name="query" placeholder="Search a topic">
+              <input class="btn btn-skin btn-search" type="submit" value="Search">
+            </form>
+
+
+ {% for post in site.posts %}
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="{{ post.url }}">{{ post.title }}</a>
+        <i> - {{ post.date | date: '%B %d, %Y' }} </i>
+      </p>
+  </div>
+{% endfor %}
+
+<a class="sidebar-text" href="/blog/archive/index.html">Explore full archive</a><br><br>
+
+
+
+        </section>
+
+
+

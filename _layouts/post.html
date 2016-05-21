@@ -2,19 +2,20 @@
 
 <div style="padding: 0px; margin: 0px;">
   <div class="col-lg-3 sidebar hidden-md hidden-sm hidden-xs" style="padding: 0px; margin: 0px;">
-    <div data-spy="affix" data-offset-top="0" style="padding: 0px 30px 0px 0px; margin-top: -17px;">
+    <!-- data-spy="affix" -->
+    <div  data-offset-top="0" style="padding: 0px 30px 0px 0px; margin-top: 75px;">
     <div>
       {% include sidebar.html %}
     </div>
 
     </div>
   </div>
-  <div class="col-lg-9" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
+  <div class="col-lg-6" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
     <div class="row-fluid bg-white hidden-md hidden-sm hidden-xs" style="padding: 80px 30px 0px 0px; position: fixed; width: 100%; z-index: 1; ">
       <h5 style="color: #ccc; text-transform: uppercase;"> 
-        <a class="master-color-light" href="/blog/">BLOG HOME</a>
+        
         {% if page.previous.title != null %}
-         | Go Back:
+        | Go Back:
         <a class="master-color-light" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
         {% endif %}
         {% if page.previous.title != null %}
@@ -23,7 +24,7 @@
         {% endif %}
         {% endif %}
         {% if page.next.title != null %}
-         | Next Up:
+        | Next Up:
         <a class="master-color-light" href="{{ page.next.url }}">{{ page.next.title }}</a> 
         {% endif %}
       </h5>
@@ -87,6 +88,9 @@
   </div>
 
     </div>
+  </div>
+  <div class="col-lg-3 sidebar hidden-md hidden-sm hidden-xs" style="padding: 60px 0px; margin: 0px;">
+    {% include sidebar-right.html %}
   </div>
 </div>
 

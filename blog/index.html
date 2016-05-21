@@ -14,13 +14,26 @@ layout: default
     <div class="row-fluid hidden-lg hidden-xl" style="background: url({{ post.cover }}) no-repeat center center;   background-size: cover; padding: 30%; filter        : brightness(50%);
     -webkit-filter: brightness(50%);" ></div>
 
-          <a class="hidden-xs hidden-sm hidden-md" href="{{ post.url }}"><h1 style="padding-left: 2%; position: absolute; top: 0px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="font-size: 200%; text-transform: uppercase; color: #fff;">{{ post.title }}<br><br><br><br></span></h1></a>
-          <a class="hidden-xl hidden-lg" href="{{ post.url }}"><h1 style="padding-left: 2%; position: absolute; top: 0px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="text-transform: uppercase; color: #fff;">{{ post.title }}<br><br><br><br></span></h1></a>
+          <a class="hidden-xs hidden-sm hidden-md" href="{{ post.url }}">
+            <h1 class="blog-title">
+              <span class="blog-title-sub">{{ post.subtitle }}</span>
+              <br>
+              <span class="blog-title-title">{{ post.title }}<br><br><br><br></span>
+            </h1>
+            <p class="blog-description"><br><br>{{ post.description }}
+            </p>
+          </a>
+          <a class="hidden-xl hidden-lg" href="{{ post.url }}">
+            <h1 class="blog-title">
+              <span class="blog-title-sub">{{ post.subtitle }}</span>
+              <br>
+              <span class="blog-title-title-mobile">{{ post.title }}<br><br><br><br></span>
+            </h1>
+            <p class="blog-description"><br>{{ post.description }}
+            </p>
+          </a>
 
-        <p><br>{{ post.description }} - 
-        <b>
-        <a class="master-color-light" href="{{ post.url }}">Read Post</a>
-        </b>
+        
 
       {% else %}
 
@@ -30,7 +43,15 @@ layout: default
     -webkit-filter: brightness(50%); z-index: 0;" >
         </div>
 
-        <a href="{{ post.url }}"><h1 style="padding: 2%; margin-bottom: -120px; position: relative; top: -170px; z-index: 1;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="font-size: 100%; text-transform: uppercase; color: #fff;">{{ post.title }}</span></h1></a>
+        <a href="{{ post.url }}">
+          <h1 class="blog-title-2">
+            <span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span>
+            <br>
+            <span style="font-size: 100%; text-transform: uppercase; color: #fff;">{{ post.title }}</span>
+          </h1>
+          <p class="blog-description-2">{{ post.description }}
+          </p>
+        </a>
 
         </div>
 
@@ -40,16 +61,17 @@ layout: default
     -webkit-filter: brightness(50%); z-index: 0;" >
         </div>
 
-        <a href="{{ post.url }}"><h1 style="padding: 2%; margin-bottom: -120px; position: relative; top: -170px; z-index: 1;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span><br><span style="font-size: 100%; text-transform: uppercase; color: #fff;">{{ post.title }}</span></h1></a>
+        <a href="{{ post.url }}">
+          <h1 class="blog-title-2">
+            <span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span>
+            <br>
+            <span style="font-size: 100%; text-transform: uppercase; color: #fff;">{{ post.title }}</span>
+          </h1>
+          <p class="blog-description-2-mobile">{{ post.description }}
+          </p>
+        </a>
 
         </div>
-
-        <p><br>{{ post.description }} - 
-        <b>
-        <a class="master-color-light" href="{{ post.url }}">Read Post</a>
-        </b>
-      
-
       
       {% endif %}
       <br>
