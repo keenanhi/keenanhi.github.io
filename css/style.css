@@ -670,17 +670,27 @@ a div:focus h4 {
 --- Blog - main page
 ============================ */
 
+.blog-feat-background:hover{
+  transform: scale();
+}
+
 .blog-description{
-  padding-left: 2%; position: absolute; top: 80px; color: #fff;
+  padding-left: 2%; position: absolute; top: 75px; color: #fff;
   font-weight: 400;
 }
 
-.blog-description:hover{
+.blog-description-mobile{
+  padding-left: 2%; position: absolute; top: 75px; color: #fff;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+/*.blog-description:hover{
   color: #86DBBF;
           -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
+}*/
 
 .blog-title{
   padding-left: 2%; position: absolute; top: 0px;
@@ -691,44 +701,66 @@ a div:focus h4 {
   font-size: 20px; color: #aaa;
 }
 
+.blog-title-sub-mobile{
+  font-size: 15px; color: #aaa;
+}
+
 .blog-title-title{
   font-size: 200%; color: #fff;
 }
 
 .blog-title-title-mobile{
   color: #fff;
+  font-size: 50%;
 }
 
 .blog-description-2{
-  padding-left: 2%; color: #fff; position: relative; top: -70px;
+  padding: 0% 0% 0% 2%; color: #fff; position: relative; top: 50px;
   font-weight: 400;
   z-index: 1;
+  margin: 0px;
 }
 
-.blog-description-2:hover{
+/*.blog-description-2:hover{
     color: #86DBBF;
           -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
+}*/
 
 .blog-description-2-mobile{
-  padding-left: 2%; color: #fff; position: relative; top: -50px;
+  padding: 0% 0% 0% 2%;  color: #fff; position: relative; top: 50px;
   font-weight: 400;
   z-index: 1;
+  font-size: 100%;
 }
 
-.blog-description-2-mobile:hover{
+/*.blog-description-2-mobile:hover{
     color: #86DBBF;
           -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
+}*/
 
 .blog-title-2{
-  padding: 2%; margin-bottom: -120px; position: relative; top: -170px; z-index: 1;
+   padding: 0% 0% 0% 2%;  margin-bottom: -220px; position: relative; top: -180px; z-index: 1;
 }
 
+.blog-title-2-mobile{
+   padding: 0% 0% 0% 2%; margin-bottom: -220px; position: relative; top: -180px; z-index: 1;
+  font-size: 100%;
+}
+
+/* ===========================
+--- Blog - markup additions
+============================ */
+
+.blog-img-caption{
+  font-size: 12px;
+  color: #aaa;
+  font-style: italic;
+
+}
 
 
 /* ===========================

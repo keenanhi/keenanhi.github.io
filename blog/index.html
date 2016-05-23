@@ -6,7 +6,7 @@ layout: default
 <section id="blog">
   <div class="wow fadeInUp" data-wow-delay="0.8s">
 {% for post in paginator.posts %}
-  <div class="row-fluid" style="border-style: none none inset none;">
+  <div class="row" style="border-style: none none inset none;">
       {% if forloop.index == 1 %}
       <div class="row-fluid hidden-xs hidden-sm hidden-md" style="background: url({{ post.cover }}) no-repeat center center;   background-size: cover; padding: 15%; filter        : brightness(50%);
     -webkit-filter: brightness(50%);" ></div>
@@ -25,13 +25,14 @@ layout: default
           </a>
           <a class="hidden-xl hidden-lg" href="{{ post.url }}">
             <h1 class="blog-title">
-              <span class="blog-title-sub">{{ post.subtitle }}</span>
+              <span class="blog-title-sub-mobile">{{ post.subtitle }}</span>
               <br>
               <span class="blog-title-title-mobile">{{ post.title }}<br><br><br><br></span>
             </h1>
-            <p class="blog-description"><br>{{ post.description }}
+            <p class="blog-description-mobile"><br>{{ post.description }}
             </p>
           </a>
+          <br>
 
         
 
@@ -52,6 +53,7 @@ layout: default
           <p class="blog-description-2">{{ post.description }}
           </p>
         </a>
+        <br>
 
         </div>
 
@@ -62,10 +64,10 @@ layout: default
         </div>
 
         <a href="{{ post.url }}">
-          <h1 class="blog-title-2">
-            <span style="font-size: 20px; color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span>
-            <br>
-            <span style="font-size: 100%; text-transform: uppercase; color: #fff;">{{ post.title }}</span>
+          <h1 class="blog-title-2-mobile">
+            <span style="color: #aaa; text-transform: uppercase;">{{ post.subtitle }}</span>
+            <br><br>
+            <span style="text-transform: uppercase; color: #fff;">{{ post.title }}</span>
           </h1>
           <p class="blog-description-2-mobile">{{ post.description }}
           </p>
@@ -74,7 +76,7 @@ layout: default
         </div>
       
       {% endif %}
-      <br>
+      
       
   </div>
 {% endfor %}
