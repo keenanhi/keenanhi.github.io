@@ -1,8 +1,8 @@
 ---
 layout: post
 subtitle: Bigger Picture
-title: Treat your life
-description: Then your control room. Give yourself the best environment for skill development
+title: Treat your life, then your control room
+description: Give yourself the best environment for skill development
 cover: http://i1045.photobucket.com/albums/b459/keenanhi/cute-15719_1920_zpsmtjxe8kg.jpg
 coveralt: stock photo girl
 ---
