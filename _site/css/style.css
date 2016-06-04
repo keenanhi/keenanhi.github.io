@@ -431,26 +431,37 @@ a div:focus h4 {
 ============================ */
 
 .landing-top{
-  padding: 3%; background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
+  padding: 1% 0% 1% 14%; 
+  background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
   background-attachment: fixed;
-  font-size: 12px;
+  
 }
 
 .landing-top p {
   color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .landing-top p a {
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
+  padding: 0px 13.5px;
 }
 
 .landing-top p a:hover {
   color: #86DBBF;
 }
 
+.landing-brand {
+  font-family: Montserrat,sans-serif;
+  font-weight: 900;
+  margin-right: 11px;
+}
+
 .landing-page{
-  padding: 0% 13% 11% 13%; background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
+  padding: 0% 13% 11% 15%; background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
   background-attachment: fixed;
 }
 
@@ -670,85 +681,50 @@ a div:focus h4 {
 --- Blog - main page
 ============================ */
 
-.blog-feat-background:hover{
-  transform: scale();
+.blog-post-bin{
+  border-style: none none inset none;
+  padding: 5%;
 }
 
 .blog-description{
-  padding-left: 2%; position: absolute; top: 75px; color: #fff;
+  padding-top: 4%; color: #333;
   font-weight: 400;
+  margin: 0px;
 }
-
-.blog-description-mobile{
-  padding-left: 2%; position: absolute; top: 75px; color: #fff;
-  font-weight: 400;
-  font-size: 100%;
-}
-
-/*.blog-description:hover{
-  color: #86DBBF;
-          -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}*/
 
 .blog-title{
-  padding-left: 2%; position: absolute; top: 0px;
+  /*padding-left: 2%;*/
   text-transform: uppercase; 
+  font-size: 130%;
 }
 
 .blog-title-sub{
   font-size: 20px; color: #aaa;
 }
 
-.blog-title-sub-mobile{
-  font-size: 15px; color: #aaa;
-}
 
 .blog-title-title{
-  font-size: 200%; color: #fff;
+  font-size: 200%; color: #333;
 }
 
-.blog-title-title-mobile{
-  color: #fff;
-  font-size: 50%;
+
+.blog-title-title:hover{
+  color: #86DBBF;
+
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .blog-description-2{
-  padding: 0% 0% 0% 2%; color: #fff; position: relative; top: 50px;
+  padding: 0% 0% 0% 2%; color: #333;
   font-weight: 400;
-  z-index: 1;
   margin: 0px;
 }
 
-/*.blog-description-2:hover{
-    color: #86DBBF;
-          -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}*/
-
-.blog-description-2-mobile{
-  padding: 0% 0% 0% 2%;  color: #fff; position: relative; top: 50px;
-  font-weight: 400;
-  z-index: 1;
-  font-size: 100%;
-}
-
-/*.blog-description-2-mobile:hover{
-    color: #86DBBF;
-          -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}*/
 
 .blog-title-2{
-   padding: 0% 0% 0% 2%;  margin-bottom: -220px; position: relative; top: -180px; z-index: 1;
-}
-
-.blog-title-2-mobile{
-   padding: 0% 0% 0% 2%; margin-bottom: -220px; position: relative; top: -180px; z-index: 1;
-  font-size: 100%;
+   padding: 0% 0% 0% 2%;
 }
 
 /* ===========================
