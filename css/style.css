@@ -700,7 +700,8 @@ a div:focus h4 {
 }
 
 .blog-title-sub{
-  font-size: 20px; color: #aaa;
+  font-size: 20px;
+  color: #aaa;
 }
 
 
@@ -946,10 +947,25 @@ Parallax
 }
 @media (max-width:768px) {
 
-/*.btn {
-    padding: 1%;
-    font-size: 5px;
-}*/
+.blog-title{
+    padding: 10% 0% 0% 0%;
+}
+
+.blog-description{
+    padding: 1% 0% 0% 0%;
+}
+
+.mastering-rates{
+  background: #eee;
+}
+
+.mix-feedback-rates{
+  background: #eee;
+}
+
+.podcast-rates{
+  background: #eee;
+}
 
   .sidebar {
     visibility: hidden;
