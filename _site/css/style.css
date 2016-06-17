@@ -80,7 +80,9 @@ a div p{
 a div:hover p,
 a div:focus p,
 a div:hover h3,
-a div:focus h3 {
+a div:focus h3,
+a div:hover h5,
+a div:focus h5 {
   color: #fff;
   -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
