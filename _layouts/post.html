@@ -15,7 +15,7 @@
       <h5 style="color: #ccc; text-transform: uppercase;"> 
         
         {% if page.previous.title != null %}
-        | Go Back:
+        Go Back:
         <a class="master-color-light" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
         {% endif %}
         {% if page.previous.title != null %}
@@ -24,7 +24,7 @@
         {% endif %}
         {% endif %}
         {% if page.next.title != null %}
-        | Next Up:
+        Next Up:
         <a class="master-color-light" href="{{ page.next.url }}">{{ page.next.title }}</a> 
         {% endif %}
       </h5>
