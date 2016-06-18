@@ -35,10 +35,7 @@ Finding people as passionate as you are about mixing is an extremely rewarding e
 
 I find that my mixing skills grow much more rapidly when I can rely on people to critically evaluate my work, and listen with different ears than mine, because I always bring myself back to the bigger issues at hand. It's only when I go too far down the rabbit hole that I'm dissatisfied with my mixes - I often find a simple solution myself or am offered one by a peer when mixing this way.
 
-*Start a listening group today* with some peers - don't put it off! Pretty soon you'll see your mixes improve drastically, and you'll be able to focus on the bigger issues at hand. Plus, you will have the motivation to get your mixes finished when you have a weekly or monthly commitment to do so. Perhaps more importantly than any of that however, you'll be able to impress this woman.
-
-<img src="http://i1045.photobucket.com/albums/b459/keenanhi/woman-977020_1280_zps3xhpkneg.jpg" width="50%">
-<p class="blog-img-caption"> "What a great mix, I can't help but smile!"</p>
+*Start a listening group today* with some peers - don't put it off! Pretty soon you'll see your mixes improve drastically, and you'll be able to focus on the bigger issues at hand. Plus, you will have the motivation to get your mixes finished when you have a weekly or monthly commitment to do so.
 
 Oh, and it would be remiss of me not to mention that should you find yourself unable to gather your pals every Wednesday night, [you can get feedback from us here!](/services/mix-feedback/)
 
