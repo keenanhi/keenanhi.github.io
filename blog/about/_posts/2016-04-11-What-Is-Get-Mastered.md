@@ -17,7 +17,7 @@ I had heard of mastering being the stage where this "extra something" is added b
 
 **That is why I created Get Mastered: as a way for independent musicians, recording hobbyists, and podcasters to foster a direct relationship with an experienced audio engineer, and not only make great sounding audio, but learn how to become better producers themselves.**
 
-I set out to make Get Mastered affordable for those who are serious about their work, and have based our rates and services off of direct feedback from clients. Plus, while we launch, we are offering an [absolutely free master](/) to show you how much of a difference we can make to your audio.
+I set out to make Get Mastered affordable for those who are serious about their work, and have based our rates and services off of direct feedback from clients. Plus, while we launch, we are offering an [absolutely free master or mix feedback](/) to show you how much of a difference we can make to your audio and skill development.
 
 Despite our extensive experience with audio, we are just launching as a business, so please let us know if you see anything you think we can improve. Whether technological, or concerning any part of our service, please send all feedback, questions, or concerns to <a href="mailto:services@getmastered.com?Subject=Feedback" target="_top">services@getmastered.com</a>.
 
