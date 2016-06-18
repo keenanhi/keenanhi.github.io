@@ -3,7 +3,7 @@ layout: post
 subtitle: Bigger Picture
 title: Treat your life, then your control room
 description: Give yourself the best environment for skill development
-cover: http://i1045.photobucket.com/albums/b459/keenanhi/cute-15719_1920_zpsmtjxe8kg.jpg
+cover: https://i1045.photobucket.com/albums/b459/keenanhi/cute-15719_1920_zpsmtjxe8kg.jpg
 coveralt: stock photo girl
 ---
 
@@ -17,7 +17,7 @@ Is it because she just got paid $30 to wear headphones in a stock photo shoot? M
 
 It's because she's listening to your newest mix, and she's really *really* into it. Take another look:
 
- <img src=" http://i1045.photobucket.com/albums/b459/keenanhi/cute-15719_1920_zpsmtjxe8kg.jpg" width="50%">
+ <img src=" https://i1045.photobucket.com/albums/b459/keenanhi/cute-15719_1920_zpsmtjxe8kg.jpg" width="50%">
  
 <p class="blog-img-caption"> "Straight fire" she whispers before fainting on the spot</p>
 
