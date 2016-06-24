@@ -28,20 +28,19 @@
       <div id="load"></div>
     </div>
 
+
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0;">
         <div class="container-fluid">
             <div class="navbar-left page-scroll col-lg-3" style="padding: 0px;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="hidden-xs hidden-sm hidden-md" href="/" align="right">
-                    <!-- <h2> The DIY Mastering Blog</h2> -->
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-xs hidden-sm hidden-md brand" href="/" align="right">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
-                <a class="hidden-lg hidden-xl" href="/" align="left">
-                    <!-- <h2> The DIY Mastering Blog</h2> -->
-                    <h4 class="master-color-light" style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
+                <a class="hidden-lg hidden-xl brand" href="/" align="left">
+                    <h4 style="padding: 15px 20px 5px 0px; margin: 0px; text-transform: uppercase;">Get Mastered</h4>
                 </a>
 
             </div>
@@ -49,35 +48,24 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-left navbar-main-collapse col-lg-9">
       <ul class="nav navbar-nav" style="text-align: left; padding-left: 0px;">
-        <li><a href="/#about">About</a></li>
-        <li><a href="/#mastering">Mastering</a></li>
-        <li><a href="/#mix-feedback">Mix Feedback</a></li>
+        <!-- <li><a href="/#about">About</a></li> -->
+            
+            <li><a href="/services/mix-feedback/">Mix Feedback</a></li>
+            <li><a href="/services/mastering/">Mastering</a></li>
+            <li><a href="/services/audio-cleanup/">Audio Cleanup</a></li>
+
         <li><a href="/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
-        <li><a href="/payment/">Submit</a></li>
+        <!-- <li><a href="/payment/">Submit</a></li> -->
+        <li class="active"><a href="/blog/">Blog</a></li>
         <li><a href="/login/">Login</a></li>
         <!-- <li><a href="/subscriptions/">Subscribe</a></li> -->
         <!-- <li class="hidden-sm hidden-xs hidden-md"><a href="/submit/mastering/">Submit</a></li> -->
         <!-- <li class="hidden-lg hidden-xl"><a href="/contact/">Contact</a></li> -->
         <!-- <li class="hidden-sm hidden-xs hidden-md"><a href="/blog/">Blog</a></li> -->
-        <!-- <li class="active"><a href="/blog/">Blog</a></li> -->
         <!-- <li><a href="/archive/">Post Archive</a></li> -->
       </ul>
 
-<!--       <ul class="nav navbar-nav hidden-xs" style="text-align: left; padding-left: 15px;">
-        <li><a href="http://www.facebook.com/getmastered"> <img src="/img/Button-FB-tight.png" width="17px" height="17px"> </a></li>
-
-        <li><a href="http://www.soundcloud.com/getmastered"> <img src="/img/Button-SC-tight.png" width="20px" height="20px"> </a></li>
-
-        <li><a href="http://www.twitter.com/getmastered"> <img src="/img/Button-Twit-tight.png" width="17px" height="17px"> </a></li>
-      </ul>
-
-      <ul class="nav navbar-nav hidden-lg hidden-xl hidden-md hidden-sm" style="text-align: left; padding-left: 0px;">
-
-        <li><a href="http://www.soundcloud.com/getmastered"> Soundcloud </a></li>
-
-        <li><a href="http://www.twitter.com/getmastered"> Twitter </a></li>
-      </ul> -->
 
             </div>
             <!-- /.navbar-collapse -->
@@ -85,6 +73,8 @@
         </div>
         <!-- /.container -->
     </nav>
+
+    <script>$("div.navbar-fixed-top").autoHidingNavbar('showOnUpscroll',false)</script>
     
 
 
@@ -94,45 +84,38 @@
 
 <div style="padding: 0px; margin: 0px;">
   <div class="col-lg-3 sidebar hidden-md hidden-sm hidden-xs" style="padding: 0px; margin: 0px;">
-    <div data-spy="affix" data-offset-top="0" style="padding: 0px 30px 0px 0px; margin-top: -17px;">
+    <!-- data-spy="affix" -->
+    <div  data-offset-top="0" style="padding: 0px 30px 0px 0px; margin-top: 75px;">
     <div>
       <!DOCTYPE html>
 
 
-<section class="bg-white" style="padding: 5px 5px 5px 60px; margin: 0px; text-align: right;">
+<section class="bg-white" style="padding: 0px 50px 5px 60px; margin-top: -9px; text-align: right;" data-spy="affix">
 
-<!--     <h4 style="color: #777; display: inline; text-transform: uppercase;">
+<h5><a class="master-color-light" href="/blog/">BLOG HOME</a></h5>
+
+
+
+
+        <!--     <h4 style="color: #777; display: inline; text-transform: uppercase;">
     <a href="/blog/">Blog home</a></h4>
 <br>
 <br> -->
 
-<h5 style="color: #777; display: inline; text-transform: uppercase;">
-    What is Get Mastered?
+<h5 class="sidebar-head">
+    <a href="/blog/about/What-Is-Get-Mastered/" class="sidebar-text">What is Get Mastered?</a><br>
 </h5>
 
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-Get Mastered is an audio improvement and mastering service with Mix Feedback - 
-
-<span><a href="/blog/about/What-Is-Get-Mastered/" style="color: #aaa;">Learn more.</a><br></p>
-
-
-<br><h5 style="color: #777; display: inline; text-transform: uppercase;">
-    Who Are we?</h5>
-
-<p style="color: #999; font-size: 15px; padding-top: 5px;">
-We are passionate engineers looking to reinvigorate the human side of mastering - 
-<span><a href="/blog/about/Who-We-Are/" style="color: #aaa;">More about us</a>
-<br><br></p>
+<br><h5 class="sidebar-head">
+<a href="/blog/about/Who-We-Are/" class="sidebar-text">Who Are we?</a><br><br>
+    </h5>
 
 
 
-<h5 style="color: #777; display: inline; text-transform: uppercase;">
-    <a href="/">Try us out, free</a><br><br><br>
-</h5>
 
 
 
-<h5 style="color: #777; display: inline; text-transform: uppercase;">Learn about</h5>
+<!-- <h5 style="color: #777; display: inline; text-transform: uppercase;">Learn about</h5>
 
 
 <p style="color: #999; font-size: 15px; padding: 5px 0px 0px 0px;">
@@ -151,51 +134,34 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
     </a>
 
 
-</p>
-
- <form action="/search" method="GET" style="padding: 0px 0px 10px 20px;">
- 		<!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
-              <input style="font-size: 13px;" type="text" name="query" placeholder="Or, search a term">
-            </form>
-
-            <br>
+</p> -->
+<!-- 
+<h5 class="sidebar-head">Search the blog<br><br></h5> -->
 
 
 
 
-<br>
 
-            <!-- <h4 style="color: #777; display: inline; text-transform: uppercase;">
-    Get Social
-</h4>
 
-<br>
-<a target="_blank" href="http://www.facebook.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-FB.png" width="30px" height="30px"> </a>
+<!-- <h5 class="sidebar-head">
+    <a href="/">Try us out for free</a><br><br>
+</h5>
+ -->
 
-<a target="_blank" href="http://www.soundcloud.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-SC.png" width="30px" height="30px"> </a>
-
-<a target="_blank" href="http://www.twitter.com/getmastered" style="padding: 0% 1%;"> <img src="/img/Button-Twit.png" width="30px" height="30px"> </a>
-<br>
-<br> -->
-
-<!-- <p style="color: #000;"> <a style="font-size: 15px; color:#999;" href="/archive/index.html">Full Archive</a></p> -->
 
 </section>
     </div>
 
     </div>
   </div>
-  <div class="col-lg-9" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
+  <div class="col-lg-6" style="padding-top: 0px; padding-left: 20px; padding-right: 20px;">
     <div class="row-fluid bg-white hidden-md hidden-sm hidden-xs" style="padding: 80px 30px 0px 0px; position: fixed; width: 100%; z-index: 1; ">
       <h5 style="color: #ccc; text-transform: uppercase;"> 
-        <a class="master-color-light" href="/blog/">BLOG HOME</a>
-        
-         | Go Back:
-        <a class="master-color-light" href="/blog/about/Who-We-Are/">Who We Are</a>
         
         
         
-         | Next Up:
+        
+        Next Up:
         <a class="master-color-light" href="/blog/back-to-basics/Preparing-Your-Mix/">Preparing Your Mix For Mastering</a> 
         
       </h5>
@@ -205,13 +171,10 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
       <h5 style="color: #ccc; text-transform: uppercase;" style="font-size: 2vw;"> 
       <a class="master-color-light" href="/blog/">BLOG HOME</a>
         
-         | Go Back:
-        <a class="master-color-light" href="/blog/about/Who-We-Are/">< Who We Are</a>
-        
         
         
          | Next Up:
-        <a class="master-color-light" href="/blog/back-to-basics/Preparing-Your-Mix/">Preparing Your Mix For Mastering ></a> 
+        <a class="master-color-light" href="/blog/back-to-basics/Preparing-Your-Mix/">Preparing Your Mix For Mastering</a> 
         
       </h5>
     </div>
@@ -219,10 +182,14 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
     <div class="row-fluid bg-white" style="padding: 60px 0px;">
     </div>
 
-<div class="row-fluid" style="background: url(http://i1045.photobucket.com/albums/b459/keenanhi/VU2_zpss9ykfjz0.png) no-repeat center center;   background-size: cover; padding: 30%; filter        : brightness(50%);
+<div class="row-fluid hidden-xs hidden-sm hidden-md" style="background: url(http://i1045.photobucket.com/albums/b459/keenanhi/VU2_zpss9ykfjz0.png) no-repeat center center; background-size: cover; padding: 20%; filter: brightness(50%);
     -webkit-filter: brightness(50%); z-index: -1;" ></div>
-          <h1 class="hidden-xs hidden-sm hidden-md" style="padding-left: 2%; position: absolute; top: 140px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">Back to Basics</span><br><span style="font-size: 200%; text-transform: uppercase; color: #fff;">What is Mastering?<br><br><br><br></span></h1>
-          <h1 class="hidden-xl hidden-lg"style="padding-left: 2%; position: absolute; top: 140px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">Back to Basics</span><br><span style="text-transform: uppercase; color: #fff;">What is Mastering?<br><br><br><br></span></h1>
+
+    <div class="row-fluid hidden-xl hidden-lg" style="background: url(http://i1045.photobucket.com/albums/b459/keenanhi/VU2_zpss9ykfjz0.png) no-repeat center center;   background-size: cover; padding: 40%; filter        : brightness(50%);
+    -webkit-filter: brightness(50%); z-index: -1;" ></div>
+
+          <h1 class="hidden-xs hidden-sm hidden-md" style="padding-left: 2%; position: absolute; top: 140px;"><span style="font-size: 18px; color: #aaa; text-transform: uppercase;">Back to Basics</span><br><span style="font-size: 120%; text-transform: uppercase; color: #fff;">What is Mastering?<br><br><br><br></span></h1>
+          <h1 class="hidden-xl hidden-lg"style="padding-left: 2%; position: absolute; top: 140px;"><span style="font-size: 20px; color: #aaa; text-transform: uppercase;">Back to Basics</span><br><span style="text-transform: uppercase; color: #fff; font-size: 100%;">What is Mastering?<br><br><br><br></span></h1>
 <!-- 
 
     <div class="row-fluid">
@@ -322,7 +289,21 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
 
       </div>
       <!DOCTYPE html>
-<p>-Keenan <i>(founder, engineer, and voice behind most of these blog posts)</i></p>
+
+<p>-<a href="/blog/about/Who-We-Are/">Keenan Hye
+
+	<br>
+
+	<img src="https://i1045.photobucket.com/albums/b459/keenanhi/headshot-circ_zpshegku5ql.png" width="15%">
+
+	<br>
+
+<i>Founder, engineer, and voice behind most of these blog posts</i>
+
+</a> 
+</p>
+
+
 
 	<a href="https://twitter.com/share" class="twitter-share-button" data-size="small" data-count="none" data-hashtags="GetMastered" >Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -355,6 +336,78 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
 
     </div>
   </div>
+  <div class="col-lg-3 sidebar hidden-md hidden-sm hidden-xs" style="padding: 60px 0px; margin: 0px;">
+    
+<section class="bg-white" style="padding: 65px 30px 5px 30px; margin: 0px; text-align: left;">
+
+
+ <form action="/search" method="GET" style="padding: 0px 0px 10px 0px; margin: 0px; margin-top: -5px;">
+        <!-- <label style="font-size: 17px;" for="query">Search:  </label> --> 
+              <input style="font-size: 14px;" type="text" name="query" placeholder="Search a topic">
+              <input class="btn btn-skin btn-search" type="submit" value="Search">
+            </form>
+
+
+ 
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/lets-get-theoretical/Writing-With-Mixing-In-Mind/">Writing With Mixing In Mind</a>
+        <i> - June 20, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/lets-get-theoretical/Musical-Intuition-Development/">Musical Intuition Development</a>
+        <i> - June 20, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/bigger-picture/treat-your-life/">Treat your life, then your control room</a>
+        <i> - May 21, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/about/treat-your-life/">Treat your life, then your control room</a>
+        <i> - May 21, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/about/Who-We-Are/">Who We Are</a>
+        <i> - April 12, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/about/What-Is-Get-Mastered/">What is Get Mastered?</a>
+        <i> - April 11, 2016 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/back-to-basics/Preparing-Your-Mix/">Preparing Your Mix For Mastering</a>
+        <i> - December 26, 2015 </i>
+      </p>
+  </div>
+
+  <div class="row-fluid">
+      <p style="font-size: 14px; line-height: 0.5em;"><a href="/blog/back-to-basics/What-Is-Mastering/">What is Mastering?</a>
+        <i> - October 31, 2015 </i>
+      </p>
+  </div>
+
+
+<a class="sidebar-text" href="/blog/archive/index.html">Explore full archive</a><br><br>
+
+
+
+        </section>
+
+
+
+
+  </div>
 </div>
 
 
@@ -382,7 +435,7 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
 
 <br>
 <br>
-<p style="font-size: 14px; color: #aaa;"><b><a href="/contact/">contact</a> - <a href="/blog/">blog</a></b></p>
+<p style="font-size: 14px; color: #aaa;"><b><a href="/contact/">contact</a> - <a href="/blog/about/What-Is-Get-Mastered/">about</a> - <a href="/blog/">blog</a></b></p>
 
 
       </div>
@@ -401,7 +454,7 @@ We are passionate engineers looking to reinvigorate the human side of mastering 
 
   </body>
   
-  <!-- Google Tag Manager -->
+<!-- Google Tag Manager  -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MSTFPS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
