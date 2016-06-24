@@ -11,7 +11,7 @@ I like to think of writing a song like making a puzzle, and mixing a song like t
 
 In this post, which I received some requests for, I'll walk through how to create those puzzle pieces yourself, using music theory as a guide. You'll see that once you have the means to write parts that fit snuggly with each other, mixing and recording become much easier and sound completely natural!
 
-**Please note:** This post will take a little bit of music theory to get the most out of. At some point, I would love to have a guest on here to give a quick theory primer; for now, I've linked to some great music theory introductions [on the bottom of this post](#bottom).
+**Please note:** This post will take a little bit of music theory to get the most out of. At some point, I would love to have a guest on here to give a quick theory primer; for now, I've linked to some great music theory introductions <a href="#bottom">on the bottom of this post</a>
 
 ___
 
@@ -111,10 +111,9 @@ Now we have a song that will practically mix itself! We've created our own puzzl
 You can also easily keep writing and recording new parts if the song needs more beefing up, by adding more supporting players, such as some subtle piano chords, guitar doubling, or harmony vocals. 
 
 <div id="bottom">
+</div>
 
 This is a rather extreme example of partitioning the keyboard while writing; there's nothing to stop you from writing [three bass parts](https://www.youtube.com/watch?v=Zi_XLOBDo_Y) in a song, for example, but it's certainly rare! Even in these extreme examples, however, you find that the two overlapping instruments work *together* and don't fight each other. 
-
-</div>
 
 Remember, as with all things musical, these are just helpful guidelines. Try writing some new songs like this, and then break some rules and see how it sounds!
 
