@@ -7,7 +7,7 @@ cover: https://i1045.photobucket.com/albums/b459/keenanhi/mouse-583579_640_zpsr2
 coveralt: sheet music mouse
 ---
 
-I like to think of writing a song like making a puzzle, and mixing a song like trying to actually put together the pieces of that puzzle. When I'm recording a composition I was not involved in creating from the start, it's often a more challenging puzzle than if I'm making the pieces from scratch myself.
+I like to think of writing a song like making a puzzle, and mixing a song like trying to actually put together the pieces of that puzzle. When I'm recording a composition I was not involved in creating from the start, it's often a more challenging puzzle than if I'm making the pieces from scratch myself, and I can dictate how they fit together from the start.
 
 In this post, which I received some requests for, I'll walk through how to create those puzzle pieces yourself, using music theory as a guide. You'll see that once you have the means to write parts that fit snuggly with each other, mixing and recording become much easier and sound completely natural!
 
@@ -116,7 +116,7 @@ Now we have a song that will practically mix itself! We've created our own puzzl
 
 Etc, etc, etc. Once you've written a song this way, mixing and recording become easier, because you have a pre-defined frequency region for each instrument to use as a jumping off point. You can also easily keep writing and recording new parts if the song needs more beefing up, by adding more supporting players, such as some subtle piano chords, guitar doubling, or harmony vocals where appropriate.
 
-This is a rather extreme example of partitioning the keyboard while writing; there's nothing to stop you from writing [three bass parts](https://www.youtube.com/watch?v=Zi_XLOBDo_Y) in a song, for example, but it's certainly rare! Even in these extreme examples, however, you find that the two overlapping instruments work *together* and don't fight each other. 
+This is a rather extreme example of partitioning the keyboard while writing; there's nothing to stop you from writing [three bass parts](https://www.youtube.com/watch?v=Zi_XLOBDo_Y) in a song, for example, but it's certainly rare! Even in these extreme examples, however, you find that the two overlapping instruments work *together* and don't fight each other.
 
 Remember, as with all things musical, these are just helpful guidelines. Try writing some new songs like this, and then break some rules and see how it sounds!
 
