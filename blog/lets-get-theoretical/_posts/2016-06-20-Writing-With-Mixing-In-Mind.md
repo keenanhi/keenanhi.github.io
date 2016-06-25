@@ -70,7 +70,7 @@ Next, we need to fill in those bass notes! Enter: the bass synth.
 
 I've noted the bass synth's range in magenta. 
 
-You'll notice this time that we have a gap between the lower vocal part and higher bass synth part. Don't panic! When in doubt, leave more space between parts - better to have more room you can fill in later if need be (say, if the low-mids need beefing up when you listen to a rough mix of your song)
+You'll notice this time that we have a gap between the lower vocal part and higher bass synth part, indicated by the red arrow. Don't panic! When in doubt, leave more space between parts - better to have more room you can fill in later if need be (say, if the low-mids need beefing up when you listen to a rough mix of your song)
 
 Now we've used all of our non-percussive instruments. But wait - there's still a ton of empty space at the top of the piano! Do we need to fill that in?
 
