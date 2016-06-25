@@ -76,7 +76,7 @@ Now we've used all of our non-percussive instruments. But wait - there's still a
 
 Of course, we could fill that in with another instrument if we wanted. If I do this, I usually save it for the chorus sections of the song, to add some impact.
 
-However, I often find that I leave this region empty. The reason that this isn't as noticeable as, say, a missing bass region part, is that all of the instruments we've added have [higher frequency harmonics](https://en.wikipedia.org/wiki/Harmonic). These harmonics will fill in our higher frequencies when we mix - I'll even usually find that when I'm mixing, there is too much competition up there, and I'll have to chop out some high frequency harmonics of, say, the bass and guitar parts, to leave room for the vocal harmonics.
+However, I often find that I leave this region empty. The reason that this isn't as noticeable as, say, a missing bass region part, is that all of the instruments we've added have [higher frequency harmonics](https://en.wikipedia.org/wiki/Harmonic). These harmonics will fill in our higher frequencies when we mix - I'll even usually find that when I'm mixing, there is too much competition up there, and I'll have to chop out some high frequency harmonics of, say, the bass and vocal parts, to leave room for the guitar harmonics.
 
 Sometimes, I'll even just add a non-pitched, higher frequency part, such as shaker, white noise, or cymbal crashes, to the chorus of songs. This adds some excitement and differentiates these sections from the rest of the song.
 
@@ -108,9 +108,13 @@ ___
 
 <p class="blog-img-caption">"Sorry Grandma, rain check on the puzzles... I have to write music"</p>
 
-Now we have a song that will practically mix itself! We've created our own puzzle pieces by partitioning our keyboard to different players, and it's fairly straightforward to see how we'll approach recording and mixing this song! Perhaps a condenser microphone to capture more high frequency harmonics on the guitar, some saturation on the vocals to fill up the mids even more... who knows! Once you've written a song this way, mixing and recording become easier, because you have a pre-defined frequency region for each instrument, dictated by the part itself.
+Now we have a song that will practically mix itself! We've created our own puzzle pieces by partitioning our keyboard to different players, and it's fairly straightforward to see how we'll approach recording and mixing this song. Here are some examples of things I could do now (key word *could!*):
 
-You can also easily keep writing and recording new parts if the song needs more beefing up, by adding more supporting players, such as some subtle piano chords, guitar doubling, or harmony vocals. 
+* Record vocals with a dynamic microphone, since we want to emphasize the low-mids rather than compete with the guitar by using a condenser microphone
+* Record the guitar with our amp EQ'd with low amounts of bass, and perhaps a little more than average amount of treble
+* Add some high-passed, bright reverb to the track to fill in the high end of the song
+
+Etc, etc, etc. Once you've written a song this way, mixing and recording become easier, because you have a pre-defined frequency region for each instrument to use as a jumping off point. You can also easily keep writing and recording new parts if the song needs more beefing up, by adding more supporting players, such as some subtle piano chords, guitar doubling, or harmony vocals where appropriate.
 
 This is a rather extreme example of partitioning the keyboard while writing; there's nothing to stop you from writing [three bass parts](https://www.youtube.com/watch?v=Zi_XLOBDo_Y) in a song, for example, but it's certainly rare! Even in these extreme examples, however, you find that the two overlapping instruments work *together* and don't fight each other. 
 
