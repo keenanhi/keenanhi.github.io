@@ -11,7 +11,7 @@ I like to think of writing a song like making a puzzle, and mixing a song like t
 
 In this post, which I received some requests for, I'll walk through how to create those puzzle pieces yourself, using music theory as a guide. You'll see that once you have the means to write parts that fit snuggly with each other, mixing and recording become much easier and sound completely natural!
 
-**Please note:** This post will take a little bit of music theory to get the most out of. At some point, I would love to have a guest on here to give a quick theory primer; for now, I've linked to some great music theory introductions on the bottom of this post.
+**Please note:** This post will take a little bit of music theory to get the most out of. At some point, I would love to have a guest on here to give a quick theory primer; for now, I've linked to some great music theory introductions on [the bottom of this post](#great-music-theory-references).
 
 ___
 
