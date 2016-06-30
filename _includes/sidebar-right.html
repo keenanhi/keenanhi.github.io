@@ -11,14 +11,19 @@
 
  {% for post in site.posts %}
   <div class="row-fluid">
-      <p style="font-size: 14px; line-height: 0.5em;"><a href="{{ post.url }}">{{ post.title }}</a>
+      <p style="font-size: 14px; line-height: 1em;"><a href="{{ post.url }}">{{ post.title }}</a>
         <i> - {{ post.date | date: '%B %d, %Y' }} </i>
       </p>
   </div>
 {% endfor %}
 
-<a class="sidebar-text" href="/blog/archive/index.html">Explore full archive</a><br><br>
+<a class="sidebar-text" href="/blog/archive/index.html">Explore full archive</a>
 
+<br><br><br>
+
+
+
+{% include mailing-list-signup.html %}
 
 
         </section>

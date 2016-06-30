@@ -2,12 +2,10 @@
 subtitle: Get Started Part 1
 title: What is sound, really though?
 layout: post
-description: "An overview of the different aspects of sound and acoustic music"
+description: An overview of the different aspects of sound and acoustic music
 soundcloud: "off"
 cover: http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif
-color: "text-light"
 coveralt: sound waves
-caption: Some sound
 tags: sound
 ---
 
@@ -39,7 +37,9 @@ So let’s get started by answering the question:
 
 ### What is sound?
 
-The definition of sound is a little more complicated than it would seem! Sound is our perception of a material's variation of pressure  versus time through our ears, and the auditory processing parts of our brain. Typically, this material will be air, though - and I hope I don’t sound crazy - we can perceive variations in pressure of other materials too, like water! Just fill up your tub, stick your head underwater, and listen for your roommates to ask you what on earth you are doing. You will be able to hear them, though maybe not as clearly. For now, however, we are just going to deal with air, since most of us aren’t listening to music underwater ([most of us](https://www.youtube.com/watch?v=TeChHVAbVhI)).
+The definition of sound is a little more complicated than it would seem! Sound is our perception of a material's variation of pressure  versus time through our ears, and the auditory processing parts of our brain. Typically, this material will be air, though - and I hope I don’t sound crazy - we can perceive variations in pressure of other materials too, like water! Just fill up your tub, stick your head underwater, and listen for your roommates to ask you what on earth you are doing. You will be able to hear them, though maybe not as clearly. 
+
+For now, however, we are just going to deal with air, since most of us aren’t listening to music underwater ([most of us](https://www.youtube.com/watch?v=TeChHVAbVhI)).
 
 To better understand what this definition means, we need to dip our toes (just our toes!) into physics (only for a second!). Remember: **DON'T PANIC.** Physics is more afraid of you than you are of it.
 
@@ -47,8 +47,8 @@ Pressure is a distribution of force across a given area. In terms of sound, the 
 
 Below is a great animation with which we can visualize the change in density of air molecules that leads to our hearing of sound. Notice how if you pick one position in the sqaure, there is a constantly changing density of air molecules, as the higher pressure "ripples" of air seem to move through that point.
 
-<img class="hidden-xl hidden-lg" src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="70%">
-<img class="hidden-xs hidden-sm hidden-md" src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="30%">
+<img src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="75%">
+<p class="blog-img-caption">Sound!</p>
 
 In fact, a very useful way of thinking about these "ripples" of higher density air molecules is to call them waves. Specifically, we call this a **sound wave**, and we can think about it just like a wave created by dropping a rock into a pond.
 
@@ -78,10 +78,8 @@ So remember: pitch is your brain's translation of fundamental frequency[^notreal
 
 Perhaps the easiest instrument on which to visualize fundamental frequencies versus harmonic frequencies is the synthesizer. Most synthesizers start by sending out very basic tones that can then be altered with all of those knobs, buttons, and sliders. These basic tones are usually include easy to recognize shapes, such as sine waves, square waves, triangle waves, and sawtooth waves, represented below (in that order):
 
-<!--![synth waves](http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg)-->
-
-<img class="hidden-xl hidden-lg" src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="70%">
-<img class="hidden-xs hidden-sm hidden-md" src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="40%">
+<img src="http://cdn.instructables.com/FU2/E0V7/H0URBWVS/FU2E0V7H0URBWVS.LARGE.jpg" alt="synth waves" width="75%">
+<p class="blog-img-caption">A sine wave (red), a square wave (green), a triangle wave (blue), and a sawtooth wave (purple magenta crossbreed)</p>
 
 It's easy to see where these names come from!
 
