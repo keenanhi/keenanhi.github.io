@@ -13,9 +13,7 @@ coveralt: signal chain
 {:toc}
 <br>
 
-###What is Digital Audio?
-
-We live in a crazy time period where we can recreate almost any sound around us, with basically no effort! Most smartphones come preloaded with a voice memo app, giving everyone the power to record sound and play it back at a moment's notice.
+We live in a crazy time period where we can recreate almost any sound around us, with basically no effort. Most smartphones come preloaded with a voice memo app, giving everyone the power to record sound and play it back at a moment's notice.
 
 Why should you care about the technical details of digital audio? Well... you want your music to sound better than [this](https://youtu.be/nLq-17yD2-Y), don't you?
 
@@ -30,13 +28,13 @@ As you can see, we start with the acoustic sound we described in [Part 1 of this
 
 Let's start with the bridge between the acoustic world and electrical world
 
-###The Microphone
+### The Microphone
 
 <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-Mic_zps5aedzvbp.jpg" alt="signal chain" width="75%">
 
 Microphones are a type of **transducer**, which is a device that shifts energy between different forms. In the specific case of the microphone, acoustic energy is shifted into electrical energy, so they are categorized as **Electro-acoustic transducers**. We won't go too into detail about how different microphones work, as there a few different methods by which they can convert energy between the electrical and acoustical domains. Essentially, you can think of it this way: a sound wave *pushes* on something, which in turn *pushes* on electrons, sending electrons out of the microphone in the exact same pattern that the microphone was *pushed* by the sound wave. 
 
-Here is a ubiquoitous microphone, Shure's **SM57**:
+Here is a ubiquitous microphone, Shure's **SM57**:
 
 <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/fig1shure-sm57-bc678035_zpsqkjv54sw.jpg" alt="sm57" width="75%">
 <p class="blog-img-caption">Perhaps the most ubiquitous microphone in existence today, Shure's SM57</p>
@@ -56,7 +54,7 @@ We can see from the frequency response of the SM57 that it has a relatively flat
 
 There are also other types of transducers we can use in the place of a microphone for different types of sounds: for example, if you are recording electric guitar, you can use the pickup of the guitar, which is another type of transducer. Or, if you are recording something like a synthesizer, which outputs electronic signals only and no actual sound, you can bypass this whole stage, since you are already starting with electrons! Remember: In this first step, our goal is only to convert sound energy to electrical energy.
 
-###The Analog to Digital Converter
+### The Analog to Digital Converter
 
 <img src="http://i1045.photobucket.com/albums/b459/keenanhi/Get%20Started%20Series/Signal-Chain-ADC_zpszmk9b9kv.jpg" alt="Analog to Digital Converter" width="75%">
 
@@ -171,9 +169,9 @@ It turns out, 44100 Hz (or 44.1kHz), the sampling frequency we used in the last 
 
 We know that if we zoomed into the panda cam, we would eventually reach pixels of uniform height and width. So it makes sense that if we zoomed into a waveform, we would find a similar smallest chunk. In audio, we call this smallest chunk a **bit**. Before we move on, a quick explanation of the **binary system** is in order:
 
-The binary system is just a system of counting that is easy for computers to use. We humans use a system of counting that goes something like "0, 1, 2, 3, 4, 5, 6, 7, 8, 9". For any value above that, we shift over a decimal place and start again, "10, 11, 12, 13, 14... 21, 21, 23, 24... 31, 32, 33, 34... etc". You know how it goes from there (I hope). This is called a **base ten**, or **decimal** counting system, because we have ten different symbols that we use in representing any given value.
+The binary system is just a system of counting that is easy for computers to use. We humans use a system of counting that goes something like "0, 1, 2, 3, 4, 5, 6, 7, 8, 9". For any value above that, we shift over a decimal place and start again, "10, 11, 12, 13, 14... 21, 21, 23, 24... 31, 32, 33, 34... etc". You know how it goes from there (I hope). This is called a **base-ten**, or **decimal** counting system, because we have ten different symbols that we use in representing any given value.
 
-In contrast to this system, computers use a **base-two** counting system (which is just another word for binary), which only uses two symbols: 0 and 1. A computer counts "0, 1" and then shift over a decimal place and start again: "10, 11, 100, 101, 110, 111, 1000, 1001... etc". These are just different ways of representing the same values: 0 in binary is 0 in decimal, 1 in binary is 1 in decimal, 10 in binary is 2 in decimal, 11 in binary is 3 in decimal, 100 in binary is 4 in decimal, and so on, forever (for more on conversion information, [see wikipedia](https://en.wikipedia.org/wiki/Binary_number#Counting_in_binary)). 
+In contrast to this system, computers use a **base-two**, or **binary** counting system, which only uses two symbols: 0 and 1. A computer counts "0, 1" and then shift over a decimal place and start again: "10, 11, shift, 100, 101, 110, 111, shift, 1000, 1001... etc". These are just different ways of representing the same values: 0 in binary is 0 in decimal, 1 in binary is 1 in decimal, 10 in binary is 2 in decimal, 11 in binary is 3 in decimal, 100 in binary is 4 in decimal, and so on, forever (for more on conversion information, [see wikipedia](https://en.wikipedia.org/wiki/Binary_number#Counting_in_binary)). 
 
 Each digit in a base-two number, at least for a digital system like a computer, is called a **bit**, and it turns out that the number of different values we can represent in a binary number is directly related to how many bits (how many digits) it contains: specifically by raising 2 to the number of bits. So if we had a 4-bit number, we would have 2^4 = 8 values we can represent. We can count these ourselves: 000, 001, 010, 011, 100, 101, 110, 111, which, remember, represent 0 through 7 in decimal (note that here we are using **leading zeros**, which are zeros on the left hand side meant to be placeholders. These are meaningless, just as they are meaningless in base-ten, e.g. when you are writing a date: 04/01/2015 which we understand as 4/1/2015)
 

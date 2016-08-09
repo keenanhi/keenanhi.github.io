@@ -16,13 +16,9 @@ tags: sound
 {:toc}
 <br>
 
-### What is Sound, Really Though?
+Welcome to the Get Started mini-series! In this series, we will review the basic scientific foundations of the modern music production process in an easy to understand format. If you’re looking to enhance your scientific understanding of the recording process and be a cut above the rest, you're in the right place.
 
-Welcome to the Get Started mini-series!
-
-In this series, we will review the foundations of the modern music production process. If you’re totally new to this stuff, this is the place for you, and even if you have experience, reviewing the basics never hurts!
-
-The series will be split into three sections:
+The series will be split into four sections:
 
 **Part 1: What is Sound, Really Though?** An overview of sound and it's basic characteristics (hint: you are reading this one)
 
@@ -37,22 +33,22 @@ So let’s get started by answering the question:
 
 ### What is sound?
 
-The definition of sound is a little more complicated than it would seem! Sound is our perception of a material's variation of pressure  versus time through our ears, and the auditory processing parts of our brain. Typically, this material will be air, though - and I hope I don’t sound crazy - we can perceive variations in pressure of other materials too, like water! Just fill up your tub, stick your head underwater, and listen for your roommates to ask you what on earth you are doing. You will be able to hear them, though maybe not as clearly. 
+The definition of sound is a little more complicated than it would seem. Sound is our perception of a material's variation of pressure versus time through our ears, and the auditory processing parts of our brain. Typically, this material will be air, though - and I hope I don’t sound crazy - we can perceive variations in pressure of other materials too, like water! Just fill up your tub, stick your head underwater, and listen for your roommates to ask you what on earth you are doing. You will be able to hear them, though maybe not as clearly as you would in air. 
 
-For now, however, we are just going to deal with air, since most of us aren’t listening to music underwater ([most of us](https://www.youtube.com/watch?v=TeChHVAbVhI)).
+For now, we are just going to deal with air, since most of us aren’t listening to music underwater ([most of us](https://www.youtube.com/watch?v=TeChHVAbVhI)).
 
 To better understand what this definition means, we need to dip our toes (just our toes!) into physics (only for a second!). Remember: **DON'T PANIC.** Physics is more afraid of you than you are of it.
 
 Pressure is a distribution of force across a given area. In terms of sound, the **force** comes from air molecules bouncing against the **area** of your eardrum. The more air molecules you have shoved into one space (i.e. the higher the density of air molecules), the more force they can exert against your eardrum. Conversely, the less air molecules you have shoved into one space (i.e. the lower the density of air molecules), the less force they can exert against your eardrum. It is this variation in air molecule density, that leads to a variation in **pressure** against our eardrum that we hear as sound.
 
-Below is a great animation with which we can visualize the change in density of air molecules that leads to our hearing of sound. Notice how if you pick one position in the sqaure, there is a constantly changing density of air molecules, as the higher pressure "ripples" of air seem to move through that point.
+Below is a great animation with which we can visualize the change in density of air molecules that leads to our hearing of sound. Notice how if you pick one position in the square, there is a constantly changing density of air molecules, as the higher pressure "ripples" of air seem to move through that point.
 
 <img src="http://www.acs.psu.edu/drussell/Demos/rad2/latquad.gif" alt="pressure wave gif" width="75%">
 <p class="blog-img-caption">Sound!</p>
 
-In fact, a very useful way of thinking about these "ripples" of higher density air molecules is to call them waves. Specifically, we call this a **sound wave**, and we can think about it just like a wave created by dropping a rock into a pond.
+In fact, a very useful way of thinking about these "ripples" of higher density air molecules is to call them waves. Specifically, we call these ripples **sound waves**, and we can think about them just as we could a wave created by dropping a rock into a pond.
 
-It is a little bit easier to think of these variations in pressure as vibration. Think of when you play music too loudly in your car and the whole thing starts vibrating; that vibration is the direct affect of sound.
+It is a little bit easier to think of these variations in pressure as vibration. Think of when you play music too loudly in your car and the whole thing starts vibrating; that vibration is the direct effect of sound.
 
 An easy way to differentiate sound waves from one another is to measure the distance between the points of highest pressure, or the points of highest air molecule density. This is pretty easy to see: All the "darker" circles are high pressure points. Since we are taling about sound waves, we call this distance the **wavelength**, the length of the wave. Every wavelength, the wave repeats itself. A wavelength is a distance per cycle of the wave.
 
@@ -117,7 +113,7 @@ In all of these cases, a physical object acts as a filter. Though all of these e
 
 When we filter a sound, we are changing the loudness of certain frequencies within that sound. So it makes sense to go back and ask the seemingly innocuous question: what is loudness?
 
-**Loudness** is our brains translation[^notreally2] of the strength of a sound, or, in other words, how hard the air molecules which make up a sound are vibrating. Intuitively, the harder the air is a-shakin', the louder the sound is a-soundin', and conversly, the weaker the quieter. A sound's total loudness relates to the loudness of all of it's components: not just the fundamental frequency, and not just the harmonics. We hear different frequencies with different sensitivity, which is why loudness can be different than absolute volume, or why certain songs often sound louder than others even though they are scientifically the same average volume.
+**Loudness** is our brains translation[^notreally2] of the strength of a sound, or, in other words, how hard the air molecules which make up a sound are vibrating. Intuitively, the harder the air is a-shakin', the louder the sound is a-soundin', and conversely, the weaker the quieter. A sound's total loudness relates to the loudness of all of it's component frequencies: not just the fundamental frequency, and not just the harmonics. We hear different frequencies with different sensitivity, which is why loudness is often different than absolute volume, and why certain songs often sound louder than others even though they are scientifically the same average volume.
 
 ### Recreating Sound
 
