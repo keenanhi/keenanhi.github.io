@@ -24,9 +24,11 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="bg-white">
     <!-- Preloader -->
-    <div id="preloader">
+    <!-- Commented out, bugs out with cloudwok widget  -->
+<!--     <div id="preloader">
       <div id="load"></div>
-    </div>
+    </div> -->
+
 
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background: #000; padding: 1px 0;">
@@ -76,7 +78,7 @@
 <div class="col-lg-12 bg-white" style="padding: 120px 10% 0px 10%; margin: 0px;">
 <div class="row-fluid">
 
-<h4 style="color: #aaa;"><a href="/submit/mastering/">Mastering Submissions</a> - Mix Feedback Submissions - <a href="/submit/audio-cleanup/">Audio Cleanup Submissions</a></h4>
+<h4 style="color: #aaa;"><a href="/submit/mastering/">Mastering Submissions</a> - Mix Feedback Submissions</h4>
 <br>
 </div>
 
@@ -85,13 +87,90 @@
 
 <h3 style="font-size: 200%; color: #000; text-align: center;">Send us your mix for feedback using the form below:</h3>
 
-<div class="hidden-sm hidden-xs hidden-md" style="margin-bottom: 30px; padding: 0px;">
-        <iframe src="https://www.wetransfer.com/?to=services@getmastered.com" height="400px" width="80%"></iframe>
+<div style="margin-bottom: 30px; padding: 0px;">
+         <div class="cloudwok-embed" data-wokid="xZog">
+    <div class="cloudwok-upload-files"></div>
+    <form class="cloudwok-upload">
+        <div class="cloudwok-dropzone"></div>
+        </form>
+    
+        <div class="cloudwok-upload-message"></div>
+    </div>
+<style>
+    .cloudwok-embed .dropzone {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: solid 3px #ffffff !important;
+    }
+    .cloudwok-embed .dropzone .filepicker {
+        background: #86dbbf !important;
+        color: #ffffff !important;
+        border: solid 1px #86dbbf !important;
+    }
+    .cloudwok-embed .btn-start-upload {
+        background: #86dbbf !important;
+        color: #ffffff !important;
+        border: solid 1px #86dbbf !important;
+    }
+</style>
+<script>
+    var cloudWokConfig = {
+        "dropzone": {
+            "label": "Drag and drop, or",
+            "button": "Add files"
+        },
+        "success": {
+            "message": {
+                "title": "UPLOAD SUCCESS TITLE",
+                "subtitle": "UPLOAD SUCCESS SUBTITLE",
+                "text": "UPLOAD SUCCESS TEXT",
+                "button": "OK",
+                "noButtonOwnCW": true,
+                "dontpopup": true,
+                "dontslideup": true,
+                "dontfadeout": true
+            },
+            "redirect": "http://getmastered.com/thank-you/"
+        },
+        "form": {
+            "email": {
+                "placeholder": "Enter your e-mail",
+                "optional": false
+            },
+            "name": {
+                "firstname": {
+                    "placeholder": "Enter your first name",
+                    "required": false
+                },
+                "lastname": {
+                    "placeholder": "Enter your last name",
+                    "required": true
+                }
+            },
+            "message": {
+                "placeholder": "List any specific requests or questions you have for us here",
+                "rows": 7,
+                "optional": true
+            },
+            "button": "Upload and send",
+            "sent": "File has been uploaded - we'll get to work right away!"
+        }
+    };
+    document.querySelector(".cloudwok-embed").setAttribute("data-config",
+    JSON.stringify(cloudWokConfig));
+    (function(window, document) {
+    var loader = function() {
+    var script = document.createElement("script"),
+    tag = document.getElementsByTagName("script")[0];
+    script.src = "https://www.cloudwok.com/cdn-vassets/javascripts/cw.js";
+    tag.parentNode.insertBefore(script, tag);
+    };
+    window.addEventListener ? window.addEventListener("load", loader, false) :
+    window.attachEvent("onload", loader);
+    })(window, document);
+</script>
             </div>
 
-<div class="hidden-lg hidden-xl" style="margin-bottom: 30px; padding: 0px;">
-        <iframe src="https://www.wetransfer.com/?to=services@getmastered.com" height="400px" width="80%"></iframe>
-            </div>
 
           <p style="font-size: 20px;"><b>Having issues? On mobile? Have another query?</b> Reach out to us using the form below:
       <br>
@@ -138,7 +217,7 @@
             </div>
             <br><br>
 
-            <p>You can also send your files, questions, and concerns directly to <a href="mailto:services@getmastered.com">services@getmastered.com</a></p>
+            <p>You can also send any questions and concerns directly to <a href="mailto:services@getmastered.com">services@getmastered.com</a></p>
 
 
 </div>

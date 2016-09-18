@@ -1,0 +1,81 @@
+<div class="cloudwok-embed" data-wokid="xZog">
+    <div class="cloudwok-upload-files"></div>
+    <form class="cloudwok-upload">
+        <div class="cloudwok-dropzone"></div>
+        </form>
+    
+        <div class="cloudwok-upload-message"></div>
+    </div>
+<style>
+    .cloudwok-embed .dropzone {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: solid 3px #ffffff !important;
+    }
+    .cloudwok-embed .dropzone .filepicker {
+        background: #86dbbf !important;
+        color: #ffffff !important;
+        border: solid 1px #86dbbf !important;
+    }
+    .cloudwok-embed .btn-start-upload {
+        background: #86dbbf !important;
+        color: #ffffff !important;
+        border: solid 1px #86dbbf !important;
+    }
+</style>
+<script>
+    var cloudWokConfig = {
+        "dropzone": {
+            "label": "Drag and drop, or",
+            "button": "Add files"
+        },
+        "success": {
+            "message": {
+                "title": "UPLOAD SUCCESS TITLE",
+                "subtitle": "UPLOAD SUCCESS SUBTITLE",
+                "text": "UPLOAD SUCCESS TEXT",
+                "button": "OK",
+                "noButtonOwnCW": true,
+                "dontpopup": true,
+                "dontslideup": true,
+                "dontfadeout": true
+            },
+            "redirect": "http://getmastered.com/thank-you/"
+        },
+        "form": {
+            "email": {
+                "placeholder": "Enter your e-mail",
+                "optional": false
+            },
+            "name": {
+                "firstname": {
+                    "placeholder": "Enter your first name",
+                    "required": false
+                },
+                "lastname": {
+                    "placeholder": "Enter your last name",
+                    "required": true
+                }
+            },
+            "message": {
+                "placeholder": "List any specific requests or questions you have for us here",
+                "rows": 7,
+                "optional": true
+            },
+            "button": "Upload and send",
+            "sent": "File has been uploaded - we'll get to work right away!"
+        }
+    };
+    document.querySelector(".cloudwok-embed").setAttribute("data-config",
+    JSON.stringify(cloudWokConfig));
+    (function(window, document) {
+    var loader = function() {
+    var script = document.createElement("script"),
+    tag = document.getElementsByTagName("script")[0];
+    script.src = "https://www.cloudwok.com/cdn-vassets/javascripts/cw.js";
+    tag.parentNode.insertBefore(script, tag);
+    };
+    window.addEventListener ? window.addEventListener("load", loader, false) :
+    window.attachEvent("onload", loader);
+    })(window, document);
+</script>
