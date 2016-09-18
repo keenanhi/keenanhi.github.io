@@ -202,10 +202,10 @@
 <loc>http://getmastered.com/payment/music-mastering/master-4/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/</loc>
+<loc>http://getmastered.com/payment/music-mastering/master-5/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/music-mastering/master-6/</loc>
+<loc>http://getmastered.com/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/payment/music-mastering/master-7/</loc>
@@ -250,7 +250,10 @@
 <loc>http://getmastered.com/thank-you/</loc>
 </url>
 <url>
-<loc>http://getmastered.com/payment/music-mastering/master-5/</loc>
+<loc>http://getmastered.com/thank-you-2/</loc>
+</url>
+<url>
+<loc>http://getmastered.com/payment/music-mastering/master-6/</loc>
 </url>
 <url>
 <loc>http://getmastered.com/search/</loc>
