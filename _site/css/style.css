@@ -576,17 +576,17 @@ a div:focus h4 {
 ============================ */
 
 .example-page-top{
-  padding: 10% 5% 3% 5%;
+  padding: 10% 5% 0% 5%;
   margin: 0px;
-  background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
-  background-attachment: fixed;
+  /*background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;*/
 }
 
 .example-page-bottom{
   padding: 10% 5% 3% 5%;
   margin: 0px;
-  background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
-  background-attachment: fixed;
+  /*background: url(/img/backgrounds/disk-2.jpg) no-repeat center center;   background-size: cover; 
+  background-attachment: fixed;*/
 }
 
 .example-page-top p {
@@ -595,7 +595,7 @@ a div:focus h4 {
 }
 
 .example-div{
-  padding: 15%; margin: 0%; 
+  padding: 5%; margin: 10%; 
 }
 
 /* mr grim */
