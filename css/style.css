@@ -504,7 +504,8 @@ a div:focus h4 {
 ============================ */
 
 .landing-lower{
-  padding: 9% 13% 11% 13%; background: url(/img/backgrounds/profile-bw-glass.jpg) no-repeat center center;   background-size: cover; 
+  padding: 9% 13% 11% 13%;
+  background: url(/img/backgrounds/profile-bw-glass.jpg) no-repeat center center;   background-size: cover; 
   background-attachment: fixed;
 }
 
@@ -537,9 +538,9 @@ a div:focus h4 {
 }
 
 .mastering-rates{
-  background: url(/img/backgrounds/phones.jpg) no-repeat center center;
+/*  background: url(/img/backgrounds/phones.jpg) no-repeat center center;
   background-size: cover; 
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 .mix-feedback-rates{
@@ -555,8 +556,8 @@ a div:focus h4 {
 }
 
 .service-container{
-  background-color: #efefef;
-  padding: 3% 5%;
+  /*background-color: #efefef;*/
+  /*padding: 3% 5%;*/
 }
 
 .service-text{
@@ -964,7 +965,7 @@ Parallax
 }
 
 .mastering-rates{
-  background: #eee;
+  /*background: #eee;*/
 }
 
 .mix-feedback-rates{

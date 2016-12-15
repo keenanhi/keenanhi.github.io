@@ -50,9 +50,9 @@
       <ul class="nav navbar-nav" style="text-align: left;">
         <!-- <li><a href="#about">About</a></li> -->
         <!-- <li><a href="/services/mix-feedback/">Mix Feedback</a></li> -->
-            <li><a href="/services/mastering/">Mastering</a></li>
+            <li><a href="/#mastering">Mastering</a></li>
             <!-- <li><a href="/services/audio-cleanup/">Audio Cleanup</a></li> -->
-        <li><a href="/services/mastering/#reviews">Reviews</a></li>
+        <li><a href="/#reviews">Reviews</a></li>
         <li><a href="/examples/">Examples</a></li>
         <!-- <li><a href="/blog/">Blog</a></li> -->
         <li><a href="/login/">Login</a></li>
@@ -128,9 +128,9 @@
     <p>
       <a class="navbar-brand landing-brand" href="/"><b>GET MASTERED</b></a>
     <!-- <a href="/services/mix-feedback/">Mix Feedback</a> -->
-    <a href="/services/mastering/">Mastering</a> 
+    <a href="/#mastering">Mastering</a> 
     <!-- <a href="/services/audio-cleanup/">Audio Cleanup</a> -->
-    <a href="services/mastering/#reviews">Reviews</a>
+    <a href="/#reviews">Reviews</a>
     <a href="/examples/">Examples</a>
     <!-- <a href="/blog/">Blog</a> -->
     <a href="/login/">Login</a>
@@ -167,192 +167,215 @@
 
 
 
-<!-- <div id="about" class="page-scroll col-lg-12 landing-lower" style="padding: 5% 15%; margin: 0px;">
-<div class="row-fluid">
-  <h1>What is Get Mastered?</h1>
-
-<p style="font-size: 16px;">
-  Get Mastered is an audio consultation and mastering service run by professional mastering engineers. We are the only professional service that provides musicians, engineers, and podcasters of all levels a chance to grow their own production skills through personalized mix feedback and recording assistance. Below is just one example of the difference we can make to your audio through our collaborative mastering process:
 
 
-</p>
+<div id="mastering" class="page-scroll col-lg-12  landing-lower">
 
-<div class="row-fluid" style="margin: 2% 0% 4% 0%;">
-  <h1 id="beforeAfter"><br></h1>
-  <audio id="player1" muted="true;" loop="true;" hidden  controls>
-    <source src="/audio/UNMASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-  </audio>
+<div class="row service-container">
 
-  <audio id="player2" muted="true;" loop="true;" hidden controls>
-    <source src="/audio/MASTERED - Mr Grimly - Autumn Song ft Kite (Electronic Chill).mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-  </audio>
+     <div class="col-md-1">
+ </div>
 
-  <button class="btn btn-skin" id="playpause" type="btn" onclick="audioPlayPause()" style="font-size: 32px;">Play Example</button>
-  <br><br>
-  <button class="btn btn-skin" id="toggle" type="btn btn-skin" onclick="audioToggle()" style="visibility: hidden;">Toggle Before/After</button>
+ <div class="col-md-12">
+ 	<div class="service-text" id="mastering">
 
-<br>
-</div>
+ 		
+ 		<h1>Our Mastering</h1>
+
+ 		<br>
+ 		<br>
 
 
-<script>
-var playing = false;
-var p1, p2;
+ 		<p style="font-size: 24px;"><b>
+ 			Start working with your own personal mastering engineer today.</b>
+ 		<br>
+ 		</p>
+ 		<br>
+ 		 	 <!-- <img src="/img/icons/cd-b.jpg" width="50%"> -->
+ 		 	 
+ 		 	 <br>
 
-function audioToggle() {
+	<p>
 
-  p1 = document.getElementById("player1");
-  p2 = document.getElementById("player2");
-  
-     if (p1.muted == true){
-      // mute only mastered
-      p1.muted = false;
-      // play unmastered
-      p2.muted = true;
-      document.getElementById("beforeAfter").innerHTML = "Before";
-    } else {
-      // mute only unmastered
-      p1.muted = true;
-      // play mastered
-      p2.muted = false;
-      document.getElementById("beforeAfter").innerHTML = "After";
-    }
-  
+ 		Add a professional edge to your music through our unique, collaborative mastering service. In addition to bringing your tracks to a cohesive and ready-for-release level, our engineers go the extra mile to give you detailed feedback on your mix so you can grow your own production skills.
+ 		<br>
+ 		<br>
+ 	</p>
 
-}
-function audioPlayPause(){
 
-  p1 = document.getElementById("player1");
-  p2 = document.getElementById("player2");
+ 	
 
-  if (playing == false) {
-    p1.muted = false;
-    p2.muted = true;
-    p1.play();
-    p2.play();
-    playing = true;
-    document.getElementById("toggle").style.visibility = "visible";
-    document.getElementById("playpause").innerHTML = "Pause Audio";
-    document.getElementById("beforeAfter").innerHTML = "Before";
-  } else {
-    document.getElementById("player1").pause()
-    document.getElementById("player2").pause()
-    playing = false;
-    document.getElementById("playpause").innerHTML = "Play Audio";
-    document.getElementById("toggle").style.visibility = "hidden";
-    document.getElementById("beforeAfter").innerHTML = "<br>";
-  }
 
-}
-</script>
 
-<div class="row-fluid">
-<p style="font-size: 16px;">
-  Our mastering engineers strive to bring your audio to a professional level, <a href="#rates">at rates that are the absolute best value for your dollar.</a><b> We offer assistance at the recording, mixing, and mastering stages to improve both your audio quality and your own production skills.
-</b>
-  Just read <a href="#reviews">reviews from our happy customers</a>, listen to some more <a target="_blank" href="/examples/">examples of our work</a> and get started today with <a href="#free">your first project free!</a>
-  <br>
-  <br>
-  Learn more about Get Mastered, our engineers, and our vision, by clicking <a href="/blog/about/What-Is-Get-Mastered/">here</a>, or keep scrolling to see our services and rates.
+	</div>
+ </div>
 
-</p>
 
-  <br>
-  <br>
-</div>
-</div>
-</div> -->
+ 
+   <div class="col-md-12 col-xs-12" style="padding: 0% 10%; position: relative;">
 
-<div id="about" class="landing-lower col-lg-12">
+  <div class="col-xs-6 panel-holder">
+    <div class="panel-header-grey"><h3>Music Mastering<br>Standard</h3></div>
+    <div class="panel-price"><h3>$59</h3>
+      <p><i>per song</i></p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p><b>1 music master</b></p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>Mix feedback included</p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>Revisions until you are satisfied</p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>1 week of our full attention</p></div>
+      <a class="btn btn-default btn-panel" href="/payment/calculators/mastering/"><h3>Calculate price</h3></a>
 
-  <h1>Get the sound you want</h1>
+  </div>
+
+  <div class="col-xs-6 panel-holder">
+    <div class="panel-header-green"><h3>Music Mastering<br>Plan</h3></div>
+    <div class="panel-price"><h3>$45</h3>
+      <p><i>per month</i></p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p><b>1 music master per month</b></p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>Mix feedback included</p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>Revisions until you are satisfied</p></div>
+      <div class="panel-divider"></div>
+      <div class="panel-item"><p>1 week of our full attention</p></div>
+      <a class="btn btn-default btn-panel" href="/subscriptions/mastering/"><h3>Start</h3></a>
+
+  </div>
+
+  </div>
+
 <!-- 
-  <p>While we launch, try out one of our services free of charge</p> -->
-  <br>
-
-
-<!--   <div class="col-md-6">
-    <a href="/services/mix-feedback/">
-    <div class="service-panel">
-      <h5>For Engineers</h5>
-    <h3>Mix Feedback</h3>
-    <p>With mix feedback, you get a detailed breakdown of how you can improve your mix, along with solutions to any specific problems you are running into. Find out more by clicking here.</p>
-    <img src="/img/icons/mix.png" height="75">
-    <br><br>
-    <h4>Try free</h4>
-    </div>
-    </a>
+    <div class="col-xs-6" style="padding: 1% 4%; position: relative;">
+    <img src="/img/rates/mastering-standard-panel.jpg" alt="value" width="100%">
+    <a class="btn btn-default" style="width: 100%; height: 45px; font-size: 14px; padding-top: 10px;" href="/payment/calculators/mastering/">Calculate your price</a>
   </div> -->
+ <br>
+ <br>
 
-  
-  <div class="col-md-12">
-    <a href="/services/mastering/">
-    <div class="service-panel">
-    <h3>Music Mastering</h3>
-    <!-- <img src="/img/icons/cd.png" height="75"> -->
-    <p>Make your music cohesive, clear, and balanced on any system through our collaborative mastering process. Bring your music to the level of the artists you admire by clicking here.</p>
-    </div>
-    </a>
+ <div class="col-md-12">
+ 	<div class="service-text">
+
+<p>
+
+		<br>
+ 		Our prices reflect the level of quality you can expect from our services - but we know high-quality mastering can be outside of some people's budgets. That is why we are proud to be the only mastering service that offers the chance for mastering services completely free of charge through our <a target="_blank" href="https://goo.gl/forms/3611iAFy1O5Mpgu72">Pro Bono Mastering Program</a>.
+ 		<br><br>
+
+ 		 <a href="/examples/">Listen to examples of our mastering here</a>
+		</p>
+	</div>
+</div>
+
+   <div class="col-md-1">
+ </div>
+
+
+
+
+  </div>
   </div>
 
 
-<!--   <div class="col-md-4">
-    <a href="/services/audio-cleanup/">
-    <div class="service-panel">
-      <h5>For Podcasters</h5>
-    <h3>Audio Cleanup</h3>
-    <p>Restore problematic dialogue recordings to sound clear, audible, and natural. Whether you're working on a podcast, lecture, interview, or historical recording, click here to learn how we can help you.</p>
-    <img src="/img/icons/mic.png" height="75">
-    <br><br>
-    <h4>Try now free</h4>
-    </div>
-    </a>
-  </div> -->
+<div id="reviews" class="col-lg-12 bg-white" style="padding: 5% 15%; margin: 0px;">
+<div class="row-fluid">
 
-<!--   <div class="col-lg-12">
+
+
+ 
+            <h1 style="color: #333;">What are people saying about us?</h1>
+            <br>
+            <!-- <br>
+            <br>
+            <i>content</i>
+            - 
+            <br>
+            <br> -->
+            <p style="font-size: 120%; color: #333; font-weight: 300;">
+
+            <i>"The mix feedback Keenan gave me was superb. He didn't just give me advice that improved that one song but he was also able to take my mixing technique to a whole new level, resulting in an improvement on all the other songs I was working on. Such assistance is invaluable, I would recommend everyone to go and try it!"</i> - Naumn
+            <br>
+            <br>
+
+
+            <i>"Keenan was <b>extremely prompt and professional</b> and made me feel like my project was #1 on his agenda! <b>Very satisfied</b> with Get Mastered and will be using them from now on!"</i> - Alex Ward
+            <br>
+            <br>
+
+
+            <i>"Keenan was <b>amazing</b>, he worked with me throughout the process and even helped advise me on subtle ways to make my record better. He cared not just about his work process but what I did as well, and that's what makes the best records – people working together. If you want a mastering engineer to help <b>take your recordings to the next level</b>, Keenan's your guy."</i> - Andrew Nappo
+            <br>
+            <br>
+
+            <i>"Keenan’s mastering was <b>brilliant</b>. All of the hours I spent recording and writing my song became totally worth it once I placed it in his hands. I care about my songs a lot, and it quickly became evident that Keenan cared, too."</i> - Matt Bennett
+            <br>
+            <br>
+
+            <i>"I had a great time working with Keenan from Get Mastered. He approached my music with an open-minded, collaborative attitude, offering <b>constructive advice</b> and expertise while still working to retain the spirit and vision of what I was trying to make. He's a talented engineer with a solid ear - <b>I would recommend him to anyone!</b>"</i> - Matthew O'Connor 
+            <br>
+            <br>
+
+            <i>"Keenan was very <b>professional</b>, polite, and informative working with me on my track. He answered my questions and made sure that it came out the way I wanted. Not only did it come out sounding stellar, but I learned a bit about my craft as well. <b>I'll be using him in the future</b> for mastering my work."</i> - Asa Jones
+            <br>
+            <br>
+
+            <i>"Keenan did a <b>great</b> job finishing the tracks. He brought some nice stuff out in the mix that I didn't hear before and made sure that <b>everything was very even and still had punch to it</b>. Great work."</i> - Max Gunther
+            <br>
+            <br> 
+
+            <i>"I was <b>very impressed</b> with the work Keenan did to my mix.  He helped to make my lo-fi recording sound clean and crisp, was receptive to any further requests, and handled all communications in a <b>professional</b> manner."</i> - Hilary of btwolf
+            <br>
+            <br>
+
+            <i>"<b>Excellent service</b>, very professional and easy to work with. Keenan edited his work on pieces that I wanted modified, and was <b>very punctual</b> and flexible throughout the whole process."</i> - Jack Tarricone
+            <br>
+            <br> 
+
+            <i>"Getmastered.com is everything a musician needs. Keenan tweaks 
+            everything how you want it to be until you are satisfied and <b>gets 
+            everything done very quickly</b>. If you need something done in really 
+            short period of time, you can't go wrong with this guy. Great sound 
+            quality and <b>fully professional service</b>."</i> - Adam of Hope Burn
+            <br>
+            <br>
+
+            <i>“Keenan did an <b>excellent</b> job mastering my songs.  He was responsive to my notes and, as we collaborated, was quick to turn around each new draft.  I’d recommend his services to anyone looking to get their project professionally mastered.”</i> - Colin Zelin
+            <br>
+            <br>
+
+            <i>"This service was simple and quick and the master that was produced <b>fixed all the problems I never knew were there</b>."</i> - Ezra Selga
+            <br>
+            <br>  
+
+            <i><b>"Loved it!</b> Quick, friendly service and very good results."</i> - Rob Sommerlad‎ - 
+            
+            <a href="https://www.facebook.com/getmastered/posts/1748983295324815?ref=notif&notif_t=page_wall">from Facebook</a>
+            <br>
+            <br>
+
+
+            <i>"I absolutely love my finished product from Get Mastered, and I'll be back for work again soon! <b>Thanks for making my music sound better than ever!</b>"</i> - Richard Lathrop - 
+            
+            <a href="https://www.facebook.com/getmastered/posts/1755223604700784?notif_t=page_wall">from Facebook</a>
+            <br>
+            <br>
+
+            <i>"Get Mastered is a truly amazing team! My master was delivered quickly and it sounds top notch! I've been able to say how I wanted the song to sound like and the results were beyond my expectations. <b>I didn't think they could make my music sound so professional. Moreover, it's a real pleasure to work with people who really care about their customers!</b>"</i> - Origin-X - 
+            
+            <a href="https://www.facebook.com/getmastered/posts/1760121437544334?notif_t=page_wall">from Facebook</a>
+            <br>
+            <br>
+
+
+      </p>
+        </div>
+      </div>
+
+      
   <br>
-  
-<form class="hidden-xs hidden-sm" id="contact-form" method="POST" action="https://formspree.io/keenan.hye@getmastered.com">
-                <div class="row">
-
-                    <div class="col-md-1 col-md-offset-2">
-                        <select name="_subject">
-                            <option value="Mix Feedback Submission">Mix Feedback</option>
-                            <option value="Mastering Submission">Mastering</option>
-                            <option value="Audio Cleanup Submission">Audio Cleanup</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-6" style="margin: 0px 0px 0px 40px;">
-                        <div class="form-group">
-                            <div class="input-group" style="box-shadow: 0px 0px 10px #ccc;">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your email" required="required" style=" text-align: left; font-size: 15px; font-weight: 700;"/>
-                               <input type="hidden" name="_subject" value="Normal Submission" /></div>
-                        </div>
-                    </div>
-
-                    <input type="hidden" name="_next" value="/thank-you" />
-                    <div class="col-md-1">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs" style="color: #fff; box-shadow: 0px 0px 10px #ccc;">
-                            Try Free</button>
-                    </div>
-
-                </div>
-                </form>
-  <br>
-  </div> -->
-  
-
-  <div class="col-lg-12">
-  <p><br><br><b>Learn more about our <a href="/blog/about/Who-We-Are/">engineers</a>, our <a href="/blog/about/What-Is-Get-Mastered/">philosophy</a>, and <a href="/services/mastering/#reviews">what people think of us</a>.</b></p>
-  <br>
-  </div>
-  
-  </div>
 
   <!-- </div> -->
 
