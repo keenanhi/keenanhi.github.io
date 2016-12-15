@@ -302,6 +302,7 @@ a div:focus h4 {
 
 .panel-holder {
   position: relative;
+  padding: 0px 100px;
 }
 
 .panel-header-grey {
@@ -559,7 +560,7 @@ a div:focus h4 {
 }
 
 .service-text{
-  padding: 2% 4%; margin: 0%;
+  padding: 2% 10%; margin: 0%;
 }
 
 .service-text h1{
