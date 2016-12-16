@@ -438,6 +438,12 @@ a div:focus h4 {
 --- Landing
 ============================ */
 
+.main-divider {
+  background-color: #555;
+  padding: 10px;
+  margin: 0px;
+}
+
 .landing-top{
   padding: 1% 0% 1% 14%; 
   background: url(/img/backgrounds/profile-bw.jpg) no-repeat center center;   background-size: cover; 
@@ -504,7 +510,7 @@ a div:focus h4 {
 ============================ */
 
 .landing-lower{
-  padding: 9% 13% 11% 13%;
+  padding: 6% 13% 6% 13%;
   background: url(/img/backgrounds/profile-bw-glass.jpg) no-repeat center center;   background-size: cover; 
   background-attachment: fixed;
 }
@@ -521,6 +527,20 @@ a div:focus h4 {
     border-width: 2px;
 }
 
+.headshot {
+  margin: 5% 5%;
+  padding: 0px;
+  width: 50%;
+}
+
+.headshot-row {
+  margin: 2% 0% 7% 0%;
+  padding: 0px;
+}
+
+.headshot-text {
+  color: #555;
+}
 
 /* ===========================
 --- Rates
