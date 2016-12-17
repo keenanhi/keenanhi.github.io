@@ -510,7 +510,8 @@ a div:focus h4 {
 ============================ */
 
 .landing-lower{
-  padding: 6% 13% 6% 13%;
+  /*padding: 6% 7% 6% 7%;*/
+  padding: 0%;
   background: url(/img/backgrounds/profile-bw-glass.jpg) no-repeat center center;   background-size: cover; 
   background-attachment: fixed;
 }
@@ -528,18 +529,19 @@ a div:focus h4 {
 }
 
 .headshot {
-  margin: 5% 5%;
-  padding: 0px;
+  margin: 1% 5%;
+  padding: 3%;
   width: 50%;
 }
 
 .headshot-row {
-  margin: 2% 0% 7% 0%;
+  margin: 2% 0% 5% 0%;
   padding: 0px;
 }
 
 .headshot-text {
   color: #555;
+  font-size: 100% !important; 
 }
 
 /* ===========================
@@ -581,7 +583,7 @@ a div:focus h4 {
 }
 
 .service-text{
-  padding: 2% 10%; margin: 0%;
+  padding: 4% 10% 3%; margin: 0%; 
 }
 
 .service-text h1{
@@ -589,7 +591,21 @@ a div:focus h4 {
 }
 
 .service-text p{
-  font-size: 16px; color: #000;
+  font-size: 150%; color: #000;
+  margin: 0px;
+}
+
+.service-text a{
+  font-size: 150%;
+}
+
+.pricing {
+  background-color: #efefef;
+  padding: 5% 8%; margin: 0%; 
+}
+
+.pricing p{
+  font-size: 130%; color: #000;
   margin: 0px;
 }
 
