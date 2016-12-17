@@ -311,7 +311,7 @@ a div:focus h4 {
 }
 
 .panel-header-grey h3 {
-  font-size: 100%;
+  font-size: 150%;
   line-height: 130%;
   margin: 0px;
   color: #fff;
@@ -324,7 +324,7 @@ a div:focus h4 {
 }
 
 .panel-header-green h3 {
-  font-size: 100%;
+  font-size: 150%;
   line-height: 130%;
   margin: 0px;
   color: #fff;
@@ -333,7 +333,7 @@ a div:focus h4 {
 
 .panel-price {
   background: #fff;
-  padding: 15px;
+  padding: 30px;
   line-height: 24px;
 }
 
@@ -374,8 +374,7 @@ a div:focus h4 {
 }
 
 .btn-panel h3 {
-    /*line-height: 10px;*/
-  font-size: 14px !important;
+  font-size: 200% !important;
   font-weight: 400  !important;
   font-family: Montserrat,sans-serif !important;
   letter-spacing: 1px;
@@ -700,6 +699,28 @@ a div:focus h4 {
 .example-6 h3{
   color: #000;
   text-shadow: 0px 0px 10px #fff;
+}
+
+/* ===========================
+--- Calculator
+============================ */
+
+.price-calc {
+  padding: 0% 20%;
+}
+
+button.price-calc-btn {
+  padding: 200px;
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 /* ===========================

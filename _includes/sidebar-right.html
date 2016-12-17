@@ -1,12 +1,10 @@
 
 <section class="bg-white" style="padding: 65px 30px 5px 30px; margin: 0px; text-align: left;">
 
-<!-- SEARCH BOX -->
-
-<!--  <form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 0px 0px 10px 0px; margin: 0px; margin-top: -5px;">
-              <input style="font-size: 14px;" type="text" name="query" placeholder="Search a topic">
-              <input class="btn btn-skin btn-search" type="submit" value="Search">
-            </form> -->
+	<form action="{{ '/search' | prepend: site.baseurl }}" method="GET" style="padding: 0px 0px 10px 0px; margin: 0px; margin-top: -5px;">
+        <input style="font-size: 14px;" type="text" name="query" placeholder="Search a topic">
+        <input class="btn btn-skin btn-search" type="submit" value="Search">
+    </form>
 
 
  {% for post in site.posts %}
@@ -21,12 +19,9 @@
 
 <br><br><br>
 
-
-
 {% include mailing-list-signup.html %}
 
-
-        </section>
+</section>
 
 
 
