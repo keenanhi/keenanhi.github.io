@@ -13,7 +13,7 @@ Music mastering means different things to different people. Of course, there are
 
 Mastering is, in essence, the process of transforming a mix which has been bounced or exported as one stereo audio file into a finalized, ready to release song.
 
-A mastered song will sound
+A well mastered song will sound
 
 * cohesive,
 * professional,
@@ -23,9 +23,9 @@ A mastered song will sound
 * great in any space,
 * and loud,
 
-while still retaining the overall style and vision of the original mix. This requires a vast amount of technical know-how as well as objective, experienced ears.
+while still retaining the overall style, vision, and dynamics of the original mix. This requires a vast amount of technical know-how as well as objective, experienced ears.
 
-Our mastering process at Get Mastered has 6 important steps:
+Our mastering process at Get Mastered includes 6 important steps:
 
 [Step 1 - Getting to know YOU](#step-1---getting-to-know-you)
 <br>
@@ -64,7 +64,7 @@ This stage is **where the magic happens**, so to speak - afterwards, your song w
 
 ### Step 4 - Translation
 
-The next step is making sure your music sound great everywhere, or making it **translate** well to various electrical and acoustical environments. Sure, your mix sounds good in the studio - but how does it sound in a car? Over the radio? As an MP3? On Spotify? On vinyl? On headphones? On cheap laptop speakers?
+The next step is making sure your music sound great everywhere, or making it **translate** well to different  environments. Sure, your mix sounds good in the studio - but how does it sound in a car? Over the radio? As an MP3? On Spotify? On vinyl? On headphones? On cheap laptop speakers?
 
 This is a vital stage of mastering that is - again - completely lost with cheap services and auto-"mastering" software... noticing a theme here?
 
