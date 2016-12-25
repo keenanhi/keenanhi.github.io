@@ -5,7 +5,7 @@ title: What is Get Mastered?
 description: About Get Mastered
 tags: mastering
 
-cover: https://i1045.photobucket.com/albums/b459/keenanhi/mic_zpsfv4lb5bd.jpg
+cover: /img/backgrounds/profile-bw.jpg
 coveralt: interface
 ---
 
