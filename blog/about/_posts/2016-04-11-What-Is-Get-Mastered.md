@@ -13,7 +13,7 @@ coveralt: interface
 
 Having self-produced my own music for many years, I know how difficult it can be to perform, record, mix, and master something that you are completely proud of. In my experience, there was always that special "extra something" missing. Before long I realized an easy way to make my audio better: get someone with more experience to help!
 
-I had heard of mastering being the stage where this "extra something" is added by professionals. Unfortunately, typical mastering services were completely beyond my budget, while any cheaper services or automated softwares I could find were not cutting it at all. Even more than that though, I wanted someone who knew what they were doing to listen to my music and not only give my track a professional sound, but give me feedback on what I could be doing better. And I couldn't find that outside of my college classrooms.
+I had heard of [mastering](/blog/about/What-Is-Mastering/) being the stage where this "extra something" is added by professionals. Unfortunately, typical mastering services were completely beyond my budget, while any cheaper services or automated softwares I could find were not cutting it at all. Even more than that though, I wanted someone who knew what they were doing to listen to my music and not only give my track a professional sound, but give me feedback on what I could be doing better. And I couldn't find that outside of my college classrooms.
 
 **That is why I created Get Mastered: as a way for musicians, recording hobbyists, and other audio professionals to foster a direct relationship with an experienced mastering engineer, and not only create amazing recordings, but learn how to become better producers in the process.**
 

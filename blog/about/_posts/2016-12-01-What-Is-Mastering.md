@@ -2,14 +2,14 @@
 layout: post
 subtitle: About us
 title: What is Mastering?
-description: About Get Mastered
+description: What mastering means to us
 tags: mastering
 
 cover: /img/backgrounds/disk.jpg
 coveralt: interface
 ---
 
-Music mastering means different things to different people. Of course, there are some technical parts of its definition that most agree upon - but to us at Get Mastered, there are a few hugely important parts of the mastering process that are lost with cheap mastering services and auto-"mastering" softwares.
+Music mastering means different things to different people. Of course, there are some technical aspects of mastering that most agree upon - but to us at Get Mastered, there are a few hugely important parts of the mastering process that are lost with cheap mastering services and auto-"mastering" softwares.
 
 Mastering is, in essence, the process of transforming a mix which has been bounced or exported as one stereo audio file into a finalized, ready to release song.
 
